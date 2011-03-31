@@ -1,24 +1,13 @@
-{extends file='pagina.tpl'}
-{block name='pagina'}
+{extends file='pagina.tpl'} {block name='pagina'}
+{include file="lojasheader.tpl"}
 <table width="970px">
-<tr><td width="970px" class="content_title">Nossos lojas</td></tr>
-<tr>
-	<td>
-		<br/>
-		<span class="content_texto">Endereços das nossas Lojas onde você poderá efectuar as suas remessas fazer telefonemas e obter informações sobre as taxas de câmbio actualizadas diariamente.<br/>Selecione o País mais próximo de você:</span>
-		<p><br/></p>
-		<a href="lojas.php"><input name="" type="button" value="PORTUGAL"/></a>
-		<a href="lojasEspanha.php"><input name="" type="button" value="ESPANHA"/></a>
-		<a href="lojasInglaterra.php"><input name="" type="button" value="INGLATERRA"/></a>
-	</td>
-</tr>
-</table>
-
-<table width="970px">
-<tr>
-	<td width="220px"  height="70px"><span class="content_title">portugal</span></td>
-</tr>
-<tr>
+	<tr>
+		<td width="220px" height="70px">
+		<span class="content_title">Portugal</span>
+		</td>
+		<td colspan="2"><span class="content_title">Tele-Remessas</span> Tel: +351 211 452 500</td>
+	</tr>
+	<tr>
 	{include
 	file="loja.tpl"
 	nome="Lisboa - Sede"
@@ -32,7 +21,7 @@
 	foto="imagens/lojas/ag_lisboa2.jpg"
 	mapa="http://maps.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=Rua+da+Horta+Seca+n.%C2%BA9+-+R%2FC+++Chiado&sll=38.710307-9.143985&sspn=0.0012370.00284&gl=pt&g=R.+da+Horta+Seca+9+Lisboa&ie=UTF8&ll=38.710312-9.143986&spn=0.0005880.00142&t=h&z=20&layer=c&cbll=38.710307-9.143985&panoid=-NNEkXO-BZOVrN5v0m9bQg&cbp=12233.53014.52"
 	morada="Rua da Horta Seca<br />Nº9 - R/C<br />Chiado (Ao lado do Consulado do Brasil)<br />1200-221 - Lisboa"
-	contacto="Tel: +351  211 452 376<br />Fax: +351 211 454 462"
+	contacto="Tel: +351 211 452 376<br />Fax: +351 211 454 462"
 	horario='2ª a 6ª: 08h às 17h<br />Almoço das 14h às 15h'}
 </tr>
 <tr><td height="50px"></td></tr>

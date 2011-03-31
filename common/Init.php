@@ -88,7 +88,6 @@ class Init {
 	}
 
 	public static function setCache() {
-
 		if (self::$producao) {
 			$offset = 60 * 60 * 24 * 30;
 			$expire = "Expires: " . gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
@@ -96,13 +95,13 @@ class Init {
 			header('Cache-Control: public');
 			header('Cache-Control: max-age=2592000'); /* 30 dias */
 			header('Pragma: public');
-				
+
 		} else {
 			header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 			header('Cache-Control: no-store, no-cache, must-revalidate');
 			header('Cache-Control: post-check=0, pre-check=0', FALSE);
 			header('Pragma: no-cache');
-				
+
 		}
 	}
 

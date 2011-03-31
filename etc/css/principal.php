@@ -1,6 +1,6 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'].'/common/Init.php';
-Init::getInstance();
+require_once $_SERVER['DOCUMENT_ROOT'].'/common/common.php';
+Init::getInstance(producao);
 //Init::gzip();
 //Init::setCache();
 header("content-type: text/css; charset: UTF-8");

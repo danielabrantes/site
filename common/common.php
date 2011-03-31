@@ -1,9 +1,9 @@
 <?php
+define('producao',false);
 
-require_once 'ambiente.php';
 require_once 'Functions.php';
 require_once 'Init.php';
-Init::getInstance();
+Init::getInstance(producao);
 $smarty = Init::smarty();
 
 require_once 'Configure.php';

@@ -1,0 +1,64 @@
+<?php
+require_once('common/common.php');
+require_once('common/Verifica_loggado.php');
+//printArray($_POST);
+if(isset($_POST['destinatarios']))
+{
+	if(isset($_POST['removerDestinatario']))
+	{
+		$smarty->assign('mensagem',$user->saveRemoverDestinatario()?'Pedido de remoção de destinatário enviado com sucesso':'Problemas no pedido de remoção do destinatário');
+		$smarty->assign('destinatariosARemover',$destinatariosARemover);
+	}
+	elseif(isset($_POST['actualizarDestinatario']))
+	{
+		$smarty->assign('mensagem',User::saveDestinatario($user->getId())?'Pedido de actualização de destinatário enviado com sucesso':'Problemas no pedido de actualização do destina');
+	}
+	elseif(isset($_POST['adicionarConta']))
+	{
+		if($user->getNovaConta())
+		{
+			$smarty->assign('mensagem',$user->saveAdicionarConta()?'Pedido de adicionar nova conta enviado com sucesso':'Problemas ao adicionar nova conta');
+			$smarty->assign('adicionarConta',0);
+			$user->setNovaConta(false);
+		}
+		else
+		{
+			$bancos=$user->getBancosPorDestinatario();
+			$smarty->assign('bancos',$bancos);
+			$modosDePagamento=$user->getModosDePagamento();
+			$cidades=$user->getCidadesPorDestinatario();
+			$smarty->assign('cidades',$cidades);
+			$smarty->assign('modosDePagamento',$modosDePagamento);
+			$smarty->assign('adicionarConta',1);
+			$user->setNovaConta(true);
+		}
+	}
+	elseif(isset($_POST['removerConta']))
+	{
+		if(!isset($_POST['conta']))
+		{
+			$smarty->assign('mensagem','Nenhuma conta foi seleccionada');
+		}
+		else
+		{
+			$smarty->assign('mensagem',$user->saveRemoverConta()?'Pedido de remoção de conta enviado com sucesso':'Problemas as enviar pedido de remoção de conta');
+		}
+	}
+}
+$parentescos=$user->getParentescos();
+$destinatarios=$user->getDestinatarios();
+//printArray($destinatarios);
+$smarty->assign('parentescos',$parentescos);
+$smarty->assign('user',$user->getDados());
+$smarty->assign('destinatarios',$destinatarios);
+$smarty->assign('menu','dadosDoCliente');
+if(isset($_POST['destinatario']))
+{
+	$smarty->assign('submenu','destinatario');
+	$user->setDestinatario($_POST['destinatario']);
+}
+else
+{
+	$smarty->assign('submenu','destinatarios');
+}
+$view->display();

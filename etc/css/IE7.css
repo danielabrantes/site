@@ -1,0 +1,710 @@
+* {
+	margin:0;
+	padding:0;
+}
+img { border: 0; }
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#ffffcf;
+	color:#000;
+}
+
+/* ESTRUTURA */
+
+/* START_WRAPPER */
+.wrapper{
+	width:990px;
+	height:60px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:8px;
+	max-width:990px;
+	min-width:800px;
+}
+
+/* END_WRAPPER */
+
+
+
+/* START_HEADER */
+.header{
+	width:100%;
+        background:#ffffcf url(../imagens/estrutura/barra_amarela_2.jpg) repeat-x;
+	margin-top:15px;
+}
+
+.header_in{
+	width:990px;
+	/*height: 230px;*/
+	margin-left:auto;
+	margin-right:auto;
+	border: #ffff00 solid;
+	border-width:2px;
+	border-bottom-color:#FFF;
+	background-color:#FFF;
+}
+
+/* END_HEADER */
+
+
+/* START_CONTENT */
+.content_header{
+	width:100%;
+	/*margin-top:0px;*/
+	background-color: #ffff00;
+}
+
+.content_header_campanha{
+	width:990px;
+	height:60px;
+	margin-left:auto;
+	margin-right:auto;
+	border: #ffff00 solid;
+	border-width:1px;
+	border-top-color:#FFF;
+	border-bottom-color:#FFF;
+	background-color:#FFF;
+	max-width:990px;
+	min-width:800px;
+}
+
+.content_conteudo{
+	width:100%;
+	background:#ffffcf url(../imagens/estrutura/barra_amarela_2.jpg) repeat-x;
+}
+
+.content_conteudo_in{
+	width:990px;
+	height:425px;
+	margin-left:auto;
+	margin-right:auto;
+	border: #ffff00 solid;
+	border-width:2px;
+	border-top-color:#FFF;
+	background-color:#FFF;
+}
+
+/* END_CONTENT */
+
+
+/* START_FOOTER */
+.footer{
+	width:100%;
+	background-color: #ffffcf;
+}
+
+.footer_in{
+	width:970px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:990px;
+	min-width:800px;
+}
+/* END_FOOTER */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* GLOBAL */
+
+/* START_WRAPPER */
+.wrapper_left{
+	width:160px;
+	float:left;
+}
+
+.wrapper_center{
+	width:284px;
+	height:40px;
+	float:left;
+}
+
+.wrapper_right{
+	width:180px;
+	float:left;
+}
+
+.wrapper_bottom{
+	width:26px;
+	height:40px;
+	float:left;
+}
+
+.wrapper_division{
+	height:20px;
+}
+
+.wrapper_text_titles{
+	font-size:11px;
+	text-transform:capitalize;
+	font-weight:bold;
+}
+
+.wrapper_combobox{
+	width:125px;
+	height:20px;
+	color:#000;
+	font-size:12px;
+}
+
+.wrapper_textbox{
+	width:160px;
+	height:17px;
+	color:#000;
+	text-transform:lowercase;
+	font-size:12px;
+}
+
+a.wrapper_link {
+	color:#000;
+	text-decoration:none;
+}
+
+a.wrapper_link:hover {
+	color:#999;
+}
+
+.wrapper_link{
+	float:right;
+	font-size:9px;
+	padding-top:10px;
+}
+
+/* END_WRAPPER */
+
+
+/* START_HEADER */
+.header_foto{
+	width:970px;
+	height:220px;
+	margin: 10px auto;
+}
+
+.header_menu{
+	width:960px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../imagens/estrutura/fundo_links.png) no-repeat;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.header_content{
+	width:327px;
+	height:180px;
+	float:right;
+}
+
+.header_logotipo{
+	float:left;
+	padding-top:28px;
+}
+
+.header_content_division_tytle{
+	width:275px;
+	height:28px;
+	float:right;
+	margin-top:20px;
+}
+
+.header_content_division_taxas{
+	width:275px;
+	height:116px;
+	float:right;
+}
+
+.header_content_division_news{
+	width:320px;
+	height:26px;
+	float:right;
+}
+
+.header_content_taxa_tytle{
+	font-size:16px;
+	color:#ffff00;
+	text-transform:lowercase;
+}
+
+.header_content_taxa_tytle_in{
+	font-size:20px;
+	color:#ffffff;
+	text-transform:uppercase;
+}
+
+.header_content_division_taxas_in{
+	width:180px;
+	height:30px;
+	float:left;
+	padding-top:16px;
+}
+
+.header_content_division_in_center{
+	width:15px;
+	height:30px;
+	float:left;
+	padding-top:6px;
+}
+
+.header_content_text_taxas{
+	font-size:12px;
+	color:#FFF;
+	text-transform:capitalize;
+}
+
+.header_content_text_taxas_in{
+	font-size:20px;
+	color:#FFF;
+	text-transform:capitalize;
+	padding-left:23px;
+}
+
+.header_content_seta{
+	float:right;
+}
+
+.header_content_division_news_in{
+	width:120px;
+	height:20px;
+	float:left;
+	padding-top:2px;
+}
+
+.header_content_division_news_in_in{
+	width:167px;
+	height:20px;
+	float:left;
+}
+
+.header_content_division_news_in_buttom{
+	width:18px;
+	height:20px;
+	float:right;
+}
+
+.header_textbox{
+	width:165px;
+	height:17px;
+	color:#666666;
+	text-transform:lowercase;
+	font-size:12px;
+}
+
+
+/* END_HEADER */
+
+
+/* START_CONTENT */
+.content_header_cam{
+	width:970px;
+	height:22px;
+	margin: 0 auto;
+}
+
+.content_header_cam_in{
+	width:325px;
+	height:17px;
+	float:right;
+	padding-top:3px;
+}
+
+a.content_header_link {
+	color:#000;
+	text-decoration:none;
+}
+
+a.content_header_link:hover {
+	color:#999;
+}
+
+.seta {
+    border: 0;
+	background:url(../imagens/estrutura/seta.png) no-repeat;
+	background-position:top;
+	display:block;
+	width:22px;
+	height:25px;
+}
+
+.seta:hover {
+	text-decoration:none;
+	background:url(../imagens/estrutura/seta_cinza.jpg) no-repeat;
+	background-position:top;
+	width:22px;
+	height:25px;
+}
+
+.footer_link{
+	height:15px;
+	padding-top:10px;
+	text-align:center;
+}
+
+a.footer_text{
+	color:#999;
+	font-size:11px;
+	text-decoration:none;
+}
+
+.risco{
+	color:#999;
+}
+
+.footer_texto{
+	color:#CCC;
+	font-size:9px;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:10px;
+	height:15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* HOME */
+
+/* PAGE HOME */
+
+.content_content_conteudo{
+	width:970px;
+	margin: 5px auto;
+}
+
+.content_conteudo_division{ /* DIVIS�O DOS QUADRADOS GRANDES - DIREITA E ESQUERDA*/
+							width:300px;
+							height:250px;
+							float:left;
+							background:url(../imagens/remessas/fundo_conteudo.jpg) no-repeat;
+}
+
+.content_conteudo_division_link{
+	height:220px;
+	/*background-color:#fcfcd6;*/
+	display:block;
+	text-decoration:none;
+}
+
+.content_conteudo_division_link:hover{
+	/*background-color:#fcfcd6;*/
+	text-decoration:none
+}
+
+.content_conteudo_division_center{ /* DIVIS�O DOS QUADRADOS GRANDES - CENTRO*/
+								   width:370px;
+								   height:250px;
+								   float:left;
+}
+
+/* TELE REMESSAS */
+
+a.imagem{
+    text-decoration:none;
+   color: #fff;
+}
+
+a.texto{
+    text-decoration:none;
+    color: #000;
+}
+
+.content_promocao{
+	width:100px;
+	height:50px;
+	float:left;
+	margin-top: 30%;
+	margin-left: 10px;
+}
+
+.content_promocao_texr{
+	font-size:15px;
+	color:#000;
+	text-transform:capitalize;
+	font-weight:bold;
+	text-align: left;
+}
+
+.content_promocao_foto{
+	width:176px;
+	height:220px;
+	float:left;
+	margin-left:7px;
+	margin-top: 5%;
+        color:#fcfcd6;
+}
+
+.content_footer{
+	width:970px;
+	height:90px;
+	float:left;
+	margin-top:70px;
+}
+
+.footer_division{
+    width: 300px;
+    height: 75px;
+    float: left;
+}
+
+.footer_division1{
+    width: 280px;
+    height: 90px;
+    float: left;
+}
+
+.footer_division_center{
+    width: 380px;
+    height: 75px;
+    float: left;
+}
+
+.content_footer_banco_uk{
+	width:122px;
+	float:left;
+	height:50px;
+	background:url(../imagens/bancos/banco_uk.jpg) no-repeat;
+	background-position:right;
+}
+
+.content_footer_banco_pt{
+	width:122px;
+	float:left;
+	height:70px;
+	background:url(../imagens/bancos/banco_pt.jpg) no-repeat;
+	background-position:center;
+}
+
+.content_footer_banco_es{
+	width:122px;
+	float:left;
+	height:50px;
+	background:url(../imagens/bancos/banco_es.jpg) no-repeat;
+	background-position:left;
+}
+
+#pscroller1{
+	width:155px;
+	height:218px;
+	border: 0px;
+	background-color: white; }
+
+#pscroller2{
+	width:330px;
+	height:78px;
+	border: 0px;
+	background-color: white; }
+
+.content_center1{
+	width:330px;
+	height:170px;
+	/*margin-top: 5%;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_center{
+	width:330px;
+	height:50px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_center_title_text{
+	font-size:15px;
+	text-align:justify;
+	line-height: 130%;
+	color:#000;
+}
+
+.content_center_text{
+	font-size:10px;
+	text-align:justify;
+}
+
+.content_center_text_in{
+	font-size:10px;
+	font-weight:bold;
+	float:right;
+	text-align:justify;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* SUBPAGE */
+
+.content_conteudo_in_in{
+	width:990px;
+	margin-left:auto;
+	margin-right:auto;
+	border: #ffff00 solid;
+	border-width:2px;
+	border-top-color:#FFF;
+	background-color:#FFF;
+}
+
+.content_content_conteudo{
+	width:970px;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.content_title{
+	font-size:14px;
+	text-transform:uppercase;
+	color:#4870b7;
+}
+
+.content_title_IN{
+	font-size:11px;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:bolder;
+	line-height:30px;
+}
+
+.content_title_in_in{
+	font-size:11px;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:bolder;
+	line-height:15px;
+}
+
+.content_texto{
+	font-size:11px;
+	color:#000;
+	font-style:normal;
+	text-align:justify;
+	line-height:16px;
+}
+
+.content_seta{
+	width:15px;
+	height:16px;
+}
+
+.content_pontos{
+	background-image:url(../imagens/estrutura/pontos.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.content_fotos{
+	width: 65px;
+    height: 67px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.content_lista{
+    margin-left:40px;
+}
+
+.content_link{
+    font-size: 11px;
+    color:#666666;
+
+}
+
+.content_link:hover{
+    font-size: 11px;
+    color:#000;
+    text-decoration:none;}
+
+.bancos_imagem{
+    width: 194px;
+    height: 35px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+/* FORMULARIOS */
+.tabela{
+    border: 0;
+    width: 850px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#666;
+}
+.cor{
+    color: #4870b7;
+    text-transform:capitalize;
+}
+.coluna_in{
+    width: 100px;
+    height: 47px;
+    text-align: left;
+}
+.coluna{
+    width: 350px;
+    height: 47px;
+}
+.coluna_in_in{
+    width: 700px;
+    height: 47px;
+}
+
+.combobox{
+    width:110px;
+    font-size:13px;
+    color:#000;
+}
+
+.erros{
+    font-size: 10px;
+    color: red;
+}
+
+#preload-slideshow {
+	background-color:#FFFFFF;
+	border:2px solid #bd4d55;
+	height:700px;
+	left:30%;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+	position:absolute;
+	text-align:center;
+	top:100px;
+	width:495px;
+	z-index:10;
+}
+
+#preload-slideshow .close{
+	position:absolute;
+	left:0px;
+	padding:5px;
+	z-index:20;
+}
+
+#preload-slideshow .close a{
+	color:#FFFFFF;
+}
+
+.mensagem{
+	text-align:center;
+	font-size: 1.3em;
+	font-weight: 600;
+        height: 50px;
+}
+
+.remessa{
+    width: 221px;
+    text-align: left;
+    border: 0;
+}
+
+.remessa_in{
+    width: 5px;
+    border: 0;
+}

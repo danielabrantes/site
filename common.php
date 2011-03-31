@@ -1,0 +1,33 @@
+<?php
+
+require_once 'ambiente.php';
+require_once 'Functions.php';
+require_once 'Init.php';
+Init::getInstance();
+$smarty = Init::smarty();
+
+require_once 'Configure.php';
+//require_once 'User.php';
+require_once 'DbSite.php';
+require_once 'DbTuga.php';
+//require_once 'Transferencia.php';
+require_once 'Mensagem.php';
+require_once 'View.php';
+require_once 'Email.php';
+require_once 'Session.php';
+$smarty->assign('cambio', getCambio());
+//echo $_SERVER['HTTP_USER_AGENT'];
+
+if(strpos($_SERVER['HTTP_USER_AGENT'], 'Opera')===0)
+{
+    $smarty->assign('cache', 1); //para fazer cache
+}
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'AppleWebKit')) {
+    $smarty->assign('cache', 1); //para fazer cache
+}
+
+
+
+/* memoria e tempo sem limite */
+ini_set('memory_limit', -1); //sem limite
+set_time_limit(0);         //sem limite

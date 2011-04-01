@@ -46,16 +46,20 @@ class Init {
 		require_once('Smarty.class.php');
 		$smarty = new Smarty();
 		$smarty->debugging = false;
+		
 
 		if (self::$producao) {
 			$smarty->caching = true;
 			$smarty->cache_lifetime = -1; //never expires
+			$smarty->force_compile = false;
+			$smarty->compile_check=false;
 		} else {
 			$smarty->caching = false;
+			$smarty->force_compile = true;
+			$smarty->compile_check=true;
 		}
 		$smarty->security = true;
-		$smarty->force_compile = true;
-
+		
 		//diferentes para cada projecto
 		$smarty->compile_dir = getcwd() . '/etc/view_c';
 		$smarty->cache_dir = getcwd() . '/etc/cache';

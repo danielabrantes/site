@@ -1,6 +1,4 @@
 <?php
-
-session_cache_limiter('public');
 session_name('moneyexpress');
 session_start();
 

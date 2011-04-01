@@ -1,5 +1,4 @@
 <?php
-
 function printArray($result) {
     echo '<pre>';
     print_r($result);
@@ -10,7 +9,6 @@ function valida_email($email) {
 }
 
 function getCambio() {
-    //cambio
     global $DbSite;
     $sql = 'select valCambio as cambio from webportalmex.cambio where idcambio=1;';
     $result = $DbSite->getall($sql);
@@ -19,7 +17,6 @@ function getCambio() {
     return $cambio;
 }
 function escreveCacheManifest($valor){
-    //.file.TaxaCambioBrasil.tpl.php
     $data=file_get_contents($_SERVER['DOCUMENT_ROOT'].'/cache.manifest.source');
     $data="CACHE MANIFEST\r\n"."#version ".$valor."\r\n".$data;
     file_put_contents($_SERVER['DOCUMENT_ROOT'].'/cache.manifest', trim($data));

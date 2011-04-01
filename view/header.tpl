@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{if isset($cache) and $cache eq 1}
+{if isset({$cache}) and {$cache} eq 1}
 <html manifest="/cache.manifest">
 {else}
     <html>

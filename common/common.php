@@ -14,19 +14,21 @@ require_once 'DbTuga.php';
 require_once 'Mensagem.php';
 require_once 'View.php';
 require_once 'Email.php';
+Init::setSession();
 require_once 'Session.php';
 $smarty->assign('cambio', getCambio());
 //echo $_SERVER['HTTP_USER_AGENT'];
 
-if(strpos($_SERVER['HTTP_USER_AGENT'], 'Opera')===0)
-{
-    $smarty->assign('cache', 1); //para fazer cache
-}
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'AppleWebKit')) {
-    $smarty->assign('cache', 1); //para fazer cache
-}
+if(producao){
 
-
+	if(strpos($_SERVER['HTTP_USER_AGENT'], 'Opera')===0)
+	{
+		$smarty->assign('cache', 1); //para fazer cache
+	}
+	if (strpos($_SERVER['HTTP_USER_AGENT'], 'AppleWebKit')) {
+		$smarty->assign('cache', 1); //para fazer cache
+	}
+}
 
 /* memoria e tempo sem limite */
 ini_set('memory_limit', -1); //sem limite

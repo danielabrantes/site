@@ -1,3 +1,4 @@
+#version 3
 FALLBACK:
 NETWORK:
 validacaoEmprego.php
@@ -11,6 +12,7 @@ pedirCartao.php
 login.php
 logout.php
 phpinfo.php
+http://www.google-analytics.com/ga.js
 
 CACHE:
 /etc/css/principal.php
@@ -21,7 +23,6 @@ agenteConsumidor.php
 agenteConsumidore.php
 agenteFAQ.php
 agenteTornarAgente.php
-ambiente.php
 aprovarTransferencia.php
 atendimento.php
 cadastro.php
@@ -161,3 +162,7 @@ imagens/bancos/bpi1.jpg
 imagens/bancos/bpn1.jpg
 imagens/bancos/millenniumbcp.gif
 
+imagens/lojas/ag_oxford1.jpg
+imagens/lojas/bournemouth.jpg
+imagens/lojas/ag_madrid.jpg
+imagens/lojas/ag_vigo.jpg 

@@ -109,4 +109,16 @@ class Init {
 		date_default_timezone_set('Europe/Lisbon');
 	}
 
+	public static function setSession() {
+		ini_set('session.auto_start',false);
+		if(self::$producao){
+			session_cache_limiter('public');
+		}
+		else{
+			session_cache_limiter('nocache');
+		}
+
+	}
+
+
 }

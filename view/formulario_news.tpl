@@ -11,6 +11,6 @@
         </span>
     </div>
     <div class='header_content_division_news_in_buttom'>
-        <input  type='submit' class='seta' value=''>
+        <input  type='submit' class='seta' value=''/>
     </div>
 </form>

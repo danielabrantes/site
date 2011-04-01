@@ -42,17 +42,6 @@
     </tr>
     <tr>
         <td class="content_fotos">
-            <img src="imagens/equipa/ari.jpg" alt='imagem'/>
-        </td>
-        <td > <span class="content_title_in_in">Ari Moreira</span>
-            <br/>
-            <span class="content_texto">Ari, na condição Sales Development Manager do grupo MoneyOne, possui know-how de mais de 30 anos na área comercial, com formação académica em Comunicação Social e Pós Graduação em Gestão, tendo desenvolvido e coordenado vários projectos de porte nas áreas de marketing, turismo e sistemas de Franchising.</span></td>
-    </tr>
-    <tr>
-        <td  height="20"></td>
-    </tr>
-    <tr>
-        <td class="content_fotos">
             <img src="imagens/equipa/laura.jpg" alt='imagem'/>
         </td>
         <td > <span class="content_title_in_in">Laura Coutinho</span>

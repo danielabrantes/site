@@ -314,7 +314,7 @@ margin: 5px auto;
 width:300px;
 height:250px;
 float:left;
-background:url(../../imagens/remessas/fundo_conteudo.jpg) no-repeat;
+background:url(../../imagens/remessas/fundoconteudo.jpg) no-repeat;
 }
 .content_conteudo_division_link{
 height:220px;

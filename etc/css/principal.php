@@ -12,6 +12,7 @@ padding:0px;
 -webkit-border-radius: 10px;
 -khtml-border-radius: 10px;
 border-radius: 10px;
+text-decoration: none;
 }
 img {
 border: 0px;
@@ -629,6 +630,7 @@ Regra 1 - Classe que define as propriedades da barra horizontal
 ul.menubar{
 padding-top:8px;
 padding-left: 10px;
+
 }
 /*
 Regra 2 - Classe que define o formato e a posi�ao dos submenus (um ao lado do outro)
@@ -637,6 +639,7 @@ Regra 2 - Classe que define o formato e a posi�ao dos submenus (um ao lado do 
 ul.menubar .submenu{
 list-style: none;
 float:left;
+
 }
 /*
 Regra 3 - Classe que define a posi�ao e a exibi�ao dos menus verticais (inicialmente eles nao sao exibidos)
@@ -644,14 +647,17 @@ Regra 3 - Classe que define a posi�ao e a exibi�ao dos menus verticais (inic
 ul.menubar ul.menu{
 display: none;
 position: absolute;
+text-decoration: none;
 }
 /*
 Regra 4 - Classe que define a aparencia do link da barra horizontal
 */
 ul.menubar a{
 display:block;
-text-decoration: none;
+
 padding:5px 11px 5px 11px;
+color:black;
+text-decoration: none;
 }
 
 /*
@@ -659,7 +665,6 @@ Regra 5 - Classe que define o tamanho e a cor do menu vertical
 */
 ul.menu, ul.menu ul{
 width: 150px;
-/* background-color:#fcfcd1;*/
 }
 
 /*
@@ -675,7 +680,6 @@ Regra 7 - Classe que define a aparencia dos links dos itens do menu vertical
 ul.menu li a{
 display: block;
 text-decoration: none;
-/* border: 1px solid #ccc;*/
 font-size:11px;
 padding: 5px 10px 5px 5px;
 }
@@ -697,7 +701,6 @@ width: 150px;
 position: relative;
 list-style:none;
 float:none;
-/*z-index: 1000;*/ /* IE7 Bug */
 }
 /*
 Regra 10 - Classe que define a aparencia dos links do 3o n�vel de menus
@@ -705,7 +708,6 @@ Regra 10 - Classe que define a aparencia dos links do 3o n�vel de menus
 ul.menu li.submenu a {
 display: block;
 text-decoration: none;
-/*border: thin solid  #ccc;*/
 padding: 5px 10px 5px 5px;
 }
 
@@ -731,7 +733,7 @@ background-position: 93% 50%;
 }
 
 ul.menubar a:hover{
-text-decoration:underline ;
+text-decoration:none ;
 color: #000;
 }
 .icons{

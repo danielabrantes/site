@@ -16,9 +16,9 @@
             <a href='privacidade.php' title='Políticas de Privacidade' class='footer_text'>Políticas de Privacidade</a>
         </div>
         <div class='footer_texto'>
-            <span>2004 - 2010 © MoneyOne - Todos os direitos reservados</span>
+            <span>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</span>
             <br />
-			{include file='validadores.tpl'}
+            {include file='validadores.tpl'}
         </div>
     </div>
 </div>

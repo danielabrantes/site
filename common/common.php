@@ -1,6 +1,6 @@
 <?php
 
-define('producao', false);
+define('producao', true);
 
 require_once 'Functions.php';
 require_once 'Init.php';
@@ -30,7 +30,7 @@ if (producao) {
         $smarty->assign('cache', 1); //para fazer cache
     }
 }
-
+$smarty->assign('cache', 0);
 
 /* memoria e tempo sem limite */
 ini_set('memory_limit', -1); //sem limite

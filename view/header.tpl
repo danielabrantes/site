@@ -8,7 +8,7 @@
             <meta charset='utf-8' />
             <title>MoneyOne - Remessas e Câmbios</title>
         {if !isset($login)}
-            <link rel='stylesheet' type='text/css' href='etc/css/principal.php'/>
+            <link rel='stylesheet' type='text/css' href='etc/css/css.php'/>
             <script charset="utf-8" type="text/javascript" src='etc/js/menu.php'></script>
             <script type="text/javascript">
                         var pausecontent=new Array()

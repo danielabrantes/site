@@ -15,7 +15,7 @@ phpinfo.php
 http://www.google-analytics.com/ga.js
 
 CACHE:
-/etc/css/principal.php
+/etc/css/css.php
 /etc/js/menu.php
 agente.php
 agenteAgente.php

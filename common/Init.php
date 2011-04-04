@@ -29,6 +29,7 @@ class Init {
 	}
 
 	public static function gzip() {
+           //echo 'ola';
 		ini_set('zlib.output_compression', true);
 		ini_set('zlib.output_compression_level', 9);
 		ini_set('output_buffering', true);

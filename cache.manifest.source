@@ -1,4 +1,4 @@
-#version 3
+#version 4
 FALLBACK:
 NETWORK:
 validacaoEmprego.php
@@ -79,8 +79,8 @@ imagens/estrutura/barra_amarela_2.jpg
 imagens/banner/banner.jpg
 imagens/estrutura/fundo_links.png
 imagens/estrutura/logo.png
-imagens/w3c/valid-html401.png
-imagens/w3c/vcss.gif
+imagens/w3c/html5.png
+imagens/w3c/css3.png
 imagens/bancos/bandeiras.png
 imagens/estrutura/fundo.png
 imagens/estrutura/botao.png
@@ -136,7 +136,6 @@ imagens/estrutura/orkut.png
 imagens/bancos/banco_uk.jpg
 imagens/bancos/banco_pt.jpg
 imagens/bancos/banco_es.jpg
-imagens/livezilla.jpg
 imagens/estrutura/fundo1.png
 imagens/lojas/ag_oxford1.jpg
 imagens/lojas/bournemouth.jpg
@@ -165,3 +164,8 @@ imagens/lojas/ag_oxford1.jpg
 imagens/lojas/bournemouth.jpg
 imagens/lojas/ag_madrid.jpg
 imagens/lojas/ag_vigo.jpg 
+
+#etc/css/border-radius.htc
+imagens/manel.png
+imagens/texto.png
+imagens/maria.png

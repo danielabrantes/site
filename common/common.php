@@ -30,7 +30,7 @@ if (producao) {
         $smarty->assign('cache', 1); //para fazer cache
     }
 }
-$smarty->assign('cache', 0);
+//$smarty->assign('cache', 0);
 
 /* memoria e tempo sem limite */
 ini_set('memory_limit', -1); //sem limite

@@ -6,8 +6,11 @@
 {/if}
         <head>
             <meta charset='utf-8' />
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
             <title>MoneyOne - Remessas e Câmbios</title>
         {if !isset($login)}
+            {*<link rel='stylesheet' type='text/css' href='etc/css/border-radius.htc'/>*} {*para internet explorere anteriores*}
             <link rel='stylesheet' type='text/css' href='etc/css/css.php'/>
             <script charset="utf-8" type="text/javascript" src='etc/js/menu.php'></script>
             <script type="text/javascript">

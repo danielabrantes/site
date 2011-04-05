@@ -75,8 +75,8 @@ class Init {
 	}
 
 	public static function setEncoding() {
-		header('Content-type: text/html; charset=utf-8');
-		/* Set UTF-8 settings */
+		header('Content-type: text/html; charset=UTF-8');
+                /* Set UTF-8 settings */
 		// O php da money ainda é o  5.2.6 não tem o mb_
 		//mb_internal_encoding('UTF-8');
 		//mb_regex_encoding('UTF-8');

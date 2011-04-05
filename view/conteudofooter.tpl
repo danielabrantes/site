@@ -1,17 +1,13 @@
 <div class="content_footer" >
-    <div class="footer_division"><!-- http://www.LiveZilla.net Chat Button Link Code -->
-        <div style="text-align: center; width: 191px;">
-            <a href="javascript:void(window.open('http://www.moneyone.pt/livezilla/chat.php','','width=590,height=580,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
-                <img src="imagens/livezilla.jpg" width="191" height="69" alt="LiveZilla Live Help"/>
+    <div class="footer_division">
+        {*<img style='border:0px;height: 64px;width: 64px;'src='imagens/teste.png'>*}
+        <div>
+            <a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank">
+                <img id='manel' style='border:0px;width: 75px;height: 100px;'src='imagens/manel.png'>
+                <img id='texto' style='border:0px;width: 140px;height: 100px;'src='imagens/texto.png'>
+                <img id='maria' style='border:0px;width: 75px;height: 100px;'src='imagens/maria.png'>
             </a>
-            <div style="margin-top: 2px;"><a href="http://www.livezilla.net"
-                                             target="_blank" title="Fale com o Manel e com a Mônica"
-                                             style="font-size: 10px; color: #bfbfbf; text-decoration: none; font-family: verdana, arial, tahoma;">
-                    Fale com o Manel e com a Mônica</a>
-            </div>
         </div>
-
-        <div id="livezilla_tracking" style="display: none"></div>
     </div>
     <div class="footer_division_center">
         <div style="width: 370px; height: 5px;"></div>

@@ -14,12 +14,14 @@ function getCambio() {
 	$result = $DbSite->getall($sql);
 	$cambio=$result[0]->cambio;
 	if(producao){
-		escreveCacheManifest($cambio);
+		if(escreveCacheManifest($cambio)===false){
+                    die('não consigo mudar a cahce');
+                }
 	}
 	return $cambio;
 }
 function escreveCacheManifest($valor){
 	$data=file_get_contents($_SERVER['DOCUMENT_ROOT'].'/cache.manifest.source');
 	$data="CACHE MANIFEST\r\n"."#version ".$valor."\r\n".$data;
-	file_put_contents($_SERVER['DOCUMENT_ROOT'].'/cache.manifest', trim($data));
+	return file_put_contents($_SERVER['DOCUMENT_ROOT'].'/cache.manifest', trim($data));
 }

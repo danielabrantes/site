@@ -18,21 +18,21 @@
         </p>
         <div class='texto'><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
     </div>
-    <div class ='icons'>
-        <div class='iconmaistexto'>
+    <div  class ='icons'>
+        <div  id='texto' class='iconmaistexto'>
             <a href="http://moneyone-moneyone.blogspot.com/" title="Pedir Cartão de Pontos">
-                <img  class ='icon' src="imagens/estrutura/blogger.png" alt='imagem'/>
+                <img   class ='icon' src="imagens/estrutura/blogger.png" alt='imagem'/>
             </a>
             <div class='icontexto'>Blog</div>
         </div>
-        <div class='iconmaistexto'>
+        <div  id='texto' class='iconmaistexto'>
             <a href="http://www.facebook.com/home.php?#!/profile.php?id=100001553641511" target="_blank" title="Facebook">
                 <img  class ='icon' src="imagens/estrutura/facebook.png" alt='imagem'/>
             </a>
             <div class='icontexto'>Facebook</div>
         </div>
 
-        <div class='iconmaistexto'>
+        <div id='texto' class='iconmaistexto'>
             <a href="http://www.orkut.com" target="_blank" title="Orkut">
                 <img  class ='icon' src="imagens/estrutura/orkut.png" alt='imagem'/>
             </a>

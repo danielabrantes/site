@@ -29,7 +29,7 @@ class Init {
 	}
 
 	public static function gzip() {
-           //echo 'ola';
+		//echo 'ola';
 		ini_set('zlib.output_compression', true);
 		ini_set('zlib.output_compression_level', 9);
 		ini_set('output_buffering', true);
@@ -43,11 +43,11 @@ class Init {
 	}
 
 	public static function smarty() {
-		ini_set('include_path', ini_get('include_path') . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'] . '/etc/lib/Smarty-3.0.7/libs/');
+		ini_set('include_path', ini_get('include_path') . ';' . $_SERVER['DOCUMENT_ROOT'] . '/etc/lib/Smarty-3.0.7/libs/');
 		require_once('Smarty.class.php');
 		$smarty = new Smarty();
 		$smarty->debugging = false;
-		
+
 
 		if (self::$producao) {
 			$smarty->caching = true;
@@ -60,7 +60,7 @@ class Init {
 			$smarty->compile_check=true;
 		}
 		$smarty->security = true;
-		
+
 		//diferentes para cada projecto
 		$smarty->compile_dir = getcwd() . '/etc/view_c';
 		$smarty->cache_dir = getcwd() . '/etc/cache';
@@ -76,7 +76,7 @@ class Init {
 
 	public static function setEncoding() {
 		header('Content-type: text/html; charset=UTF-8');
-                /* Set UTF-8 settings */
+		/* Set UTF-8 settings */
 		// O php da money ainda é o  5.2.6 não tem o mb_
 		//mb_internal_encoding('UTF-8');
 		//mb_regex_encoding('UTF-8');
@@ -123,6 +123,12 @@ class Init {
 			session_cache_limiter('nocache');
 		}
 
+	}
+	final public static function setMemoryLimit() {
+		ini_set('memory_limit', -1); //sem limite
+	}
+	final public static function setTimeLimit() {
+		ini_set('memory_limit', -1); //sem limite
 	}
 
 

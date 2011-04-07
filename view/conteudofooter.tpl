@@ -1,14 +1,18 @@
 <div class="content_footer" >
     <div class="footer_division">
         {*<img style='border:0px;height: 64px;width: 64px;'src='imagens/teste.png'>*}
-        <div>
-            <a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank">
-                <img id='manel' style='border:0px;width: 75px;height: 100px;'src='imagens/manel.png'>
-                <img id='texto' style='border:0px;width: 140px;height: 100px;'src='imagens/texto.png'>
-                <img id='maria' style='border:0px;width: 75px;height: 100px;'src='imagens/maria.png'>
+        
+		<div>
+            <a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" >
+                <img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png' onmouseover='estica("manel");' onmouseout='encolhe("manel");'>
+                <img id='texto' style='border:0px;width: 140px;height: 100px;' src='imagens/texto.png' onmouseover='estica("texto");' onmouseout='encolhe("texto");'>
+                <img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png' onmouseover='estica("maria");' onmouseout='encolhe("maria");'>
             </a>
         </div>
+		
+		
     </div>
+    
     <div class="footer_division_center">
         <div style="width: 370px; height: 5px;"></div>
         <br />

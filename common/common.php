@@ -1,6 +1,6 @@
 <?php
 
-define('producao', false);
+define('producao', true);
 
 require_once 'Functions.php';
 require_once 'Init.php';

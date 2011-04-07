@@ -5,7 +5,7 @@
 	-khtml-border-radius: 10px;
 	border-radius: 10px;
 	text-decoration: none;
-	behavior: url(border-radius.htc);
+	/*behavior: url(border-radius.htc);*/
 }
 
 body {
@@ -810,7 +810,6 @@ ul.menubar a:hover {
 	color: black;
 	font-style: normal;
 	text-align: justify;
-	font-family: Consolas;
 	margin: 1%;
 	padding: 1%;
 }
@@ -890,7 +889,7 @@ input,img {
 	-moz-border-radius: 5px;
 	-khtml-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(border-radius.htc);
+	/*behavior: url(border-radius.htc);*/
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -924,6 +923,8 @@ input:focus,input:HOVER {
 }
 
 #bonecos,#maria,#manel,#texto {
+	 
+ 
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;

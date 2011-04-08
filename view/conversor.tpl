@@ -1,6 +1,6 @@
 <form action='taxasdeCambio.php' method='post' >
     <fieldset style='width:750px;'>
-        <legend class='cor'>Conversor
+        <legend class='cor'>Conversor para o Real
         </legend>
         <table width='750' style='color:#666; font-size:11px;' cellpadding='0' cellspacing='0'>
             <tr>

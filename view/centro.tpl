@@ -18,6 +18,8 @@
         </p>
         <div class='texto'><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
     </div>
+    <div style='text-align: center;'>Visite as nossas redes sociais</div>
+    
     <div  class ='icons'>
         <div  id='texto' class='iconmaistexto'>
             <a href="http://moneyone-moneyone.blogspot.com/" title="Pedir Cartão de Pontos">

@@ -23,7 +23,7 @@ class Email
         //$result=0;
         if($result==1)
         {
-            //echo 'email enviado';
+            echo 'email enviado';
         }
         else
         {

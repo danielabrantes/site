@@ -1,0 +1,6 @@
+General :1
+News :2
+--Announcements :3
+--Events :4
+----Misc :5
+Technology :6

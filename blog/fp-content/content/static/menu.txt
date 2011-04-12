@@ -1,0 +1,6 @@
+SUBJECT|Menu|CONTENT|[list]
+[*][url=?]Home[/url]
+[*][url=?paged=1]Blog[/url]
+[*][url=static.php?page=about]About[/url]
+[*][url=contact.php]Contact[/url]
+[/list]|

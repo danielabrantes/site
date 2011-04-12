@@ -1,0 +1,4 @@
+VERSION|fp-0.1010.1|SUBJECT|teste|CONTENT|pedro ola 
+imagem
+
+[url=http://site/blog/images/logo_novo_grande_preto.png]FP official website[/url].|AUTHOR|rsociais|DATE|1302547583|CATEGORIES|5|

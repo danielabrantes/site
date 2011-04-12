@@ -5,7 +5,9 @@
 		<td width="220px" height="70px">
 		<span class="content_title">Portugal</span>
 		</td>
-		<td colspan="2"><span class="content_title">Tele-Remessas</span> Tel: +351 211 452 500</td>
+		<td colspan="2">
+                    <div class='content_texto'><div class='center'>Tele-Remessas Tel: +351 211 452 500</div></div>
+                </td>
 	</tr>
 	<tr>
 	{include

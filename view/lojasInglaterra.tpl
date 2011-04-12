@@ -5,7 +5,9 @@
 		<td width="220px" height="70px">
 		<span class="content_title">Inglaterra</span>
 		</td>
-		<td colspan="2"><span class="content_title">Tele-Remessas</span> Tel: +44 0207 7287 4104</td>
+		<td colspan="2">
+                    <div class='content_texto'><div class='center'>Tele-Remessas Tel: +44 0207 7287 4104</div></div>
+                </td>
 	</tr>
 	<tr>
 		{include file="loja.tpl"

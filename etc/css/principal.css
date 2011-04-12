@@ -6,6 +6,7 @@
     -khtml-border-radius: 10px;
     border-radius: 10px;
     text-decoration: none;
+    
 }
 img {
     border: 0px;
@@ -14,6 +15,7 @@ img {
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
+    
 }
 body{
     font-family:Verdana, Geneva, sans-serif;

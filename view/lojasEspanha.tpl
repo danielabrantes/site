@@ -5,7 +5,9 @@
 		<td width="220px" height="70px">
 		<span class="content_title">Espanha</span>
 		</td>
-		<td colspan="2"><span class="content_title">Tele-Remessas</span> Tel: +34 91 781 9122</td>
+		<td colspan="2">
+                    <div class='content_texto'><div class='center'>Tele-Remessas Tel: +34 91 781 9122</div></div>
+                </td>
 	</tr>
 	<tr>
 		{include file="loja.tpl" nome="Madrid"

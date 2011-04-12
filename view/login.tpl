@@ -1,4 +1,6 @@
+{*
 {if !isset($login)}
+
 <div class="wrapper">
     <!-- PAÍS -->
     <div class="wrapper_left">
@@ -60,5 +62,6 @@
     <!-- FOOTER -->
     <a href="esqueciSenha.php" title="Esqueci senha" class="wrapper_link">Esqueci senha</a>
 </div>
-{/if}
 
+{/if}
+*}

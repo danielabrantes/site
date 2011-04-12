@@ -1,8 +1,7 @@
 {if !isset($login)}
 <div class="footer">
-    <div class="footer_in">
-        <div class='footer_link'>
 
+        <div class='footer_link'>
             <a href='faq.php' title='FAQ`s' class='footer_text'>FAQ`s</a>
             <span class='risco'> &nbsp; | &nbsp; </span>
             <a href="publicacao.php" title='Relatórios Anuais' class='footer_text'>Relatórios Anuais</a>
@@ -16,14 +15,13 @@
             <a href='obrigacao.php' title='Obrigações' class='footer_text'>Obrigações</a>
             <span class='risco'> &nbsp; | &nbsp; </span>
             <a href='privacidade.php' title='Políticas de Privacidade' class='footer_text'>Políticas de Privacidade</a>
-            
         </div>
-        <div class='footer_texto'>
-            <span>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</span>
-            <br />
-            {include file='validadores.tpl'}
-        </div>
-    </div>
+        
+                
+    
+    <div class='footer_texto'>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</div>
+        {include file='validadores.tpl'}
+    
 </div>
 {/if}
 

@@ -1,1 +1,0 @@
-SUBJECT|About|CONTENT|Write something about yourself here ([url=admin.php?p=static&action=write&page=about]Edit me![/url])|

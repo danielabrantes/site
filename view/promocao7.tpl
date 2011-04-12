@@ -1,15 +1,8 @@
-{extends file='pagina.tpl'} {block name='pagina'}
-<table width="970">
-	<tr>
-		<td width="941" class="content_title"><span>Cartão de pontos</span></td>
-	</tr>
-	<tr>
-
-		<td class="content_title_IN">use e abuse do seu cartão pontos moneyone</td>
-
-	</tr>
-	<tr>
-		<td class="content_texto"><span>O Cartão de Pontos MoneyOne, além de
+{extends file='promocao.tpl'} 
+{block name='titulo'}Cartão de pontos{/block}
+{block name='subtitulo'}use e abuse do seu cartão pontos moneyone{/block}
+{block name='texto'}
+O Cartão de Pontos MoneyOne, além de
 		servir como identificação do cliente, dá acesso a um mundo de
 		vantagens e benefícios especiais, incluídos no <a
 			href="http://catalogo.moneyoneexpress.com/" class="content_link"
@@ -21,19 +14,5 @@
 		dobrar. <br />
 		<br />
 		<a href="cartaoPontos.php" class="content_link"><strong>Saiba mais</strong></a>
-
-		</span>
-		<p><br />
-		</p>
-		</td>
-	</tr>
-	<tr>
-		<td style='text-align: center;'><img
-			src="imagens/promocao/promocao7.jpg" alt='imagem' />
-		<p><br />
-		</p>
-		</td>
-
-	</tr>
-</table>
 {/block}
+{block name='imagem'}<img src="imagens/promocao/promocao7.jpg" alt='imagem' />{/block}

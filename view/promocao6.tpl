@@ -9,5 +9,5 @@ Além das vantagens de oferecer taxa
 		capa exclusiva para andar por aí com o seu passaporte bem protegido.
 {/block}
 {block name='imagem'}
-<img src="imagens/promocao/big_Net_pass.jpg" alt='imagem' />
+<img src="imagens/promocao/net_pass.jpg" alt='imagem' />
 {/block}

@@ -11,4 +11,4 @@ O bónus de € 10 é ilimitado, ou seja, se você trouxer 10 amigos são €
 100.00 que você ganha.<br />
 Esclarecemos que esse bônus deve ser revertidos em remessas
 {/block}
-{block name='imagem'}<img src="imagens/inicio/cartaz.jpg" alt='imagem' />{/block}
+{block name='imagem'}<img src="imagens/promocao/cartaz.jpg" alt='imagem' />{/block}

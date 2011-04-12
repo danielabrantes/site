@@ -8,4 +8,4 @@ MoneyOne. <br />
 A cada 300 pontos no Cartão de Pontos MoneyOne você tem direito a uma
 capa exclusiva para andar por aí com o seu passaporte bem protegido.
 {/block}
-{block name='imagem'}<img src="imagens/promocao/net_cambio_gde.jpg" alt='imagem' />{/block}
+{block name='imagem'}<img src="imagens/promocao/net_cambio.jpg" alt='imagem' />{/block}

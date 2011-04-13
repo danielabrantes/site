@@ -1,4 +1,4 @@
-#version 5
+#version 6
 FALLBACK:
 NETWORK:
 validacaoEmprego.php
@@ -165,12 +165,15 @@ imagens/lojas/bournemouth.jpg
 imagens/lojas/ag_madrid.jpg
 imagens/lojas/ag_vigo.jpg 
 
-#etc/css/border-radius.htc
-imagens/manel.png
-imagens/texto.png
-imagens/maria.png
 
-etc/css/helveticaworld-regular-webfont.woff
-etc/css/helveticaworld-regular-webfont.ttf
-etc/css/helveticaworld-regular-webfont.svg
-etc/css/helveticaworld-regular-webfont.eot
+imagens/manel.png
+imagens/manel2.png
+imagens/texto.png
+imagens/texto2.png
+imagens/maria.png
+imagens/maria2.png
+ 
+#etc/css/helveticaworld-regular-webfont.woff
+#etc/css/helveticaworld-regular-webfont.ttf
+#etc/css/helveticaworld-regular-webfont.svg
+#etc/css/helveticaworld-regular-webfont.eot

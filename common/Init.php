@@ -128,7 +128,10 @@ class Init {
 		ini_set('memory_limit', -1); //sem limite
 	}
 	final public static function setTimeLimit() {
-		ini_set('memory_limit', -1); //sem limite
+		set_time_limit(0);
+		ini_set('max_execution_time',0);
+		ini_set('safe_mode',0);
+		//ini_set('memory_limit', -1); //sem limite
 	}
 
 

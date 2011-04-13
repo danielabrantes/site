@@ -17,6 +17,7 @@
 				<div class='texto'>
 					<script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script>
 				</div>
+				
 
 
 
@@ -25,10 +26,9 @@
 
 				
 				<div class='icons'>
-				<div class='titulo'>VISITE O NOSSO BLOG E SAIBA DE TODAS AS NOSSAS
-					PROMOÇÕES E EVENTOS</div>
-				{*VISITE O NOSSO BLOG E SAIBA DE TODAS AS NOSSAS PROMOÇÕES E
-				EVENTOS*}
+				<div class='titulo_icons'>Visite o nosso blog e saiba de todas as nossas promoções e eventos</div>
+				<div class='clear'>&nbsp;</div>
+				
 					<div id='texto' class='iconmaistexto'>
 						<a href="http://moneyone-moneyone.blogspot.com/"
 							title="Pedir Cartão de Pontos"> <img class='icon'

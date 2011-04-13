@@ -81,7 +81,7 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .footer {
-margin:1em 0em;	
+	margin: 1em 0em;
 }
 
 .wrapper_left {
@@ -233,14 +233,16 @@ a.wrapper_link:hover {
 }
 
 .receber_noticias {
-	margin: 2em 0em;
+	margin: 3em 0em;
 	float: left;
-	
 }
-.header_content_division_news_in
-{
-	float: left;
 
+.titulo_icons {
+	margin: 1em 0em;
+}
+
+.header_content_division_news_in {
+	float: left;
 }
 
 .header_content_division_news_in_in {
@@ -269,8 +271,7 @@ a.wrapper_link:hover {
 	margin: 0 auto;
 }
 
-.content_header_cam_in {
-	/*width: 325px;
+.content_header_cam_in { /*width: 325px;
 	height: 17px;*/
 	float: right;
 	padding-top: 3px;
@@ -322,8 +323,7 @@ a.footer_text {
 	color: #CCC;
 	font-size: 0.8em;
 	text-align: center;
-	margin:0em 1em;
-	
+	margin: 0em 1em;
 }
 
 .content_conteudo_division {
@@ -783,9 +783,7 @@ ul.menubar a:hover {
 }
 
 .icons {
-	padding-left: 0em;
-	text-align: center;
-	margin: 2em 0em;
+	margin: 1em 0em;
 }
 
 .iconmaistexto {
@@ -838,11 +836,11 @@ ul.menubar a:hover {
 }
 
 .textoLoja,.textoConta {
-	font-size: 0.66em;
+	font-size: 0.75em;
 	color: black;
 	font-style: normal;
 	text-align: justify;
-	font-family: Consolas;
+	/*font-family: Consolas;*/
 }
 
 .contas {
@@ -976,8 +974,8 @@ a,a:visited,a:active,a:hover {
 	
 }
 
-.validadores{
-	margin:0em 1em;
-	padding:0em 1em;
+.validadores {
+	margin: 0em 1em;
+	padding: 0em 1em;
 	text-align: center;
 }

@@ -14,6 +14,8 @@ class Init {
 			self::gzip();
 			self::setCache();
 			self::setDate();
+			//ini_set('expose_php',0);
+			//application/x-font-woff
 		}
 		return self::$_instance;
 	}
@@ -131,6 +133,7 @@ class Init {
 		set_time_limit(0);
 		ini_set('max_execution_time',0);
 		ini_set('safe_mode',0);
+		
 		//ini_set('memory_limit', -1); //sem limite
 	}
 

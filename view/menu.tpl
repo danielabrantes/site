@@ -30,7 +30,7 @@
 
         <li class="submenu"><a href="transferenciaTexto.php">Transferências</a>
             <ul class="menu">
-                <li class="item"  style="background:url(imagens/estrutura/fundo1.png) no-repeat; height: 137px; width: 228px; padding-left: 10px; padding-top: 10px; line-height:130%; padding-right: 20px; " ><span style=" font-size: 12px; font-weight:normal;   ">Enviar dinheiro com a MoneyOne é simples e fácil. É possível transferir via telefone, através do nosso website ou ainda em qualquer uma de nossas lojas ou agentes credenciados.</span><a href="transferenciaTexto.php" style=" float: right; color:red;">saber mais ...&nbsp;</a></li>
+                <li class="item"  style="background:url(imagens/estrutura/fundo.png) no-repeat; height: 137px; width: 228px; padding-left: 10px; padding-top: 10px; line-height:130%; padding-right: 20px; " ><span style=" font-size: 12px; font-weight:normal;   ">Enviar dinheiro com a MoneyOne é simples e fácil. É possível transferir via telefone, através do nosso website ou ainda em qualquer uma de nossas lojas ou agentes credenciados.</span><a href="transferenciaTexto.php" style=" float: right; color:red;">saber mais ...&nbsp;</a></li>
             </ul>
         </li>
         <li class="submenu"><a href="agente.php">Torna-se Agente</a>

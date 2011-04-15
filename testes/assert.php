@@ -1,22 +1,22 @@
 <?php
 function assertEqual($a,$b){
 	if($a==$b){
-		echo 'true<br />';
+		echo 'true';
 	}else{
-		echo 'false<br />';
+		echo 'false';
 	}
 }
 function assertTrue($a){
 	if($a==true){
-		echo 'true<br />';
+		echo 'true';
 	}else{
-		echo 'false<br />';
+		echo 'false';
 	}
 }
 function assertFalse($a){
 	if($a==false){
-		echo 'true<br />';
+		echo 'true';
 	}else{
-		echo 'false<br />';
+		echo 'false';
 	}
 }

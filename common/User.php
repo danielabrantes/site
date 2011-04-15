@@ -48,7 +48,7 @@ class User {
 	  insert into site.destinatario
 	  (idDestinatario,idUtilizador,accao,nome,rua,bairro,cidade,provincia,pais,telefone,telemovel,parentesco)
 	  value (" . $destinatario . ',' . $idUtilizador . ",'actualizar',$nomeDestinatario,$ruaDestinatario,$bairroDestinatario,$localidadeDestinatario,$provinciaDestinatario,$paisDestinatario,$telefoneDestinatario,$telemovelDestinatario,$parentesco);";
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         if ($DbSite->query($sql)) {
             return true;
         } else {
@@ -63,7 +63,7 @@ class User {
     public function setSenha($pass) {
         global $DbSite;
         $sql = 'update site.utilizador set password =' . $DbSite->quote($pass) . ' where id=' . $this->id . ';';
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         $result = $DbSite->query($sql);
         if ($result) {
             $this->pass = $pass;
@@ -119,7 +119,7 @@ class User {
 		join officeschema.hd_paises on officeschema.hd_paises.pai_CodElite =officeschema.hd_bancos.bp_Country
 		join officeschema.beneficiarios on officeschema.hd_paises.pai_CodElite =officeschema.beneficiarios.BnfPais
 		where officeschema.beneficiarios.BnfNumero=' . $_POST['id'];
-        /* echo $sql.'<br />';
+        /* echo $sql.'';
           die; */
         return $DbTuga->getall($sql);
     }
@@ -129,7 +129,7 @@ class User {
     }
 
     public function saveAdicionarConta() {
-        /* echo saveAdicionarConta.'<br />'; */
+        /* echo saveAdicionarConta.''; */
         /* die; */
         global $DbSite;
         $conta = $DbSite->quote($_POST['numeroDeConta']);
@@ -141,7 +141,7 @@ class User {
 		insert into site.destinatario
 		(idDestinatario,idUtilizador,accao,idConta,cidade,agencia,idbanco) value
 		(" . $destinatario . ',' . $this->id . ",'adicionarConta',$conta,$cidade,$agencia,$banco);";
-        /* echo $sql.'<br />';
+        /* echo $sql.'';
           die; */
         return $DbSite->query($sql);
     }
@@ -258,7 +258,7 @@ class User {
         $sql = "
 		  insert into site.documentos(id,actividade,meioDeConhecimento,escolaridade,estadoCivil,valorMensal,origemVencimento,referenciaVencimento,tipo,numero,dataDeEmissao,dataDeCaducidade,orgaoRegisto,data)
 		  values(" . $id . "," . $actividade . "," . $meioDeConhecimento . "," . $escolaridade . "," . $estadoCivil . "," . $valorMensal . "," . $origemVencimento . "," . $referenciaVencimento . "," . $tipo . "," . $numero . "," . $dataDeEmissao . "," . $dataDeCaducidade . "," . $orgaoRegisto . "," . $date . ");";
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         $result = $DbSite->query($sql);
         if ($result) {
             $DbSite->commit();
@@ -290,7 +290,7 @@ class User {
         $sql = "
 		insert into site.morada(id,rua,porta,piso,provincia,concelho,codigoPostal,localidade,nacionalidade,naturalidade1,naturalidade2,pais,data)
 		values(" . $id . "," . $rua . "," . $porta . "," . $piso . "," . $provincia . "," . $concelho . "," . $codigoPostal . "," . $localidade . "," . $nacionalidade . "," . $naturalidade1 . "," . $naturalidade2 . "," . $pais . "," . $date . ");";
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         $result = $DbSite->query($sql);
         if ($result) {
             $DbSite->commit();
@@ -332,7 +332,7 @@ class User {
 
         global $DbSite;
         $sql = 'select email,password from site.utilizador where id=' . $id;
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         $result = $DbSite->getall($sql);
         $pass = $result[0]->password;
         require_once "Mail.php";
@@ -387,7 +387,7 @@ class User {
 			insert into site.utilizador
 			(id,email,dadosPessoais,morada,documentos,data)
 			values(' . $id . ',' . $email . ',' . $dadosPessoais . ',' . $morada . ',' . $documentos . ',' . $date . ');';
-            //echo '<br />'.$sql.'<br />';
+            //echo ''.$sql.'';
             $result = $DbSite->query($sql);
             if ($result) {
                 $DbSite->commit();
@@ -444,7 +444,7 @@ class User {
 		values(" . $id . "," . $telefone . "," . $telemovel . "," . $email . "," . $newsletter . "," . $date . ");";
         }
         /*
-          echo '<br />'.$sql.'<br />';
+          echo ''.$sql.'';
           echo 'saveDadosPessoais';
           die;
          */

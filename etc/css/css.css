@@ -28,30 +28,50 @@ font-face {
 
 body { /*font-family: Verdana, Geneva, sans-serif;*/
 	font-family: 'HelveticaWorldRegular', Arial, sans-serif;
-	font-size: 1em;
-	background-color: #ffffcf;
-	color: #000;
+	font-weight: normal;
+	font-style: normal;
+	background-color: #ffffff;
+	
 }
 
-.wrapper {
-	width: 990px;
-	height: 55px;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 990px;
-	min-width: 800px;
-}
 
-.header {
-	background: #ffffcf url(../../imagens/estrutura/barra_amarela_2.jpg)
-		repeat-x;
+#page {
+	/*background: #ffffcf url(../../imagens/estrutura/barra_amarela_2.jpg) repeat-x;*/
+	/*background-image:url('img_tree.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+	*/
+	/*background-color: yellow;*/
+	 /* IE6 & IE7 */
+	 /*filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#CCCCCC');*/ 
+  	/* IE8 */
+  	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#CCCCCC')";*/ 
+  	
+  	/*background: #0A284B;
+            background: -webkit-gradient(linear, left top, left bottom, from(#0A284B), to(#135887));
+            background: -moz-linear-gradient(top, #0A284B, #135887);
+            background: -o-linear-gradient(#0A284B, #135887);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0A284B', endColorstr='#135887');
+            zoom:1;
+            */
+  			background-color: #ffff00;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ffff00), to(#ffffff));
+            background: -moz-linear-gradient(top, #ffff00, #ffffff);
+            background: -o-linear-gradient(#ffff00, #ffffff);
+            /* IE6 & IE7 */
+	 		filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffff00',EndColorStr='#ffffff'); 
+
+            /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff00', endColorstr='#ffffff');*/
+            zoom:1;
+	
 }
 
 .header_in {
-	width: 965px;
+	/*width: 60em;*/
+	width: 990px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFF;
+	/*background-color: #FFF;*/
 	/*background-color: #fefcd6;*/
 }
 
@@ -74,17 +94,8 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 	min-width: 800px;
 }
 
-.content_conteudo {
-	width: 100%;
-	/*background: #ffffcf url(../../imagens/estrutura/barra_amarela_2.jpg)
-        repeat-x;*/
-}
 
-.content_conteudo_in {
-	height: 24em;
-	/*background-color: #fefcd6;*/
-	background-color: #FFFFFF;
-}
+
 
 .footer {
 	margin: 1em 0em;
@@ -156,9 +167,12 @@ a.wrapper_link:hover {
 }
 
 .header_foto {
-	width: 965px;
+	
+	 background: url("../../imagens/banner/banner.gif") no-repeat;
+	
+	width: 990px;
 	height: 220px;
-	margin: 10px auto;
+	margin: 0em auto;
 }
 
 .header_menu {
@@ -243,7 +257,7 @@ a.wrapper_link:hover {
 	float: left;
 }
 
-.titulo_icons {
+.title_icons {
 	margin: 1em 0em;
 }
 
@@ -328,7 +342,7 @@ a.footer_text {
 	margin: 0em 1em;
 }
 
-.content_conteudo_division {
+/*.content_conteudo_division {
 	width: 30%;
 	float: left;
 }
@@ -348,7 +362,7 @@ a.footer_text {
 	height: 250px;
 	float: left;
 }
-
+*/
 a.imagem {
 	text-decoration: none;
 	color: #fff;
@@ -391,17 +405,8 @@ a.texto {
 	width: 155px;
 }
 
-.content_footer {
-	width: 970px;
-	height: 90px;
-	float: left;
-}
 
-.footer_division {
-	width: 300px;
-	height: 75px;
-	float: left;
-}
+
 
 .footer_division1 {
 	width: 280px;
@@ -409,11 +414,7 @@ a.texto {
 	float: left;
 }
 
-.footer_division_center {
-	width: 380px;
-	height: 75px;
-	float: left;
-}
+
 
 .content_footer_banco_uk {
 	width: 122px;
@@ -486,57 +487,27 @@ a.texto {
 	float: right;
 	text-align: justify;
 }
-
-.content_conteudo_in_in {
-	width: 990px;
-	margin-left: auto;
-	margin-right: auto;
-	border: #ffff00 solid;
-	border-width: 2px;
-	border-top-color: #FFF;
-	background-color: #FFF;
-}
-
-.content_title {
-	text-transform: uppercase;
-	color: #4870b7;
-	font-weight: bolder;
-	font-size: 0.85em;
-	font-style: normal;
-	text-align: justify;
-	line-height: 1.75em;
-	margin: 1em 1em;
-	padding: 1em 1em;
-}
-
-.content_title_IN {
-	text-transform: uppercase;
-	color: #000;
-	font-weight: bolder;
+.texto,.title,.subtitle {
 	font-size: 0.8em;
-	font-style: normal;
-	text-align: justify;
-	line-height: 1.75em;
-	margin: 1em 1em;
-	padding: 1em 1em;
-}
-
-.content_title_in_in {
-	font-size: 11px;
-	text-transform: uppercase;
-	color: #000;
-	font-weight: bolder;
-	line-height: 15px;
-}
-
-.content_texto {
-	font-size: 0.8em;
-	color: #000;
+	color: black;
 	font-style: normal;
 	text-align: justify;
 	line-height: 1.75em;
 	margin: 0em 1em;
-	padding: 0em 1em;
+	padding: 0.3em 1em;
+}
+.title {
+	font-size: x-large;
+	color: #23466C;
+	font-weight: bold;
+	margin: 1em 1em;
+	/*border: tomato 1px solid;*/
+}
+
+.subtitle {
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 0em;
 }
 
 .content_seta {
@@ -806,37 +777,10 @@ ul.menubar a:hover {
 	vertical-align: middle;
 	margin: 0em
 }
-
-.texto {
-	font-size: 100%;
-	color: black;
-	font-style: normal;
-	text-align: justify;
-	margin: 1%;
-	padding: 1%;
+.terco{
+	float:left;
+	width:33%;
 }
-
-.titulo {
-	font-size: 1em;
-	color: #23466C;
-	font-style: normal;
-	text-align: justify;
-	font-weight: bold;
-	margin: 1%;
-	padding: 1%;
-}
-
-.subtitulo {
-	font-size: large;
-	color: black;
-	font-style: normal;
-	text-align: justify;
-	margin-left: 1%;
-	margin-right: 1%;
-	padding-left: 1%;
-	padding-right: 1%;
-}
-
 .textoLoja,.textoConta {
 	font-size: 0.8em;
 	color: black;

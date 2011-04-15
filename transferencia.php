@@ -119,10 +119,10 @@ function resumo() {
             $smarty->assign('modoDeCobranca', $modoDeCobranca);
             break;
         case 880/* Transferencia Outros */:
-            $smarty->assign('conta', 'BES 000703870002968000415 ou 000703870002972000695' . '<br />' .
-                    'BPI 001000003368577000189 ou 001000003368577000383' . '<br />' .
-                    'BPN 007900002781311810407 ou 007900002781311810698' . '<br />' .
-                    'CGD 003502160007110123076 ou 003502160007110203004' . '<br />');
+            $smarty->assign('conta', 'BES 000703870002968000415 ou 000703870002972000695' . '' .
+                    'BPI 001000003368577000189 ou 001000003368577000383' . '' .
+                    'BPN 007900002781311810407 ou 007900002781311810698' . '' .
+                    'CGD 003502160007110123076 ou 003502160007110203004' . '');
             $smarty->assign('modoDeCobranca', $modoDeCobranca);
             break;
     }

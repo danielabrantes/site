@@ -75,7 +75,7 @@ class Transferencia {
 				join hd_paises on hd_paises.pai_CodElite =clientes.CliNacionalidad
 				join hd_monedasiso on hd_monedasiso.miso_ID =hd_paises.pai_NombreMoneda
 				where clientes.CliNumero=' . $user->getId() . ';';
-            //echo $sql.'<br />';
+            //echo $sql.'';
             $result = $DbTuga->getall($sql);
             $this->moedaEmissor = $result[0];
         }
@@ -197,7 +197,7 @@ class Transferencia {
             $sql = $sql . ' and hd_monedasiso.miso_Cod_elite=' . $moeda;
         }
         $sql = $sql . ' order by taxa desc; ';
-        //echo '<br />'.$sql.'<br />'.'<br />';
+        //echo ''.$sql.''.'';
         $cambio = $DbTuga->getall($sql);
         //printArray($cambio);
         $this->cambio = $cambio;
@@ -258,7 +258,7 @@ class Transferencia {
 				from officeschema.hd_cambiosdia
 				join  hd_modospago on hd_modospago.mp_ID=hd_cambiosdia.htr_MCobro
 				where htr_ID=' . $id . ';';
-            //echo $sql.'<br />';
+            //echo $sql.'';
             $result = $DbTuga->getall($sql);
             //printArray($result);
             $result = $result[0];
@@ -434,7 +434,7 @@ order by officeschema.beneficiarios.BnfNumero asc;';
             }
             $sql = $sql . ", referencia='" . $this->referencia
                     . "' where id =" . $this->id . ';';
-            //echo '<br />'.$sql.'<br />';
+            //echo ''.$sql.'';
             //die();
             if ($DbSite->query($sql)) {
                 /* Transferencia
@@ -475,7 +475,7 @@ order by officeschema.beneficiarios.BnfNumero asc;';
 				on officeschema.hd_paises.pai_CodElite = officeschema.clientes.CliNacionalidad
 			where site.transferencia.emissor = ' . $user->getId() . '
 			order by site.transferencia.id desc;';
-        //echo '<br />'.$sql.'<br />';
+        //echo ''.$sql.'';
         $estados = $DbTuga->getall($sql);
 
         foreach ($estados as &$value) {

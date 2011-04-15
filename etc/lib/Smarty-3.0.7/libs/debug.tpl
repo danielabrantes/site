@@ -33,12 +33,12 @@ h2 {
 }
 
 body {
-    background: black; 
+    background: black;
 }
 
 p, table, div {
     background: #f0ead8;
-} 
+}
 
 p {
     margin: 0;
@@ -94,9 +94,9 @@ td {
 <div>
 {foreach $template_data as $template}
   <font color=brown>{$template.name}</font>
-  <span class="exectime">
+  <div class="exectime">
    (compile {$template['compile_time']|string_format:"%.5f"}) (render {$template['render_time']|string_format:"%.5f"}) (cache {$template['cache_time']|string_format:"%.5f"})
-  </span>
+  </div>
   <br>
 {/foreach}
 </div>
@@ -106,7 +106,7 @@ td {
 
 <table id="table_assigned_vars">
     {foreach $assigned_vars as $vars}
-       <tr class="{if $vars@iteration % 2 eq 0}odd{else}even{/if}">   
+       <tr class="{if $vars@iteration % 2 eq 0}odd{else}even{/if}">
        <th>${$vars@key|escape:'html'}</th>
        <td>{$vars|debug_print_var}</td></tr>
     {/foreach}
@@ -116,7 +116,7 @@ td {
 
 <table id="table_config_vars">
     {foreach $config_vars as $vars}
-       <tr class="{if $vars@iteration % 2 eq 0}odd{else}even{/if}">   
+       <tr class="{if $vars@iteration % 2 eq 0}odd{else}even{/if}">
        <th>{$vars@key|escape:'html'}</th>
        <td>{$vars|debug_print_var}</td></tr>
     {/foreach}

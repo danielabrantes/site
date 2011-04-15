@@ -18,68 +18,68 @@ class Test{
 
 		$numero=1;
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 		
 		$numero=-1;
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 	
 		$numero=0;
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 		
 		$numero=100.0;
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero=100.1;
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero=100.01;
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero=100.00;
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero=100.001;
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		echo $transferencia->verificaValor($numero).'<br />';
+		echo $transferencia->verificaValor($numero).'';
 
 		//string
 		$numero='1';
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 		
 		$numero='-1';
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='0';
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='100.0';
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='100.1';
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='100.01';
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='100.00';
 		assertTrue($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 
 		$numero='100.001';
 		assertFalse($transferencia->verificaValor($numero),floatval($numero));
-		//echo $transferencia->verificaValor($numero).'<br />';
+		//echo $transferencia->verificaValor($numero).'';
 	}
 }
 $teste=new Test();

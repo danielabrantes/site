@@ -5,10 +5,10 @@ $sql = 'select valCambio as cambio from webportalmex.cambio where idcambio=1;';
 $cambio = $DbTuga->getall($sql);
 $taxa = $cambio[0]->cambio;
 
-//echo 'valor '.$valor.'<br />';
-//echo 'taxa: '.$taxa.'<br />';
+//echo 'valor '.$valor.'';
+//echo 'taxa: '.$taxa.'';
 $valorFinal = $valor * $taxa;
-//echo  '$valorFinal'.$valorFinal.'<br />';
+//echo  '$valorFinal'.$valorFinal.'';
 
 $smarty->assign('valorFinal', $valorFinal);
 $smarty->assign('valor', $valor);

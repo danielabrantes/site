@@ -1,1 +1,1 @@
-<div class='titulo'>Pedir Cancelamentos</div>
+<div class='title'>Pedir Cancelamentos</div>

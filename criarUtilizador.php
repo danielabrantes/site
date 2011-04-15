@@ -5,10 +5,10 @@ require_once('common/Verifica_loggado.php');
 if(isset($_POST['nome'])&&isset($_POST['pass'])){
 	$mensagem='';
 	if($_POST['nome']==''){
-		$mensagem='Falta inserir o Nome<br />';
+		$mensagem='Falta inserir o Nome';
 	}
 	if($_POST['pass']==''){
-		$mensagem=$mensagem.'Falta inserir a Pass<br />';
+		$mensagem=$mensagem.'Falta inserir a Pass';
 	}
 	if($mensagem!=''){
 		$smarty->assign('mensagem',$mensagem);

@@ -45,7 +45,9 @@ class Init {
 	}
 
 	public static function smarty() {
-		ini_set('include_path', ini_get('include_path') . ';' . $_SERVER['DOCUMENT_ROOT'] . '/etc/lib/Smarty-3.0.7/libs/');
+		$path=$_SERVER['DOCUMENT_ROOT'] . '/etc/lib/Smarty-3.0.7/libs/';
+		set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+		//ini_set('include_path', ini_get('include_path') . ';' . );
 		require_once('Smarty.class.php');
 		$smarty = new Smarty();
 		$smarty->debugging = false;

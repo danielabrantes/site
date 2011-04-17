@@ -1,10 +1,7 @@
+{include file='header_html.tpl'}
+<div id="content">
 {include file='header.tpl'}
-<div id="page">
-	<div id="content">
-		{include file='headerConteudo.tpl'}
-		<div class='texto'>
-			{block name='pagina'}{/block}
-		</div>
-		{include file='footer.tpl'}
-	</div>
+{block name='pagina'}{/block}
+{*include file='footer.tpl'*}
 </div>
+{include file='footer_html.tpl'}

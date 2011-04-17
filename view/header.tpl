@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-{if isset({$cache}) and {$cache} eq 1}
-	<html manifest="/cache.manifest">
-{else}
-	<html>
-{/if}
-<head>
-<meta charset='utf-8' />
-<title>MoneyOne - Remessas e Câmbios</title>
-<link rel='stylesheet' type='text/css' href='etc/css/css.php' />
-<script charset="utf-8" type="text/javascript" src='etc/js/menu.php'></script>
-</head>
-<body onload='menuDropDown();'>
+{include file='menu.tpl'}
+<div class='header'>
+	
+	<a href='taxasdeCambio.php'>
+		<div class="header_content_taxa_tytle">taxas de câmbio</div>
+		<div class="header_content_taxa_tytle_in">brasil</div>
+		<div class="header_content_division_taxas">{nocache}{include file='TaxaCambioBrasil.tpl'}{/nocache}</div>
+	</a>
+	<a href="index.php"> <img src="imagens/estrutura/logo.png" title="Home" alt='imagem' /> </a>
+</div>
+<div class='clear'></div>

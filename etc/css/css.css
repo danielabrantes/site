@@ -18,12 +18,17 @@ font-face {
 	font-style: normal;
 }
 
-* {
+html {
+	background-color: #ffffff;
 	margin: 0px;
 	padding: 0px;
-	-moz-border-radius: 15px;
+}
+
+* { /*-moz-border-radius: 15px;
 	-khtml-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 15px;*/
+	margin: 0px;
+	padding: 0px;
 	text-decoration: none;
 	/*behavior: url(border-radius.htc);*/
 }
@@ -48,7 +53,7 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0A284B', endColorstr='#135887');
             zoom:1;
             */
-	background-color: #ffff00;
+	background-color: #ffffff;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ffff00),
 		to(#ffffff) );
 	background: -moz-linear-gradient(top, #ffff00, #ffffff);
@@ -65,46 +70,53 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 	margin: 1em 0em;
 }
 
-.header{
+.header {
 	background: url("../../imagens/banner/banner.jpg") no-repeat;
-	height: 220px;
+	height: 226px;
 	/*border: tomato 1px solid;*/
 }
 
-.header a{
-	float:right;
+.header a {
+	float: right;
 	margin: 2em 5em;
-	
-	
 }
 
 .header_menu {
 	height: 3em;
 	background-color: #ffff00;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00), to(#FFFF00), color-stop(.5,#FFFFFF));
-	background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),
+		to(#FFFF00), color-stop(.5, #FFFFFF) );
+	background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%)
+		;
 	background: -o-linear-gradient(#ffff00, #aaaa00);
 	/* IE5.5 - IE7 */
-	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
-
+	filter: progid :       DXImageTransform.Microsoft.Gradient (     
+		 GradientType =       0, StartColorStr =       #FFFFFF00, EndColorStr
+		=     
+		 #FFFFFFFF );
 	/* IE8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
-	
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
+		;
 	/*background: url(../../imagens/estrutura/fundo_links.png) no-repeat;*/
 }
 
+#receber_noticias {
+	margin-top: 3em;
+}
 
-
-
-.receber_noticias {
-	margin: 3em 0em;
+#receber_noticias input {
+	margin: 1em 0em;
 	float: left;
 }
 
-.title_icons {
-	margin: 1em 0em;
+#title_icons {
+	margin-bottom: 1em;
 }
 
+#receber_noticias_texto {
+	float: left;
+}
 
 .header_textbox {
 	width: 165px;
@@ -171,27 +183,6 @@ a.footer_text {
 	margin: 0em 1em;
 }
 
-/*.content_conteudo_division {
-	width: 30%;
-	float: left;
-}
-
-.content_conteudo_division_link {
-	height: 220px;
-	display: block;
-	text-decoration: none;
-}
-
-.content_conteudo_division_link:hover {
-	text-decoration: none
-}
-
-.content_conteudo_division_center {
-	width: 370px;
-	height: 250px;
-	float: left;
-}
-*/
 a.imagem {
 	text-decoration: none;
 	color: #fff;
@@ -264,12 +255,6 @@ a.texto {
 	background-position: left;
 }
 
-#pscroller1 {
-	width: 100%;
-	height: 25em;
-	border: 0em;
-}
-
 #pscroller2 {
 	width: 330px;
 	height: 78px;
@@ -277,14 +262,12 @@ a.texto {
 	background-color: white;
 }
 
-.content_center1 {
-	width: 330px;
-	height: 170px;
-	/*margin-top: 5%;*/
-	margin-left: auto;
-	margin-right: auto;
+/*.content_center1 {
+	width: 100%;
+	margin: 0em auto;
+	
 }
-
+*/
 .content_center {
 	width: 330px;
 	height: 50px;
@@ -477,21 +460,22 @@ Regra 3 - Classe que define a posi�ao e a exibi�ao dos menus verticais (inic
 ul.menubar ul.menu {
 	display: none;
 	position: absolute;
-	text-decoration: none;
 }
 
 /*
 Regra 4 - Classe que define a aparencia do link da barra horizontal
 */
 ul.menubar a {
-	font-size: 13px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-weight: bold;
 	display: block;
-	/*padding: 0.35em 1.35em;*/
-	padding: 5px 11px;
+	font-weight: bold;
 	color: black;
 	text-decoration: none;
+	/*
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 5px 11px;
+	*/
+	padding: 0.4em 0.6em;
 }
 
 /*
@@ -585,11 +569,11 @@ ul.menubar a:hover {
 }
 
 .icons {
-	margin: 1em 0em;
+	margin: 0.5em 0em;
 }
 
 .iconmaistexto {
-	margin: 0em 1.3em;
+	margin: 0em 1.36em;
 	text-align: center;
 	float: left;
 	font-size: 1em;
@@ -646,8 +630,7 @@ ul.menubar a:hover {
 }
 
 .center {
-	text-align: center;
-	margin: auto;
+	background-color: white;
 }
 
 .leftConta {
@@ -746,7 +729,15 @@ a,a:visited,a:active,a:hover {
 }
 
 .cartaz {
-	
+	width: 76%;
+	margin: 0em auto;
+	text-align: center;
+	/*border: tomato 1px solid;*/
+}
+
+#pscroller1 { /*width: 100%;*/
+	height: 22em;
+	border: 0em;
 }
 
 .validadores {

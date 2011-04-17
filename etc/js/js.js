@@ -4,6 +4,8 @@
  */
 
  
+ 	    //
+ 
 
                         function getInternetExplorerVersion()
                 // Returns the version of Internet Explorer or a -1

@@ -7,3 +7,4 @@
 		</div>
 	</fieldset>
 </form>
+<div class='clear'></div>

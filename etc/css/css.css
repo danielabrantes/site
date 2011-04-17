@@ -59,8 +59,9 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 	background: -moz-linear-gradient(top, #ffff00, #ffffff);
 	background: -o-linear-gradient(#ffff00, #ffffff);
 	/* IE6 & IE7 */
-	filter: progid :   DXImageTransform.Microsoft.Gradient (   GradientType
-		=   0, StartColorStr =   '#ffff00', EndColorStr =   '#ffffff' );
+	filter: progid :     DXImageTransform.Microsoft.Gradient (    
+		GradientType =     0, StartColorStr =     '#ffff00', EndColorStr =    
+		'#ffffff' );
 	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff00', endColorstr='#ffffff');*/
 	zoom: 1;
 }
@@ -90,10 +91,10 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 		;
 	background: -o-linear-gradient(#ffff00, #aaaa00);
 	/* IE5.5 - IE7 */
-	filter: progid :       DXImageTransform.Microsoft.Gradient (     
-		 GradientType =       0, StartColorStr =       #FFFFFF00, EndColorStr
-		=     
-		 #FFFFFFFF );
+	filter: progid :         DXImageTransform.Microsoft.Gradient (      
+		  GradientType =         0, StartColorStr =         #FFFFFF00,
+		EndColorStr =      
+		  #FFFFFFFF );
 	/* IE8 */
 	-ms-filter:
 		"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
@@ -169,18 +170,18 @@ a.footer_text {
 	border: 0em;
 	text-decoration: none;
 	color: #999;
-	font-size: 11px;
+	font-size: 0.9em;
 }
 
 .risco {
 	color: #999;
 }
 
-.footer_texto {
-	color: #CCC;
+.footer p {
+	color: #999;
 	font-size: 0.8em;
 	text-align: center;
-	margin: 0em 1em;
+	margin: 0.5em 1em;
 }
 
 a.imagem {
@@ -262,12 +263,6 @@ a.texto {
 	background-color: white;
 }
 
-/*.content_center1 {
-	width: 100%;
-	margin: 0em auto;
-	
-}
-*/
 .content_center {
 	width: 330px;
 	height: 50px;
@@ -288,34 +283,30 @@ a.texto {
 	text-align: justify;
 }
 
-.content_center_text_in {
-	font-size: 10px;
-	font-weight: bold;
-	float: right;
-	text-align: justify;
-}
 
 .texto,.title,.subtitle {
-	font-size: 0.8em;
+	/*font-size: 0.8em;*/
 	color: black;
 	font-style: normal;
 	text-align: justify;
-	line-height: 1.75em;
-	margin: 0em 1em;
-	padding: 0.3em 1em;
+	/*line-height: 1.75em;*/
+	margin: 0em 5%;
+	/*padding: 0.3em 1em;*/
 }
 
 .title {
-	font-size: x-large;
+	/*font-size: x-large;*/
+	font-size: large;
 	color: #23466C;
 	font-weight: bold;
-	margin: 1em 1em;
+	margin-bottom: 1em;
 }
 
 .subtitle {
-	font-size: large;
+	/*font-size: large;*/
 	font-weight: bold;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
+	/*margin-bottom: 0em;*/
 }
 
 .content_seta {
@@ -341,7 +332,7 @@ a.texto {
 }
 
 .content_link {
-	font-size: 11px;
+	
 	color: #666666;
 }
 

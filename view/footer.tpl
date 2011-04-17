@@ -7,6 +7,6 @@
 		<a href='obrigacao.php' title='Obrigações' class='footer_text'>Obrigações</a> |
 		<a href='privacidade.php' title='Políticas de Privacidade' class='footer_text'>Políticas de Privacidade</a>
 	
-	<div class='footer_texto'>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</div>
+	<p>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</p>
 	{include file='validadores.tpl'}
 </div>

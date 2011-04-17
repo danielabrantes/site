@@ -3,7 +3,9 @@
 	<p>Tele-remessas</p>
 </div>
 <div class='subtitle'>A segurança e rapidez MoneyOne ao alcance do telefone</div>
-<p>Clientes MoneyOne conseguem realizar transferências sem sair de casa ou do trabalho através do nosso serviço de tele-remessas. Veja como é simples: 1 - O cliente realiza transferência ou depósito (nesse caso, deve ser informado no ato do depósito o nome do depositante) para qualquer uma das nossas contas listadas abaixo.
+<div class='texto'>
+Clientes MoneyOne conseguem realizar transferências sem sair de casa ou do trabalho através do nosso serviço de tele-remessas. Veja como é simples: 1 - O cliente realiza transferência ou depósito (nesse caso, deve ser informado no ato do depósito o nome do depositante) para qualquer uma das nossas contas listadas abaixo.
+</div>
 <div class='clear'></div>
 <div class='textoConta'>
 	<div class='contas'>

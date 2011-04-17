@@ -1,6 +1,8 @@
-{extends file='pagina.tpl'} {block name='pagina'}
-<div class='title'>transferências</div>
-<div class='subtitle'>(remessas)</div>
+{extends file='pagina.tpl'}
+{block name='pagina'}
+<div class='title'>Transferências</div>
+<div class='subtitle'>Remessas</div>
+<div class='texto'>
 Com a MoneyOne é muito simples e rápido fazer sua transferência. Temos três opções de envio dinheiro de Portugal para o exterior disponível, assim você escolha a que melhor se adapta para você.
 Você pode fazer uma transferência de fundos através de uma das nossas <a href="lojas.php">Lojas</a>
 
@@ -21,4 +23,5 @@ a) Prazo de Pagamento: a ordem de transferência fica disponível para ser receb
 	<li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" class="content_link">Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
 	<li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" class="content_link">Código de Ética e de Conduta</a></li>
 </ul>
+</div>
 {/block}

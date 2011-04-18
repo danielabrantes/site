@@ -24,5 +24,4 @@
 		<li>Trocamos libra, dólar, euro e real.</li>
 	</ul>
 </div>
-</div>
 {/block}

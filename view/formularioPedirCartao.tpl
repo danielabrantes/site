@@ -14,7 +14,7 @@
 			<input name="telefone" type="text" size="20" value="961236985" />*
 		</div>
 		<div>
-			<input name="cadastro" type="checkbox" />Já tenho cadastro numa das lojas da MoneyOne - Portugal. <input name="regulamento" type="checkbox" />Li e concordo com o <a href="regulamento.php" class="content_link">Regulamento do Cartão de Pontos</a>.* <input name="informacao" type="checkbox" />Não desejo receber informações sobre promoções da MoneyOne.
+			<input name="cadastro" type="checkbox" />Já tenho cadastro numa das lojas da MoneyOne - Portugal. <input name="regulamento" type="checkbox" />Li e concordo com o <a href="regulamento.php" >Regulamento do Cartão de Pontos</a>.* <input name="informacao" type="checkbox" />Não desejo receber informações sobre promoções da MoneyOne.
 		</div>
 	</fieldset>
 	<input style='float: right; margin-right: 153px; margin-top: 5px;' type='submit' name='enviar' value="ENVIAR" />

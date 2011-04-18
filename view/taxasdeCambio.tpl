@@ -7,7 +7,7 @@
 </div>
 <div class='subtitle'>Preçário</div>
 <div class='texto'>
-	Consulte o<a href="ficheiros/precario.pdf" target="_blank" class="content_link"> preçário</a>
+	Consulte o<a href="ficheiros/precario.pdf" target="_blank" > preçário</a>
 </div>
 <div class='subtitle'>Multibanco</div>
 <div class='texto'>
@@ -20,11 +20,11 @@ Existem dois tipos de transferência. A urgente, que é paga no mesmo dia quando
 Antes de iniciar qualquer operação financeira pela MoneyOne, leia atentamente os seguintes documentos legais, que regulamentam os nossos serviços:
 <div class='texto'>
 	<ul>
-		<li><a href="ficheiros/aviso11-2005.pdf" target="_blank" class="content_link">Aviso n.º11/2005 do Banco de Portugal</a></li>
-		<li><a href="ficheiros/Instrucao262005.pdf" target="_blank" class="content_link">Instrução n.º26/2005 do Banco de Portugal</a></li>
-		<li><a href="ficheiros/republica.pdf" target="_blank" class="content_link">Legislação do Diário da República</a></li>
-		<li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" class="content_link">Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
-		<li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" class="content_link">Código de Ética e de Conduta</a></li>
+		<li><a href="ficheiros/aviso11-2005.pdf" target="_blank" >Aviso n.º11/2005 do Banco de Portugal</a></li>
+		<li><a href="ficheiros/Instrucao262005.pdf" target="_blank" >Instrução n.º26/2005 do Banco de Portugal</a></li>
+		<li><a href="ficheiros/republica.pdf" target="_blank" >Legislação do Diário da República</a></li>
+		<li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" >Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
+		<li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" >Código de Ética e de Conduta</a></li>
 	</ul>
 	</div>
 </div>

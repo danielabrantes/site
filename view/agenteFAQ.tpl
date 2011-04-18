@@ -5,10 +5,10 @@
 <p>Ao oferecer o serviço, você tem uma oportunidade única de aproveitar a significativa procura já existente de transferências de fundos.</p>
 <div class='subtitle'>Mais informações</div>
 <ul>
-	<li><a href="agenteAgente.php" class="content_link">Benefícios para agente</a></li>
-	<li><a href="agenteConsumidor.php" class="content_link">Benefícios para os consumidores</a></li>
-	<li><a href="agenteTornarAgente.php" class="content_link">Como tornar-se um Agente MoneyOne</a></li>
-	<li><a href="agenteFAQ.php" class="content_link">Perguntas frequentes</a>
+	<li><a href="agenteAgente.php" >Benefícios para agente</a></li>
+	<li><a href="agenteConsumidor.php" >Benefícios para os consumidores</a></li>
+	<li><a href="agenteTornarAgente.php" >Como tornar-se um Agente MoneyOne</a></li>
+	<li><a href="agenteFAQ.php" >Perguntas frequentes</a>
 	</li>
 </ul>
 <div class='title'>Perguntas frequentes</div>

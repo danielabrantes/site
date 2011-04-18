@@ -263,6 +263,8 @@ a.texto {
 	background-color: white;
 }
 
+	
+
 .content_center {
 	width: 330px;
 	height: 50px;
@@ -300,13 +302,17 @@ a.texto {
 	color: #23466C;
 	font-weight: bold;
 	margin-bottom: 1em;
+	text-transform: uppercase;
+	
 }
 
 .subtitle {
 	/*font-size: large;*/
 	font-weight: bold;
+	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	/*margin-bottom: 0em;*/
+	text-transform: capitalize;
 }
 
 .content_seta {
@@ -331,15 +337,12 @@ a.texto {
 	margin-left: 40px;
 }
 
-.content_link {
-	
-	color: #666666;
-}
 
-.content_link:hover {
-	font-size: 11px;
-	color: #000;
-	text-decoration: none;
+a{
+	color:#999;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 .bancos_imagem {
@@ -593,6 +596,9 @@ ul.menubar a:hover {
 	font-style: normal;
 	text-align: justify;
 }
+.promocao .title,.promocao .subtitle{
+	text-align: center;
+}
 
 .contas {
 	width: 100%;
@@ -621,7 +627,7 @@ ul.menubar a:hover {
 }
 
 .center {
-	background-color: white;
+	text-align: center;
 }
 
 .leftConta {
@@ -702,15 +708,15 @@ input:focus,input:HOVER {
 }
 
 .nome_equipa {
-	font-size: 0.85em;
+	/*font-size: 0.85em;*/
 	font-weight: bold;
-	margin-left: 6.7em;
-	margin-top: 2em;
+	margin-left: 8%;
+	/*margin-top: 2em;*/
 }
 
 .foto_equipa {
 	float: left;
-	margin: 1em 1em;
+	margin: 1%;
 }
 
 a,a:visited,a:active,a:hover {
@@ -740,4 +746,5 @@ a,a:visited,a:active,a:hover {
 #content {
 	margin: 0em auto;
 	width: 1000px;
+	background-color: white;
 }

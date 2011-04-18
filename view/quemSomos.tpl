@@ -1,7 +1,5 @@
 {extends file='pagina.tpl'} {block name='pagina'}
-<div class='title'>
-	Quem somos
-</div>
+<div class='title'>Quem somos</div>
 <div class='subtitle'>Excelência para ultrapassar as expectativas</div>
 <div class='texto'>
 A MoneyOne é uma organização que opera no mercado financeiro de envio e câmbio de dinheiro e que enfrenta imensos desafios e oportunidades neste mundo globalizado. Hoje mais do que nunca encaramos com rigor as actividades de câmbio e de envio de dinheiro pelo mundo. Nossa política é perceber os desafios para poder dar a melhor resposta, e que resulte num crescimento sem precedentes.

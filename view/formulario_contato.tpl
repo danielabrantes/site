@@ -1,23 +1,22 @@
 <form action="faleConosco.php" method='post'>
 	<fieldset style="width: 850px;">
 		<legend class="cor">Formulário de Contato</legend>
-
-			<td class="coluna_in">Nome:
+			<div class="coluna_in">Nome:
 				</div>
 
-			<td class="coluna_in_in"><input type="text" name="nome" size="65" value="nome" />*
+			<div class="coluna_in_in"><input type="text" name="nome" size="65" value="nome" />*
 				</div>
 
-			<td class="coluna_in">Email:
+			<div class="coluna_in">Email:
 				</div>
 
-			<td class="coluna_in_in"><input name="email" type="text" size="65" value="email@dominio.pt" />*
+			<div class="coluna_in_in"><input name="email" type="text" size="65" value="email@dominio.pt" />*
 				</div>
 
-			<td class="coluna_in">Loja:
+			<div class="coluna_in">Loja:
 				</div>
 
-			<td class="coluna_in_in"><select name="loja" class="combobox">
+			<div class="coluna_in_in"><select name="loja" class="combobox">
 					<option value="Albufeira">Albufeira</option>
 					<option value="Amadora">Amadora</option>
 					<option value="Amora">Amora</option>
@@ -41,17 +40,17 @@
 			</select>*
 				</div>
 
-			<td class="coluna_in">Assunto:
+			<div class="coluna_in">Assunto:
 				</div>
 
-			<td class="coluna_in_in"><input name="assunto" type="text" size="65" value="assunto" />*
+			<div class="coluna_in_in"><input name="assunto" type="text" size="65" value="assunto" />*
 				</div>
 
-			<td class="coluna_in">Mensagem:
+			<div class="coluna_in">Mensagem:
 				</div>
 
-			<td height="259" colspan="2" valign="middle"><textarea name="mensagem" cols="95" rows="15">Mensagem</textarea>* <input name="receber" type="checkbox" />Desejo receber informações sobre promoções da MoneyOne.
-					</p>
+			<div height="259" colspan="2" valign="middle"><textarea name="mensagem" cols="95" rows="15">Mensagem</textarea>* <input name="receber" type="checkbox" />Desejo receber informações sobre promoções da MoneyOne.
+
 					</div>
 					</fieldset> <input style='float: right; margin-right: 153px; margin-top: 5px;' type='submit' name='contacto' value="ENVIAR" />
 					</form>

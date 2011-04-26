@@ -1,12 +1,19 @@
-<div height="200px" width="220px">
-	<div class='bold'>{$nome}</div>
-	<img src="{$foto|default:" default"}" alt='imagem' height="150px" width="200px" />
-	<a href="{$mapa|default:" default"}" target="_blank" >Ver Mapa</a>
+<div class='loja'>
+    <div class='loja1'>
+        <div class='subtitle'>{$nome}</div>
+        <a href="{$mapa|default:" default"}" target="_blank" >
+            <img src="{$foto|default:" default"}" alt='imagem'  width="100%" height="10%"/>
+            <div class='vermapa'>Ver Mapa</div>
+        </a>
+    </div>
+    <div class='loja2'>
+        <div class='text'>
+		<div class='lojamorada'>{$morada}</div>
+                <div class='lojacontato'> {$contacto}</div>
+		<div >Horário de Funcionamento</div>
+		<div class='lojahorario'>{$horario}</div>
+        </div>
+    </div>
+    
 </div>
-<div height="200px" width="320px">
-	<div class='textoLoja'>
-		{$morada} {$contacto}
-		<div class='bold'>Horário de Funcionamento</div>
-		{$horario}
-	</div>
-</div>
+

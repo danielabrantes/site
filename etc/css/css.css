@@ -41,7 +41,7 @@ html {
     padding: 0px;
     text-decoration: none;
     /*behavior: url(border-radius.htc);*/
-    
+
 }
 
 body {
@@ -82,6 +82,15 @@ body {
     text-align: center;
     color:black;
 }
+.onlyleft{
+    float:left;
+    text-align: left;
+}
+.onlyright{
+    float:right;
+    text-align: right;
+}
+
 #botoesloja{
 
     text-align: center;
@@ -149,8 +158,8 @@ body {
     filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
     /* IE8 */
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
-    /*background: url(../../imagens/estrutura/fundo_links.png) no-repeat;*/
-    
+        /*background: url(../../imagens/estrutura/fundo_links.png) no-repeat;*/
+
 
 
 }
@@ -161,7 +170,7 @@ body {
 }
 
 #receber_noticias input{
-    
+
     margin: 1em 0em;
     display: inline;
     text-align: center;
@@ -207,10 +216,10 @@ a.content_header_link:hover {
 }
 
 .seta{
-    
+
 }
 #receber_noticias input{
-    
+
 }
 #receber_noticias input[type="image"]{
     position: relative;
@@ -396,8 +405,6 @@ a.texto {
 .content_lista {
     margin-left: 40px;
 }
-
-
 a{
     color:#999;
 }

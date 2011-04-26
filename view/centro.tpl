@@ -29,7 +29,7 @@
 
     <form name='noticias' action='index.php' method='post'>
         <div class='seta'>
-            <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' />
+            <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' value='email@email.com'/>
             <input type='image' src='../../imagens/estrutura/seta.png'/>
         </div>
     </form>		

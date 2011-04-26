@@ -19,9 +19,19 @@ font-face {
 }
 
 html {
-    background-color: #ffffff;
+    font-family: 'HelveticaWorldRegular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
+    background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
+    background: -o-linear-gradient(#ffff00, #aaaa00);
+    /* IE5.5 - IE7 */
+    filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 
 * { /*-moz-border-radius: 15px;
@@ -31,36 +41,23 @@ html {
     padding: 0px;
     text-decoration: none;
     /*behavior: url(border-radius.htc);*/
+    
 }
 
-body { /*font-family: Verdana, Geneva, sans-serif;*/
+body {
     font-family: 'HelveticaWorldRegular', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    /*background-color: #ffffff;*/
-    /*background: #ffffcf url(../../imagens/estrutura/barra_amarela_2.jpg) repeat-x;*/
-    /*background-image:url('img_tree.png');
-	background-repeat:no-repeat;
-	background-position:left top;
-	*/ /*background-color: yellow;*/ /* IE6 & IE7 */
-    /*filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#CCCCCC');*/
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
+    background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
+    background: -o-linear-gradient(#ffff00, #aaaa00);
+    /* IE5.5 - IE7 */
+    filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
     /* IE8 */
-    /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#CCCCCC')";*/
-    /*background: #0A284B;
-        background: -webkit-gradient(linear, left top, left bottom, from(#0A284B), to(#135887));
-        background: -moz-linear-gradient(top, #0A284B, #135887);
-        background: -o-linear-gradient(#0A284B, #135887);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0A284B', endColorstr='#135887');
-        zoom:1;
-    */
-    background-color: #ffffff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffff00),to(#ffffff) );
-    background: -moz-linear-gradient(top, #ffff00, #ffffff);
-    background: -o-linear-gradient(#ffff00, #ffffff);
-    /* IE6 & IE7 */
-    filter: progid :DXImageTransform.Microsoft.Gradient (GradientType =0, StartColorStr ='#ffff00', EndColorStr ='#ffffff' );
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff00', endColorstr='#ffffff');*/
-    zoom: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 
 .loja{
@@ -145,21 +142,17 @@ body { /*font-family: Verdana, Geneva, sans-serif;*/
 .header_menu {
     height: 3em;
     background-color: #ffff00;
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),
-        to(#FFFF00), color-stop(.5, #FFFFFF) );
-    background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%)
-        ;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFF00), color-stop(.5, #FFFFFF) );
+    background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%);
     background: -o-linear-gradient(#ffff00, #aaaa00);
     /* IE5.5 - IE7 */
-    filter: progid :         DXImageTransform.Microsoft.Gradient (      
-        GradientType =         0, StartColorStr =         #FFFFFF00,
-        EndColorStr =      
-        #FFFFFFFF );
+    filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
     /* IE8 */
-    -ms-filter:
-        "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
-        ;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
     /*background: url(../../imagens/estrutura/fundo_links.png) no-repeat;*/
+    
+
+
 }
 
 #receber_noticias {

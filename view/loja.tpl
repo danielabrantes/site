@@ -2,7 +2,7 @@
     <div class='loja1'>
         <div class='subtitle'>{$nome}</div>
         <a href="{$mapa|default:" default"}" target="_blank" >
-            <img src="{$foto|default:" default"}" alt='imagem'  width="100%" height="10%"/>
+            <img src="{$foto|default:" default"}" alt='imagem'  width="100%" />
             <div class='vermapa'>Ver Mapa</div>
         </a>
     </div>

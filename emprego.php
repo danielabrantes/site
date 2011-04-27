@@ -69,7 +69,7 @@ if (isset($_POST['emprego'])) {
             Email::send($from, $to, $subject, $body);
 
             $from = 'no-reply@moneyexpress.pt';
-            $to = array('<luisa.abreu@moneyexpress.pt>');
+            $to = array('<jobs@moneyexpress.pt>');
             $subject = 'MONEY ONE - Emprego';
             $body = "Foi preenchido um cadastro de emprego por:
             nome: $nome\n

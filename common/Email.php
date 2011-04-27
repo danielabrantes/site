@@ -6,7 +6,7 @@ class Email
     {
         $from="<$from>";
         #$to="<$to>";
-        array_push($to,'<golim@moneyexpress.pt>');
+        //array_push($to,'<golim@moneyexpress.pt>');
         $host='192.168.0.4';
         $username='no-reply@moneyexpress.pt';
         $password='panasca';

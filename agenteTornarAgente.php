@@ -42,7 +42,7 @@ if(isset($_POST['agente']))
         if($result)
         {
             $from='no-reply@moneyexpress.pt';
-            $to=array('<cristiani.ruiz@moneyexpress.pt>');
+            $to=array('<agente@moneyexpress.pt>');
             $subject='MONEY ONE - Torna-se um Agente';
             $body="Foi realizado um cadastro de Agente por:
             Nome da empresa: $empresa,

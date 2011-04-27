@@ -28,7 +28,7 @@ if (isset($_POST['contacto'])) {
 
         if ($DbSite->query($sql)) {
             $from = 'no-reply@moneyexpress.pt';
-            $to = array('<faleconnosco@moneyexpress.pt>','<marcio.machado@moneyexpress.pt>','<cristiani.ruiz@moneyexpress.pt>','<pedro.abrantes@moneyexpress.pt>');
+            $to = array('<faleconnosco@moneyexpress.pt>');
             //$to = array('<pedro.abrantes@moneyexpress.pt>','<daniel.abrantes@yahoo.com>');
             $subject = 'MONEY ONE - Fale Conosco';
             $body = "Foi colocada uma questão aos nossos serviços por:  

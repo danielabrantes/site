@@ -25,8 +25,7 @@
     <div class='clear'></div>
 </div>
 <div id='receber_noticias'>
-    <p>Receba as últimas notícias sobre promoções e eventos no seu email, subscreva:</p>
-
+    <p>Digite aqui seu email para receber informações sobre as promoções MoneyOne</p>
     <form name='noticias' action='index.php' method='post'>
         <div class='seta'>
             <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' value='email@email.com'/>

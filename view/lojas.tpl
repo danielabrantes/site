@@ -76,7 +76,7 @@ foto='imagens/lojas/ag_cascais.jpg'
 mapa='http://maps.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=Alameda+Duquesa+de+Palmela+Cascais&sll=38.700974-9.416315&sspn=0.009830.022724&ie=UTF8&hq=&hnear=Alameda+Duquesa+de+Palmela+Cascais&ll=38.700332-9.41766&spn=0.0024570.005681&t=h&z=18'
 morada='Alameda Duquesa de Palmela<br />Loja 3 BLOCO A<br />2750-335 Cascais'
 contacto='Tel: +351 211 452 517<br />Tel: +351 214 830 404<br />Fax: +351 214 820 899'
-horario='2ª a Sábado: 09h às 20h<br />Domingo: 10h às 18h'}
+horario='2ª a Sábado: 09h às 20h<br />Domingo: 10h às 18h<br />Almoço das 13h às 14h'}
 {include
 file='loja.tpl'
 nome='Charneca da Caparica'

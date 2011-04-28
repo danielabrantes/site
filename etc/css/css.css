@@ -25,6 +25,7 @@ html {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    background-color: #FFFFF;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
     background: -o-linear-gradient(#ffff00, #aaaa00);
@@ -40,6 +41,7 @@ html {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    background-color: #FFFFF;
     /*behavior: url(border-radius.htc);*/
 
 }
@@ -287,29 +289,7 @@ a.texto {
     float: left;
 }
 
-.content_footer_banco_uk {
-    width: 122px;
-    float: left;
-    height: 60px;
-    background: url(../../imagens/bancos/banco_uk.jpg) no-repeat;
-    background-position: right;
-}
 
-.content_footer_banco_pt {
-    width: 122px;
-    float: left;
-    height: 60px;
-    background: url(../../imagens/bancos/banco_pt.jpg) no-repeat;
-    background-position: center;
-}
-
-.content_footer_banco_es {
-    width: 122px;
-    float: left;
-    height: 60px;
-    background: url(../../imagens/bancos/banco_es.jpg) no-repeat;
-    background-position: left;
-}
 
 #pscroller2 {
     width: 330px;

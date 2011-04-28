@@ -1,13 +1,15 @@
 {extends file='pagina.tpl'} {block name='pagina'}
 <div class='title'>POLÍTICAS DE PRIVACIDADE</div>
+<div class='texto'>
 O site da MoneyOne é colocado gratuitamente à disposição do utilizador
 para uso pessoal deste, sujeito aos Termos e Condições. A utilização do
 Site implica a aceitação dos presentes Termos e Condições da MoneyOne. A
 utilização do site implica a obrigatoriedade de o utilizador ser maior
 de idade (idade mínima de 18 anos) e poder celebrar contratos
 vinculativos.
-
+</div>
 <div class='subtitle'>CONTEÚDO NO SITE</div>
+<div class='texto'>
 O site da MoneyOne pode ser acessado em qualquer ponto do mundo, por
 qualquer indivíduo que disponha de uma ligação de rede à Internet.
 Contudo, o site poderá não se encontrar permanentemente acessível devido
@@ -17,16 +19,18 @@ imprevistas.O conteúdo do Site, incluindo conteúdos publicitários,
 destinam-se a serem utilizados e apresentados apenas onde a sua
 utilização e apresentação sejam permitidas, de acordo com as leis e
 regulamentos aplicáveis.
-
+</div>
 <div class='subtitle'>REGISTO</div>
+<div class='texto'>
 Caso o utilizador efectue o seu registo ou forneça os seus dados
 pessoais através do site da MoneyOne, o mesmo deverá assegurar-se de
 que, os dados fornecidos no ato do registo ou em qualquer outra altura
 se encontram correctos e completos. O utilizador compromete-se a
 notificar de imediato quaisquer alterações necessárias às informações
 fornecidas no ato do registo.
-
+</div>
 <div class='subtitle'>REMESSA ON-LINE</div>
+<div class='texto'>
 Caso seja utilizado o sistema de Remessa On-line da MoneyOne
 disponibilizado no respectivo site, os termos e condições relativos aos
 valores e aos cancelamentos aplicam-se a cada remessa efetuada e o
@@ -63,4 +67,6 @@ feito uma Remessa On-line, irá receber uma mensagem de confirmação sobre
 a sua remessa. Pode utilizar este documento como garantia da remessa
 efetuada. Se tiver sugestões ou observações sobre esta declaração de
 privacidade, por favor envia um email para
-apoio.cliente@moneyexpress.pt. {/block}
+apoio.cliente@moneyexpress.pt.
+</div>
+{/block}

@@ -1,6 +1,7 @@
 <form action="faleConosco.php" method='post'>
     <fieldset>
         <legend class="cor">Formulário de Contato</legend>
+        <div class='clear'>&nbsp;</div>
         <div class='left'>Nome:</div><div class='right'><input type="text" name="nome" size="65" value="nome" />*</div>
         <div class='left'>Email:</div><div class='right'><input name="email" type="text" size="65" value="email@dominio.pt" />*</div>
         <div class='left'>Loja:</div><div class='right'>

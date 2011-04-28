@@ -27,8 +27,11 @@
             </li>
         </ul>
     </div>
+    <div class='clear'>&nbsp;</div>
+    <div class='footnote'>
     (*) - O documento de identificação pode ser Cartão de Cidadão/Bilhete de Identidade ou Passaporte ou Título de Residência.
-    <div style='margin-left: 20px;'>Para o seguinte endereço: Av. da Liberdade Nº 424, piso 5 sala 4 4710-249 Braga</div>
+    Para o seguinte endereço: Av. da Liberdade Nº 424, piso 5 sala 4 4710-249 Braga
     Após recibida a documentação será enviado para a sua morada o seu cartão de cliente MoneyOne. Podendo assim efectuar remessas.
+    </div>
 </div>
 {/block}

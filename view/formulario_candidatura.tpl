@@ -1,6 +1,7 @@
 <form name="candidatura" action="emprego.php" method='post'>
-    <fieldset >
+    <fieldset>
         <legend class="cor">Dados Pessoais</legend>
+        <div class='clear'>&nbsp;</div>
         <div class='left'>Nome Completo:</div><div class='right'><input name="nome" type="text" size="60" value="nome" /></div>
         <div class='left'>Nacionalidade:</div><div class='right'><input name="nacionalidade" type="text" size="25" value="Portuguesa" /></div>
         <div class='left'>N.º Doc. Identificação:</div><div class='right'><input name="identifDoc" type="text" size="25" value="12345678" /></div>
@@ -20,7 +21,9 @@
         <div class='left'>Telefone:</div><div class='right'><input name="telefone" type="text" size="20" maxlength="9" value="961213456" /></div>
         <div class='left'>Email:</div><div class='right'><input name="email" type="text" size="46" value="email@mail.com" /></div>
         <div class='left'>Nº Carta de Condução</div><div class='right'><input name="cartaConducao" type="text" size="9" value="123456789" /></div>
+        <div class='clear'>&nbsp;</div>
         <legend class="cor">Dados Académicos</legend>
+        <div class='clear'>&nbsp;</div>
         <div class='left'>Grau de Ensino</div><div class='right'>
             <select name="grauEnsino" class="combobox">
                 <option value="Ensino Basico">Ensino Básico</option>
@@ -39,9 +42,12 @@
         <div class='left'>Russo</div><div class='right'><input type="radio" name="valorRU" value="Bom" /> Bom <input type="radio" name="valorRU" value="Razoável" checked='checked' /> Razoável <input type="radio" name="valorRU" value="Fraco" /> Fraco</div>
         <div class='left'>Outra língua</div><div class='right'><input name="linguaOutra" type="text" size="25" value="Portuguesa" /> <input type="radio" name="valorOutra" value="Bom" /> Bom <input type="radio" name="valorOutra" value="Razoável" checked='checked' /> Razoável  <input type="radio" name="valorOutra" value="Fraco" /> Fraco</div>
         <div>Conhecimentos de informática:</div>
+        <div class='clear'>&nbsp;</div>
         <div class='left'>Microsoft Word</div><div class='right'><input type="radio" name="valorWord" value="Bom" /> Bom <input type="radio" name="valorWord" value="Razoável" checked='checked' /> Razoável <input type="radio" name="valorWord" value="Fraco" /> Fraco</div>
         <div class='left'>Microsoft Excel</div><div class='right'><input type="radio" name="valorExcel" value="Bom" /> Bom <input type="radio" name="valorExcel" value="Razoável" checked='checked' /> Razoável <input type="radio" name="valorExcel" value="Fraco" /> Fraco</div>
+        <div class='clear'>&nbsp;</div>
         <legend class="cor">Dados Profissionais</legend>
+        <div class='clear'>&nbsp;</div>
         <div class='left'>Situação profissional atual:</div><div class='right'>
             <select name="situacaoProfissional">
                 <option value="Estagio">Estágio</option>

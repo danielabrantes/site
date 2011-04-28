@@ -137,12 +137,12 @@ body {
 }
 .footer {
     text-align: center;
-    margin: 1em 0em;
+    margin: 0.5em 0em;
 }
 
 .header {
     background: url("../../imagens/banner/banner.jpg") no-repeat;
-    height: 226px;
+    height: 200px;
     /*border: tomato 1px solid;*/
 }
 
@@ -644,10 +644,11 @@ ul.menubar a:hover {
 }
 
 .textoConta {
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: black;
     font-style: normal;
     text-align: justify;
+    /*font-family:monospace;*/
 }
 .promocao .title,.promocao .subtitle{
     text-align: center;
@@ -789,13 +790,13 @@ a,a:visited,a:active,a:hover {
     height: 22em;
     border: 0em;
 }
-
+/*
 .validadores {
     margin: 0em 1em;
     padding: 0em 1em;
     text-align: center;
 }
-
+*/
 #content {
     margin: 0em auto;
     width: 1000px;

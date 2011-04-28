@@ -1,13 +1,4 @@
-
-{if isset($esqueciSenha) and $esqueciSenha==1}
-<form action='esqueciSenha.php' method='post'>
-    <p style="text-align: center; margin-top: 20px;">Introduza o email com o qual se cadastrou:</p>
-    <p style="text-align: center;">
-        <input name='esqueciSenha' type='text' value='email@moneyone.pt' /> <input type='submit' value='enviar' />
-    </p>
-</form>
-{else}
-<script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script>
+<div><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
 <div class='icons'>
     <div id='title_icons'>Visite o nosso blog e saiba de todas as nossas promoções e eventos</div>
     <div class='iconmaistexto'>
@@ -27,13 +18,13 @@
 <div id='receber_noticias'>
     <p>Digite aqui seu email para receber informações sobre as promoções MoneyOne</p>
     <form name='noticias' action='index.php' method='post'>
-        <div class='seta'>
+        
             <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' value='email@email.com'/>
             <input type='image' src='../../imagens/estrutura/seta.png'/>
-        </div>
+        
     </form>		
     <div class='clear'></div>
 </div>
-{/if}
+
 
 

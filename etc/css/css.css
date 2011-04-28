@@ -169,13 +169,13 @@ body {
     text-align: center;
 }
 
-#receber_noticias input{
-
-    margin: 1em 0em;
-    display: inline;
-    text-align: center;
+#receber_noticias input[type="image"]{
+    position: relative;
+    top:12px;
+    left:-30px;
+    width: 32px;
+    height: 32px;
 }
-
 #title_icons {
     margin-bottom: 2em;
     text-align: center;
@@ -213,20 +213,6 @@ a.content_header_link {
 a.content_header_link:hover {
     color: #999;
     text-decoration: none;
-}
-
-.seta{
-
-}
-#receber_noticias input{
-
-}
-#receber_noticias input[type="image"]{
-    position: relative;
-    top:30px;
-    left:-10px;
-    width: 32px;
-    height: 32px;
 }
 
 
@@ -543,7 +529,7 @@ ul.menubar a {
 Regra 5 - Classe que define o tamanho e a cor do menu vertical
 */
 ul.menu,ul.menu ul {
-    width: 150px;
+    width: 10em;
 }
 
 /*

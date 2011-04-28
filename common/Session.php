@@ -46,3 +46,16 @@ if (!isset($_SESSION['view'])) {
     $_SESSION['view'] = View::getInstance();
 }
 $view = $_SESSION['view'];
+
+
+
+
+if (isset($_SESSION['$language'])) {
+    $language=$_SESSION['$language'];
+} else {
+    $language = isset($_GET['language']) ? $_GET['language'] : null;
+    $_SESSION['$language'] = $language;
+}
+
+//printArray($_SESSION);
+$smarty->assign('language', $language);

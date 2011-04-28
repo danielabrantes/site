@@ -9,14 +9,6 @@ mapa="http://maps.google.pt/maps?f=q&source=embed&hl=pt-PT&geocode=&q=103A+Oxfor
 morada="103A Oxford St. 1 st floorW1D 2HG"
 contacto="Tel: +44 0207 7287 4104"
 horario=""}
-{include file="loja.tpl"
-nome="Stamford Hill"
-foto="imagens/lojas/bournemouth.jpg"
-mapa="http://maps.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=20+St+Michaels+Road+++BH2+5DX+Bournemouth&sll=51.52546,-0.129519&sspn=0.031346,0.090895&g=103A+Oxford+St,+1st+Floor,+W1D+2HG&ie=UTF8&hq=&hnear=20+St+Michael%27s+Rd,+Bournemouth,+Dorset+BH2+5DX,+United+Kingdom&ll=50.719178,-1.885164&spn=0.008029,0.022724&z=16"
-morada="158 Clapton Common - E5"
-contacto=""
-horario=''}
-<div class='clear'></div>
 {include
 file="loja.tpl"
 nome="Vauxhall"
@@ -26,5 +18,12 @@ morada="26 Wilcox Road - SW8 2UX"
 contacto="Tel: +44 0207 720 0357"
 horario=''}
 <div class='clear'></div>
-<div class='footnote'>*Junho a Setembro</div>
+{include file="loja.tpl"
+nome="Stamford Hill"
+foto="imagens/lojas/stamford.jpg"
+mapa="http://maps.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=20+St+Michaels+Road+++BH2+5DX+Bournemouth&sll=51.52546,-0.129519&sspn=0.031346,0.090895&g=103A+Oxford+St,+1st+Floor,+W1D+2HG&ie=UTF8&hq=&hnear=20+St+Michael%27s+Rd,+Bournemouth,+Dorset+BH2+5DX,+United+Kingdom&ll=50.719178,-1.885164&spn=0.008029,0.022724&z=16"
+morada="158 Clapton Common - E5"
+contacto=""
+horario=''}
+<div class='clear'></div>
 {/block}

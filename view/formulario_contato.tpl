@@ -2,8 +2,8 @@
     <fieldset>
         <legend class="cor">Formulário de Contato</legend>
         <div class='clear'>&nbsp;</div>
-        <div class='left'>Nome:</div><div class='right'><input type="text" name="nome" size="65" value="nome" />*</div>
-        <div class='left'>Email:</div><div class='right'><input name="email" type="text" size="65" value="email@dominio.pt" />*</div>
+        <div class='left'>Nome:</div><div class='right'><input type="text" name="nome" size="65" value="nome" /></div>
+        <div class='left'>Email:</div><div class='right'><input name="email" type="text" size="65" value="email@dominio.pt" /></div>
         <div class='left'>Loja:</div><div class='right'>
             <select name="loja" >
                 <option value="Albufeira">Albufeira</option>
@@ -26,10 +26,10 @@
                 <option value="Quarteira">Quarteira</option>
                 <option value="Queluz">Queluz</option>
                 <option value="Setúbal">Setúbal</option>
-            </select>*
+            </select>
         </div>
-        <div class='left'>Assunto:</div><div class='right'><input name="assunto" type="text" size="65" value="assunto" />*</div>
-        <div class='left'>Mensagem:</div><div class='right'><textarea name="mensagem" cols="50" rows="10">Mensagem</textarea>*</div>
+        <div class='left'>Assunto:</div><div class='right'><input name="assunto" type="text" size="65" value="assunto" /></div>
+        <div class='left'>Mensagem:</div><div class='right'><textarea name="mensagem" cols="50" rows="10">Mensagem</textarea></div>
 
 
         <div class='clear'>&nbsp;</div>

@@ -10,4 +10,3 @@
 <link rel='stylesheet' type='text/css' href='etc/css/css.php' />
 <script charset="utf-8" type="text/javascript" src='etc/js/menu.php'></script>
 </head>
-<body onload='menuDropDown();'>

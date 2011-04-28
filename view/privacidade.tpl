@@ -1,4 +1,5 @@
-{extends file='pagina.tpl'} {block name='pagina'}
+{extends file='pagina.tpl'}
+{block name='pagina'}
 <div class='title'>POLÍTICAS DE PRIVACIDADE</div>
 <div class='texto'>
 O site da MoneyOne é colocado gratuitamente à disposição do utilizador

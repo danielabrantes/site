@@ -46,6 +46,16 @@ html {
     filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
+.language{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    z-index: 1;
+    
+}
 .language ul{
     /*width: 1000px;
 
@@ -59,30 +69,25 @@ html {
 }
 
 #preload-slideshow {
+    border: 0 none;
+    left: 33%;
+    padding: 0;
     position: absolute;
-    /*width: 100%;*/
-    top: 25%;
-    left: 5%;
-    padding: 0px;
-    border: 0px;
-    
-    width: 100%;
-    
-    /*max-width: 1000px;*/
-    
-    /*position: absolute;
-    top: 0px;
-    left: 0px;*/
+    top: -38px;
+    /*width: 33%;*/
     z-index: 1;
-
+    /*height: 100%;*/
 }
 #preload-slideshow .close {
     position: relative;
-    top: 0%;
-    left: 0%;
+    top: 42px;
+    left: 5px;
     z-index: 2;
 }
-
+#cartazincial{
+    min-height: 700px;
+    max-height: 700px;
+}
 
 .loja{
     width: 50%;

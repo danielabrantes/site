@@ -43,7 +43,7 @@ html {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
     background: -o-linear-gradient(#ffff00, #aaaa00);
-    filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
+     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 .language{
@@ -757,9 +757,7 @@ input:focus,input:HOVER {
     transform: scale(1.03);
 }
 #bonecos{
-    /*border: 1px tomato solid;*/
     padding: 15px;
-
 }
 
 .nome_equipa {

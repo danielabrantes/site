@@ -159,11 +159,11 @@ function pausescroller(content, divId, divClass, delay) {
         + divId
         + '" class="'
         + divClass
-        + '" style="position: relative; overflow: hidden">\n\<div class="innerDiv" style="position: absolute; width: 100%" id="'
+        + '" style="position: relative; overflow: hidden">\n\<div class="innerDiv" style="position:absolute;top:0px;left:0px; width: 100%" id="'
         + divId
         + '1">'
         + content[0]
-        + '</div><div class="innerDiv" style="position: absolute; width: 100%; visibility: hidden" id="'
+        + '</div><div class="innerDiv" style="position:absolute;top:0px;left:0px; width: 100%; visibility: hidden" id="'
         + divId + '2">' + content[1] + '</div></div>')
     var scrollerinstance = this
     if (window.addEventListener)

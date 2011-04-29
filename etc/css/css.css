@@ -376,7 +376,7 @@ a.texto {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     /*margin-bottom: 0em;*/
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 .content_seta {
@@ -513,11 +513,6 @@ ul.menubar a {
     font-weight: bold;
     color: black;
     text-decoration: none;
-    /*
-	font-size: 13px;
-	font-family: Verdana, Geneva, sans-serif;
-	padding: 5px 11px;
-	*/
     padding: 0.4em 0.6em;
 }
 
@@ -540,10 +535,9 @@ ul.menu li {
 Regra 7 - Classe que define a aparencia dos links dos itens do menu vertical
 */
 ul.menu li a {
-    display: block;
     text-decoration: none;
-    font-size: 11px;
-    padding: 5px 10px 5px 5px;
+    padding: 0.3em 0.6em;
+    font-size: 0.85em;
 }
 
 /*

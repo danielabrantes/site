@@ -1,17 +1,6 @@
-
-
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
- 
- 	    //
- 
-
-                        function getInternetExplorerVersion()
-                // Returns the version of Internet Explorer or a -1
-                // (indicating the use of another browser).
+function getInternetExplorerVersion()
+// Returns the version of Internet Explorer or a -1
+// (indicating the use of another browser).
                 {
                 var rv = -1; // Return value assumes failure.
                 if (navigator.appName == 'Microsoft Internet Explorer')
@@ -39,8 +28,8 @@
             }
             
             function bonecos(){
-                var notie="<div><a href='http://www.moneyexpress.pt/livezilla/chat.php' target='_blank' ><img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png'><img id='texto' style='border:0px;width: 139px;height: 100px;' src='imagens/texto.png'><img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png'></a></div>";
-                var ie='<div><a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" ><img id="manel" style="border:0px;width: 75px;height: 100px;" src="imagens/manel.png" onmouseover=estica("manel") onmouseout=encolhe("manel")><img style="border:0px;width: 139px;height: 100px;" src="imagens/texto.png" onmouseover=estica("texto") onmouseout=encolhe("texto")><img id="maria" style="border:0px;width: 75px;height: 100px;" src="imagens/maria.png" onmouseover=estica("maria") onmouseout=encolhe("maria")></a></div>';
+                var notie="<div><a href='http://www.moneyexpress.pt/livezilla/chat.php' target='_blank'><img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png'></div><div id='texto' class='texto' style='border:0px;width: 139px;height: 100px;'>Fale com o Manel ou com a Mônica e tira as suas dúvidas online</div><img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png'></a></div>";
+                var ie='<div><a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" ><img id="manel" style="border:0px;width: 75px;height: 100px;" src="imagens/manel.png" onmouseover=estica("manel") onmouseout=encolhe("manel")></div><div id="texto" class="texto" style="border:0px;width: 139px;height: 100px;">Fale com o Manel ou com a Mônica e tira as suas dúvidas online</div><img id="maria" style="border:0px;width: 75px;height: 100px;" src="imagens/maria.png" onmouseover=estica("maria") onmouseout=encolhe("maria")></a></div>';
                 var versao=getInternetExplorerVersion();
                     // com a versão 9 o css3 é suportado
                 if(versao == -1 || versao == 9)
@@ -57,7 +46,7 @@
             var destaque=new Array();
             destaque[0]='<p class="content_center_title_text">Rapidez, segurança e taxas grátis no envio do seu dinheiro.<br/>';
             destaque[1]='<p class="content_center_title_text">Até 48h a sua remessa é depositada. Se optar pelo modo urgente, seu dinheiro chega no mesmo dia.<br/>';
-            destaque[2]='<p class="content_center_title_text">Na MoneyOne estamos sempre prontos a atendê-lo, descubra qual loja fica mais próxima de você.<br/><a href="lojas.php" class="content_center_text" style="color:#000; float:right;">Nossas lojas</a>';
+            destaque[2]='<p class="content_center_title_text">Na MoneyOne estamos sempre prontos a atendê-lo, descubra qual loja fica mais próxima de você';
             destaque[3]='<p class="content_center_title_text">Promoção relâmpago: faça a sua remessa e ganhe uma capa de passaporte especial.<br/>';
             setTimeout("document.getElementById('preload-slideshow').style.display = 'none';",30000);
         // google analytics
@@ -65,9 +54,9 @@
                         _gaq.push(['_setAccount', 'UA-22071807-1']);
                         _gaq.push(['_trackPageview']);
                         (function() {
-                            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                            var ga = document.createElement('script');ga.type = 'text/javascript';ga.async = true;
                             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                            var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga, s);
                             })();
 
 

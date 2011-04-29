@@ -11,7 +11,7 @@
 </div>
 <div class='subtitle'>Multibanco</div>
 <div class='texto'>
-    Todas as nossas agências dispõem de serviço de pagamento por Multibanco (TPA), para qualquer valor e sem custo adicional.</div>
+    Todas as nossas agências dispõem de serviço de pagamento por Multibanco, para valores igual ou superior a 130€ sem custo adicional.</div>
 <div class='subtitle'>Tipos de câmbio</div>
 <div class='texto'>
     Existem dois tipos de transferência. A urgente, que é paga no mesmo dia quando efectuada até as 15h, e a normal, paga em até 48h. A taxa de câmbio praticada em cada um dos tipos de remessa varia. Para saber quais as condições e taxas em vigor a cada momento, ligue para a nossa central de Apoio ao Cliente (800 207 214 / 211 452 500)</div>

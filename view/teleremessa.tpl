@@ -32,7 +32,7 @@
                 <div class='rightConta'>003502160007110203004</div>
             </div>
             <div class='conta'>
-                <a href="http://www.bes.pt/" target="_blank" title="BES"> <img src="imagens/bancos/bes1.jpg" alt='imagem' /> </a>
+                <a href="http://www.bes.pt/" target="_blank" title="BES"> <img src="imagens/bancos/bes.jpg" alt='imagem' /> </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
                 <div class='rightConta'>387029680004</div>
@@ -56,7 +56,7 @@
                 <div class='rightConta'>001000003368577000383</div>
             </div>
             <div class='conta'>
-                <a href="http://www.bpn.pt/eportal/V10/PT/aspx/index.aspx" target="_blank" title="BPN"> <img src="imagens/bancos/bpn1.jpg" alt='imagem' /> </a>
+                <a href="http://www.bpn.pt/eportal/V10/PT/aspx/index.aspx" target="_blank" title="BPN"> <img src="imagens/bancos/bpn.jpg" alt='imagem' /> </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
                 <div class='rightConta'>2781311810004</div>

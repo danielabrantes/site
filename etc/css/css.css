@@ -43,7 +43,7 @@ html {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
     background: -o-linear-gradient(#ffff00, #aaaa00);
-     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 .language{
@@ -338,14 +338,14 @@ a.texto {
 }
 
 .content_center_title_text {
-    font-size: 15px;
+    /*font-size: 15px;*/
     text-align: justify;
     line-height: 130%;
     color: #000;
 }
 
 .content_center_text {
-    font-size: 10px;
+    /*font-size: 10px;*/
     text-align: justify;
 }
 
@@ -638,7 +638,6 @@ ul.menubar a:hover {
     color: black;
     font-style: normal;
     text-align: justify;
-    /*font-family:monospace;*/
 }
 .promocao .title,.promocao .subtitle{
     text-align: center;
@@ -652,7 +651,7 @@ ul.menubar a:hover {
 }
 
 .conta {
-    width: 20%;
+    width: 19.5%;
     float: left;
 }
 
@@ -689,36 +688,11 @@ input,img {
     -moz-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    /*behavior: url(border-radius.htc);*/ /*
-        -webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transform: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-    */
 }
 
 img {
     border: 0px;
 }
-
-input { /*border: 1px solid rgba(0, 0, 0, 0.2);*/
-
-}
-
-input:focus,input:HOVER {
-    /*-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	border: 1px solid rgba(0, 0, 0, 0.5);*/
-    /*-webkit-transform: scale(1.03);
-	-moz-transform: scale(1.03);
-	-o-transform: scale(1.03);
-	-ms-transform: scale(1.03);
-	transform: scale(1.03);*/
-
-}
-
 #bonecos,#maria,#manel,#texto {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -727,7 +701,7 @@ input:focus,input:HOVER {
     transition: all 0.5s ease-in-out;
 }
 
-#manel:hover { /*background-color: #fc3;*/
+#manel:hover {
     -webkit-transform: rotate(4deg) scale(1.3);
     -moz-transform: rotate(4deg) scale(1.3);
     -o-transform: rotate(4deg) scale(1.3);
@@ -735,7 +709,7 @@ input:focus,input:HOVER {
     transform: rotate(4deg) scale(1.3);
 }
 
-#maria:hover { /*background-color: #fc3;*/
+#maria:hover {
     -webkit-transform: rotate(-4deg) scale(1.3);
     -moz-transform: rotate(-4deg) scale(1.3);
     -o-transform: rotate(-4deg) scale(1.3);
@@ -743,7 +717,7 @@ input:focus,input:HOVER {
     transform: rotate(-4deg) scale(1.3);
 }
 
-#texto:hover { /*background-color: #fc3;*/
+#texto:hover {
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
     -o-transform: scale(1.03);
@@ -752,8 +726,23 @@ input:focus,input:HOVER {
 }
 #bonecos{
     padding: 15px;
+    display:inline;
+    color:black;
+    max-width: 120px;
+    min-width: 120px;
+    float:left;
 }
 
+#bonecos img,#bonecos a{
+    float:left;
+    color:black;
+    display:inline;
+    float:left;
+    /*display:inline;
+    white-space: pre;
+    text-align: justify;*/
+
+}
 .nome_equipa {
     /*font-size: 0.85em;*/
     font-weight: bold;
@@ -776,34 +765,16 @@ a,a:visited,a:active,a:hover {
     width: 76%;
     margin: 0em auto;
     text-align: center;
-    /*border: tomato 1px solid;*/
 }
 
-#pscroller1 { /*width: 100%;*/
+#pscroller1 {
     height: 22em;
     border: 0em;
 }
-/*
-.validadores {
-    margin: 0em 1em;
-    padding: 0em 1em;
-    text-align: center;
-}
-*/
+
 #content {
     margin: 0em auto;
     width: 1000px;
     background-color: white;
 }
 /***************************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-

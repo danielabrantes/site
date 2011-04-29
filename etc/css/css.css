@@ -54,7 +54,7 @@ html {
     border: 0px;
     width: 100%;
     z-index: 1;
-    
+
 }
 .language ul{
     /*width: 1000px;
@@ -755,6 +755,11 @@ input:focus,input:HOVER {
     -o-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
+}
+#bonecos{
+    /*border: 1px tomato solid;*/
+    padding: 15px;
+
 }
 
 .nome_equipa {

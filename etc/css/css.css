@@ -184,7 +184,7 @@ html {
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%);
     background: -o-linear-gradient(#ffff00, #aaaa00);
     /* IE5.5 - IE7 */
-    filter: progid :DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF);
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     /* IE8 */
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)"
         /*background: url(../../imagens/estrutura/fundo_links.png) no-repeat;*/

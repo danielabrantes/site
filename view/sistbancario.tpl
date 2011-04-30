@@ -1,7 +1,7 @@
 {extends file='pagina.tpl'} {block name='pagina'}
 <div class='title'>Sistema Bancário</div>
 <div class='subtitle'>Bancos com quem trabalhamos</div>
-
+<div class='texto'>
 <a href="http://www.millenniumbcp.pt/" target="_blank"  title="BPI"><img src="imagens/bancos/millenniumbcp.gif" alt='imagem' /></a>
 <a href="http://www.bancopaulista.com.br/" target="_blank"  title="BPI"><img src="imagens/bancos/bancopaulista.gif" alt='imagem' /></a>
 <a href="http://www.bancobpi.pt/" target="_blank"  title="BPI"><img src="imagens/bancos/bpi.jpg" alt='imagem' /></a>
@@ -19,4 +19,5 @@
 <a href="http://www.rendimento.com.br/" target="_blank"  title="Rendimento"><img src="imagens/bancos/RENDIMENTO.jpg" alt='imagem' /> </a>
 <a href="https://www.cam.es/es/Paginas/inicio.aspx/" target="_blank"  title="CAM"><img src="imagens/bancos/cam.jpg" alt='imagem' /> </a>
 <a href="http://www.lmazal.com/" target="_blank"  title="LMAZAL"><img src="imagens/bancos/LMAZAL.jpg" alt='imagem' /> </a>
+</div>
 {/block}

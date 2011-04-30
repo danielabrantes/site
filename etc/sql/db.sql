@@ -1,5 +1,6 @@
 drop database if exists `site`;
 create database `site`character set utf8 collate utf8_unicode_ci;
+use 'site';
 create table `agente` (
 	`id` int unsigned not null auto_increment,
 	`empresa` varchar(255) null default null collate 'utf8_unicode_ci',

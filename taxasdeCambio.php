@@ -1,18 +1,25 @@
 <?php
 require_once('common/common.php');
-$valor = isset($_POST['valor']) ? $_POST['valor'] : 1.0;
-$sql = 'select valCambio as cambio from webportalmex.cambio where idcambio=1;';
-$cambio = $DbTuga->getall($sql);
-$taxa = $cambio[0]->cambio;
+$valor = isset($_POST['valor']) ? $_POST['valor'] : floatval('1.00');
+$valor=floatval($valor);
+//echo getCambio();
+
+
+$cambio=getCambio();
+$cambio = str_replace(',','.',$cambio);
+echo sprintf("%01.2f", $cambio);;
+
+
+$valorFinal = $valor * $cambio;
+
 
 //echo 'valor '.$valor.'';
-//echo 'taxa: '.$taxa.'';
-$valorFinal = $valor * $taxa;
-//echo  '$valorFinal'.$valorFinal.'';
+//echo  'valorFinal'.$valorFinal.'';
 
-$smarty->assign('valorFinal', $valorFinal);
 $smarty->assign('valor', $valor);
+$smarty->assign('valorFinal', $valorFinal);
 
+/*
 $sql = 'select htr_ID as id, htr_NombreTarifa as nome from hd_cambiosdia;';
 $tarifas = $DbTuga->getall($sql);
 $smarty->assign('tarifas', $tarifas);
@@ -28,5 +35,5 @@ $smarty->assign('paisOrigem', $paisOrigem);
 
 $sql = 'select mc_id as id,mc_nombre as nome from officeschema.hd_monedascobro;';
 $moedas = $DbTuga->getall($sql);
-$smarty->assign('moedas', $moedas);
+$smarty->assign('moedas', $moedas);*/
 $view->display();

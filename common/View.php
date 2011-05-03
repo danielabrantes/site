@@ -15,11 +15,12 @@ class View {
 
     private static $_instance;
 
-    public function display() {
+    public function display($language='') {
         global $smarty/* , $mensagem */;
         $ficheiro = $_SERVER['SCRIPT_NAME'];
-        $ficheiro = substr($ficheiro, 0, -3);
-        $ficheiro = $ficheiro . 'tpl';
+        $ficheiro = substr($ficheiro, 0, -4);
+        $ficheiro = $ficheiro.$language . '.tpl';
+
         $ficheiro = substr($ficheiro, 1, strlen($ficheiro));
 
         //echo $ficheiro;

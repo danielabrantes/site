@@ -18,10 +18,7 @@ font-face {
     font-style: normal;
 }
 
-root { 
-    display: block;
 
-}
 
 *{
     margin: 0px;
@@ -42,30 +39,26 @@ html {
     font-style: normal;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
-    background: -o-linear-gradient(#ffff00, #aaaa00);
-    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
+    background: -o-linear-gradient(#ffff00, #FFFFFF);
+     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
-.language{
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    padding: 0px;
-    border: 0px;
-    width: 100%;
-    z-index: 1;
 
+.bandeiras{
+	
+	position: relative;
+	top: -2.25em;
+	left:0em;
+	text-align: center;
+	
 }
-.language ul{
-    /*width: 1000px;
-
-    margin: 250px 50px;    */
+.bandeiras li{
+	display: inline;
+	/*vertical-align: middle;*/
 }
-.language img{
-    /*width: 100%;*/
-    /*height: 500px;*/
-    width: 30%;
-
+.bandeiras img{
+	width: 10%;
+	margin: 0em 0em; 
 }
 
 #preload-slideshow {
@@ -182,7 +175,7 @@ html {
     background-color: #ffff00;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFF00), color-stop(.5, #FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 50%, #FFFF00 100%);
-    background: -o-linear-gradient(#ffff00, #aaaa00);
+    background: -o-linear-gradient(#ffff00, #FFFFFF);
     /* IE5.5 - IE7 */
     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     /* IE8 */
@@ -726,23 +719,8 @@ img {
 }
 #bonecos{
     padding: 15px;
-    display:inline;
-    color:black;
-    max-width: 120px;
-    min-width: 120px;
-    float:left;
 }
 
-#bonecos img,#bonecos a{
-    float:left;
-    color:black;
-    display:inline;
-    float:left;
-    /*display:inline;
-    white-space: pre;
-    text-align: justify;*/
-
-}
 .nome_equipa {
     /*font-size: 0.85em;*/
     font-weight: bold;
@@ -765,9 +743,10 @@ a,a:visited,a:active,a:hover {
     width: 76%;
     margin: 0em auto;
     text-align: center;
+    /*border: tomato 1px solid;*/
 }
 
-#pscroller1 {
+#pscroller1 { /*width: 100%;*/
     height: 22em;
     border: 0em;
 }
@@ -777,4 +756,15 @@ a,a:visited,a:active,a:hover {
     width: 1000px;
     background-color: white;
 }
-/***************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+

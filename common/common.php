@@ -18,6 +18,8 @@ Init::setSession();
 require_once 'Session.php';
 $smarty->assign('cambio', getCambio());
 
+
+
 //echo $_SERVER['HTTP_USER_AGENT'];
 
 if (producao) {

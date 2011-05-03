@@ -1,6 +1,9 @@
 <?php
 
 require_once('common/common.php');
+$view->display();
+/*
+echo $language;
 switch ($language) {
     case 'pt':
         $smarty->display('promocao13pt.tpl');
@@ -13,3 +16,4 @@ switch ($language) {
         break;
 }
 
+*/

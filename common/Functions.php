@@ -44,7 +44,7 @@ function valida_email($email) {
             $isValid = false;
         } else if
         (!preg_match('/^(\\\\.|[A-Za-z0-9!#%&`_=\\/$\'*+?^{}|~.-])+$/', str_replace("\\\\", "", $local))) {
-            // character not valid in local part unless 
+            // character not valid in local part unless
             // local part is quoted
             if (!preg_match('/^"(\\\\"|[^"])+"$/', str_replace("\\\\", "", $local))) {
                 $isValid = false;
@@ -60,10 +60,19 @@ function valida_email($email) {
 }
 
 function getCambio() {
-    global $DbSite;
-    $sql = 'select valCambio as cambio from webportalmex.cambio where idcambio=1;';
+    global $DbSite, $language,$smarty;
+    $posicao=1;
+    $moeda='';
+    switch ($language){
+    	case 'pt':$posicao=1;$moeda='€';break;
+    	case 'es':$posicao=2;$moeda='€';break;
+    	case 'en':$posicao=3;$moeda='£';break;
+    }
+    $smarty->assign('moeda',$moeda);
+    $sql = 'select valCambio as cambio from webportalmex.cambio where idcambio='.$posicao.';';
     $result = $DbSite->getall($sql);
     $cambio = $result[0]->cambio;
+    $cambio=substr($cambio, 0, 4);
     if (producao) {
         if (escreveCacheManifest($cambio) === false) {
             die('não consigo mudar a cahce');

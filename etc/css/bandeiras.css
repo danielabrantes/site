@@ -1,0 +1,47 @@
+@CHARSET "utf-8";
+
+html,body{
+	margin: 0em;
+    padding: 0em;
+    
+    text-decoration: none;
+	background-color:yellow;
+}
+img{
+	border-width: 0em;
+}
+a,a:visited,a:active,a:hover {
+    border: 0em;
+    text-decoration: none;
+}
+.language {
+	width: 85%;
+	margin: 5% auto;
+	border: 0.5em black solid;
+	text-align: center;
+	font-family: 'Philosopher', arial, serif;
+	font-size: 1em;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
+	background: -o-linear-gradient(#ffff00, #FFFFFF);
+	filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
+}
+
+.bandeiras img {
+	width: 10%;
+}
+
+.bandeiras ul li {
+	display: inline;
+}
+
+.banner {
+	padding: 3em 0em;
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+	margin: 0 auto;
+}

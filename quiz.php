@@ -59,7 +59,7 @@ function insereEmail() {
 }
 
 //$smarty->assign('resposta', 'Responda ao questionário e insira o seu email');
-$resposta = 'vazia';
+$resposta = '';
 if (respondeuAoQuiz()) {
     if (respostaCorrecta()) {
         if (colocouEmail()) {

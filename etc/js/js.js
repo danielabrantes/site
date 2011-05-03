@@ -58,7 +58,7 @@
             destaque[0]='<p class="content_center_title_text">Rapidez, segurança e taxas grátis no envio do seu dinheiro.<br/>';
             destaque[1]='<p class="content_center_title_text">Até 48h a sua remessa é depositada. Se optar pelo modo urgente, seu dinheiro chega no mesmo dia.<br/>';
             destaque[2]='<p class="content_center_title_text">Na MoneyOne estamos sempre prontos a atendê-lo, descubra qual loja fica mais próxima de você';
-            destaque[3]='<p class="content_center_title_text">Promoção relâmpago: faça a sua remessa e ganhe uma capa de passaporte especial.<br/>';
+            
             setTimeout("document.getElementById('preload-slideshow').style.display = 'none';",30000);
         // google analytics
                         var _gaq = _gaq || [];

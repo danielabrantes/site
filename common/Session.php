@@ -64,6 +64,6 @@ else{
 		}
 	}
 }
-setcookie('language',$language,time()+60);
+setcookie('language',$language,time()+1);
 $_SESSION['$language'] = $language;
 $smarty->assign('language', $language);

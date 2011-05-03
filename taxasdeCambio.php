@@ -7,7 +7,7 @@ $valor=floatval($valor);
 
 $cambio=getCambio();
 $cambio = str_replace(',','.',$cambio);
-echo sprintf("%01.2f", $cambio);;
+//echo sprintf("%01.2f", $cambio);;
 
 
 $valorFinal = $valor * $cambio;

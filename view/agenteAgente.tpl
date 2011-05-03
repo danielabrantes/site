@@ -1,4 +1,5 @@
-{extends file='pagina.tpl'} {block name='pagina'}
+{extends file='pagina.tpl'}
+{block name='pagina'}
 <div class='title'>Torne-se um agente Moneyone</div>
 <div class='subtitle'>Quer complementar sua renda e ainda oferecer mais um serviço em seu estabelecimento?</div>
 <p>Devido a uma alteração nas legislações europeia e portuguesa, você pode agora oferecer o serviço de transferência de fundos da MoneyOne a partir do seu estabelecimento, tornando-se assim um agente MoneyOne.</p>

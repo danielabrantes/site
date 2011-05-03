@@ -52,6 +52,10 @@ html {
 	text-align: center;
 	
 }
+#ivete{
+	float:right;
+	
+}
 .bandeiras li{
 	display: inline;
 	/*vertical-align: middle;*/
@@ -393,9 +397,7 @@ a.texto {
 .content_lista {
     margin-left: 40px;
 }
-a{
-    color:#999;
-}
+
 a:hover {
     text-decoration: underline;
 }
@@ -448,6 +450,8 @@ a:hover {
 
 
 .mensagem {
+	text-decoration: blink;
+	background-color:orange;
     text-align: center;
     font-size: 1.3em;
     font-weight: 600;
@@ -736,7 +740,7 @@ img {
 a,a:visited,a:active,a:hover {
     border: 0em;
     text-decoration: none;
-    color: #999;
+    
 }
 
 .cartaz {

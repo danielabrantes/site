@@ -1,5 +1,5 @@
 <?php
-if(producao)
+/*if(producao)
 {
 	define('DbServerSite', '192.168.0.8');
 	define('DbUserSite', 'tuga_siga');
@@ -11,7 +11,7 @@ if(producao)
 	define('DbPassTuga', 'tuga_siga');
 	define('DbNameTuga', 'officeschema');
 }
-else{
+else{*/
 	define('DbServerSite', 'localhost');
 	define('DbUserSite', 'root');
 	define('DbPassSite', '');
@@ -21,4 +21,4 @@ else{
 	define('DbUserTuga', 'root');
 	define('DbPassTuga', '');
 	define('DbNameTuga', 'officeschema');
-}
+/*}*/

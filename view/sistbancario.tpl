@@ -18,6 +18,6 @@
 <a href="https://www.bancaja.es/" target="_blank"  title="Bancaja"><img src="imagens/bancos/bancaja.jpg" alt='imagem' /> </a>
 <a href="http://www.rendimento.com.br/" target="_blank"  title="Rendimento"><img src="imagens/bancos/RENDIMENTO.jpg" alt='imagem' /> </a>
 <a href="https://www.cam.es/es/Paginas/inicio.aspx/" target="_blank"  title="CAM"><img src="imagens/bancos/cam.jpg" alt='imagem' /> </a>
-<a href="http://www.lmazal.com/" target="_blank"  title="LMAZAL"><img src="imagens/bancos/LMAZAL.jpg" alt='imagem' /> </a>
+<a href="http://www.lmazal.com/" target="_blank"  title="LMAZAL"><img src="imagens/bancos/lmazal.jpg" alt='imagem' /> </a>
 </div>
 {/block}

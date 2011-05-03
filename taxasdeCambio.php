@@ -1,6 +1,6 @@
 <?php
 require_once('common/common.php');
-$valor = isset($_POST['valor']) ? $_POST['valor'] : floatval('1.00');
+$valor = isset($_POST['valor']) ? $_POST['valor'] : floatval('1.01');
 $valor=floatval($valor);
 //echo getCambio();
 

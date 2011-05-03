@@ -84,6 +84,6 @@ if (respondeuAoQuiz()) {
 } else {
     $resposta = 'Responda ao questionário e coloque seu email!';
 }
-echo $resposta;
+//echo $resposta;
 $smarty->assign('resposta', $resposta);
 $view->display();

@@ -79,7 +79,7 @@ if (respondeuAoQuiz()) {
             $resposta = 'Introduza um email';
         }
     } else {
-        $resposta = 'Respostas Erradas, tente de novo!';
+        $resposta = 'Respostas incorrectas, tente de novo!';
     }
 } else {
     $resposta = 'Responda ao questionário e coloque seu email!';

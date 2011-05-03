@@ -16,7 +16,7 @@ if ($DbSite->connect(DbServerSite, DbUserSite, DbPassSite, DbNameSite) != TRUE) 
 //Uma unica ligação à base de dados possivel
 //Base de dados do site
 
-
+/*
 if (!isset($_SESSION['DbTuga'])) {
 
     $_SESSION['DbTuga'] = DbTuga::getInstance();
@@ -25,7 +25,7 @@ $DbTuga = $_SESSION['DbTuga'];
 if ($DbTuga->connect(DbServerTuga, DbUserTuga, DbPassTuga, DbNameTuga) != TRUE) {
     die('erro na ligação à base de dados Tuga');
 }
-
+*/
 //Uma unico utilizador possivel
 /* if (!isset($_SESSION['user'])) {
   $_SESSION['user'] = User::getInstance();

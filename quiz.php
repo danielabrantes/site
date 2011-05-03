@@ -32,9 +32,8 @@ function respondeuAoQuiz() {
             isset($_POST['1']) and
             isset($_POST['2']) and
             isset($_POST['3']) and
-            isset($_POST['4']) and
-            isset($_POST['email'])
-            and !empty ($_POST['email'])
+            isset($_POST['4'])
+            
     ) {
         return true;
     }
@@ -42,50 +41,49 @@ function respondeuAoQuiz() {
 }
 
 function insereEmail() {
-    //echo 'insereEmail';
+//echo 'insereEmail';
     global $DbSite, $numero;
     $email = $DbSite->quote($_POST['email']);
     $sql = 'insert into site.quiz(email) values(' . $email . ');';
     $result = $DbSite->query($sql);
-    //var_dump($result);
+//var_dump($result);
     if ($result === false) {
-        //echo 'email duplicado';
+//echo 'email duplicado';
         return false;
     } else {
         $sql = 'select id from site.quiz where email like ' . $email . ';';
         $result = $DbSite->getall($sql);
     }
-    //echo 'numero: '.$result[0]->id;
+//echo 'numero: '.$result[0]->id;
     return $result[0]->id;
 }
 
+//$smarty->assign('resposta', 'Responda ao questionário e insira o seu email');
+$resposta = 'vazia';
 if (respondeuAoQuiz()) {
     if (respostaCorrecta()) {
-        $smarty->assign('resposta', 'Respostas Correctas');
         if (colocouEmail()) {
             if (valida_email($_POST['email'])) {
-
                 $numero = insereEmail();
                 if ($numero === false) {
-                    $smarty->assign('resposta', 'Só pode tentar uma vez por email.');
+                    $resposta = 'Só pode tentar uma vez por email';
                 } else {
                     $smarty->assign('numero', $numero);
                     $texto = 'O seu número da sorte é "' . $numero . '".<br /> Na data do sorteiro irá receber um email com o número vencedor.<br /> Boa Sorte :)';
                     $smarty->assign('texto', $texto);
                 }
             } else {
-                //echo 'Email inválido';
-                $smarty->assign('resposta', 'Email inválido');
-                //return true;
+                $resposta = 'Email inválido';
             }
         } else {
-            $smarty->assign('resposta', 'Introduza um email');
+            $resposta = 'Introduza um email';
         }
     } else {
-        $smarty->assign('resposta', 'Respostas Erradas');
+        $resposta = 'Respostas Erradas, tente de novo!';
     }
+} else {
+    $resposta = 'Responda ao questionário e coloque seu email!';
 }
-else{
-     $smarty->assign('resposta', 'Responda ao questionário e insira o seu email');
-}
+echo $resposta;
+$smarty->assign('resposta', $resposta);
 $view->display();

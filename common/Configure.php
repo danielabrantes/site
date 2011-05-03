@@ -12,6 +12,7 @@ if(producao)
 	define('DbNameTuga', 'officeschema');
 }
 else{
+    
 	define('DbServerSite', 'localhost');
 	define('DbUserSite', 'root');
 	define('DbPassSite', '');

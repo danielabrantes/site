@@ -2,14 +2,22 @@
 <div class='icons'>
 
 <div id='title_icons'>
+
 	{if {$language}=='pt'}
-	Participe no <a href='/quiz.php'>Questionário MoneyOne</a> e ganhe bilhetes para o Show de <h2>Ivete Sangalo!</h2>
+
+	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 40%;'>
+
+	<br />
+	<br />
+	A MoneyOne te leva no show da Ivete!<br />
+	Participe do nosso concurso.
+	</a>
 	{else}
 	Visite o nosso blog e saiba de todas as nossas promoções e eventos
 	{/if}
 
     </div>
-
+<div class='clear'>&nbsp;</div>
     <div class='iconmaistexto'>
         <a href="http://moneyone-moneyone.blogspot.com/" title="Pedir Cartão de Pontos"> <img class='icon' src="imagens/estrutura/blogger.png" alt='imagem' /> </a>
         <div class='icontexto'>Blog</div>

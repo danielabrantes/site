@@ -1,3 +1,4 @@
+{nocache}
 {if $language=='pt'}
 <div class='inicial'>
 	<div id="preload-slideshow">
@@ -17,3 +18,4 @@
 	</div>
 </div>
 {/if}
+{/nocache}

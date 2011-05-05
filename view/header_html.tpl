@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 {if isset({$cache}) and {$cache} eq 1}
-	<html manifest="/cache.manifest">
+	<html  lang="pt" manifest="/cache.manifest">
 {else}
-	<html>
+	<html lang="pt">
 {/if}
+
 <head>
 <meta charset='utf-8' />
 <title>MoneyOne - Remessas e Câmbios</title>

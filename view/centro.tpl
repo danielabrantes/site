@@ -3,19 +3,18 @@
 
 <div id='title_icons'>
 
+	{nocache}
 	{if {$language}=='pt'}
-
 	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 40%;'>
-
 	<br />
 	<br />
 	A MoneyOne te leva no show da Ivete!<br />
-	Participe do nosso concurso.
+	Participe do nosso passatempo.
 	</a>
 	{else}
 	Visite o nosso blog e saiba de todas as nossas promoções e eventos
 	{/if}
-
+	{/nocache}
     </div>
 <div class='clear'>&nbsp;</div>
     <div class='iconmaistexto'>

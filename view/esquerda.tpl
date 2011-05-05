@@ -1,5 +1,5 @@
 <div class="content_conteudo_division">
-	<a href="teleremessa.php" class="content_conteudo_division_link" title="Tele Remessas"> <img src="imagens/remessas/remessas{$language}.png" alt='imagem' /> </a>
+	<a href="teleremessa.php" class="content_conteudo_division_link" title="Tele Remessas"> {nocache}<img src="imagens/remessas/remessas{$language}.png" alt='imagem' />{/nocache} </a>
 	<div id="bonecos">
 	{literal}
 	<script>

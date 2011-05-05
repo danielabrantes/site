@@ -9,7 +9,7 @@
 	</div>
 
 
-
+{nocache}
 <div class='cartaz'>
 <p>
 {*
@@ -53,7 +53,6 @@ Site Inglaterra: cartaz 7, 8, 10 e 13
 		new pausescroller(pausecontent, "pscroller1", "someclass", 2500);
 	</script>
 {/if}
-
-
 	</p>
 </div>
+{/nocache}

@@ -54,13 +54,19 @@ class Init {
 
 
 		if (self::$producao) {
+
 			$smarty->caching = true;
 			$smarty->cache_lifetime = -1; //never expires
-			$smarty->force_compile = true;
-			//$smarty->compile_check=false;
+			$smarty->force_compile = false;
+			$smarty->compile_check=false;
 
-			//$smarty->force_compile = true;
+
+			/*
+			$smarty->caching = false;
+			$smarty->force_compile = true;
 			$smarty->compile_check=true;
+			*/
+
 
 		} else {
 			$smarty->caching = false;

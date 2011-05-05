@@ -4,7 +4,6 @@
 {else}
 	<html lang="pt">
 {/if}
-
 <head>
 <meta charset='utf-8' />
 <title>MoneyOne - Remessas e Câmbios</title>

@@ -1,8 +1,6 @@
 <div><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
 <div class='icons'>
-
 <div id='title_icons'>
-
 	{nocache}
 	{if {$language}=='pt'}
 	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 40%;'>

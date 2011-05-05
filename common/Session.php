@@ -68,8 +68,10 @@ if (!isset($language)){
 }
 
 //se a lingua não está definida vai para a pagina inicial
+//echo substr($_SERVER['SCRIPT_FILENAME'],-9);
 if(substr($_SERVER['SCRIPT_FILENAME'],-9) !='index.php')
 {
+	//echo $language;
 	if(!isset($language)){
 		header( 'Location: /index.php' ) ;
 	}

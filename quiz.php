@@ -1,5 +1,6 @@
 <?php
 require_once('common/common.php');
+//$language='pt';
 //printArray($_POST);
 
 function respostaCorrecta() {

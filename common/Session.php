@@ -54,20 +54,27 @@ $view = $_SESSION['view'];
 
 /* * ************************************************************** */
 $language = isset($_GET['language']) ? $_GET['language'] : null;
+//echo $language;
 if (!isset($language)){
-	if (isset($_SESSION['$language'])) {
-		$language = $_SESSION['$language'];
+	if (isset($_SESSION['language'])) {
+		$language = $_SESSION['language'];
 	} else {
 		if (is_null($language)) {
 			if (isset($_COOKIE['language'])) {
 				$language = $_COOKIE['language'];
 			}
-			else{
-				//$language='lingua';
-			}
 		}
 	}
 }
-setcookie('language', $language, time() + 1);
-$_SESSION['$language'] = $language;
+
+//se a lingua não está definida vai para a pagina inicial
+if(substr($_SERVER['SCRIPT_FILENAME'],-9) !='index.php')
+{
+	if(!isset($language)){
+		header( 'Location: /index.php' ) ;
+	}
+}
+
+//setcookie('language', $language, time() + 1);
+$_SESSION['language'] = $language;
 $smarty->assign('language', $language);

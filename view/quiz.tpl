@@ -2,7 +2,6 @@
 <form name='quiz' id='quiz' action='quiz.php' method='post'>
 	<img id='ivete' src='imagens/quiz/ivete.png'>
 	<div class='title'>A MoneyOne te leva pra ver a Ivete</div>
-
 	<div class='subtitle'>Concurso cultural</div>
 	<div class='texto'>
 	<p>Responda correctamente às quatro perguntas abaixo e forme uma frase utilizando "MoneyOne" e "Ivete Sangalo"</p>

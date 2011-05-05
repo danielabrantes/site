@@ -17,6 +17,10 @@ class View {
 
     public function display($language='') {
         global $smarty/* , $mensagem */;
+        //echo 'ola';
+
+        //printArray(get_defined_vars());
+        //echo $language;die;
         $ficheiro = $_SERVER['SCRIPT_NAME'];
         $ficheiro = substr($ficheiro, 0, -4);
         $ficheiro = $ficheiro.$language . '.tpl';
@@ -27,6 +31,7 @@ class View {
 
         /* $smarty->assign('mensagem', $mensagem->getMensagem()); */
         //flush();
+        //echo $ficheiro;
         $smarty->display($ficheiro);
     }
 

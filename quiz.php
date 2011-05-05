@@ -1,6 +1,5 @@
 <?php
 require_once('common/common.php');
-
 //printArray($_POST);
 
 function respostaCorrecta() {

@@ -2,7 +2,7 @@
 {block name='pagina'}
 <div class='title'>Transferências</div>
 <div class='subtitle'>Remessas</div>
-<div class='texto'>
+	<div class='texto'>
     Com a MoneyOne é muito simples e rápido fazer sua transferência. Temos três opções de envio dinheiro de Portugal para o exterior disponível, assim você escolha a que melhor se adapta para você.
     Você pode fazer uma transferência de fundos através de uma das nossas <a href="lojas.php">Lojas</a>
 
@@ -23,10 +23,8 @@
 
 
     <div class='subtitle'>Legislação</div>
-
     <div class='texto'>
     <p>Antes de iniciar qualquer operação financeira pela MoneyOne, leia atentamente os seguintes documentos legais, que regulamentam os nossos serviços:</p>
-        <p>
         <div class='texto'>
         <ul>
             <li><a href="ficheiros/aviso11-2005.pdf" target="_blank" >Aviso n.º11/2005 do Banco de Portugal</a></li>
@@ -35,9 +33,6 @@
             <li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" >Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
             <li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" >Código de Ética e de Conduta</a></li>
         </ul>
-
-        </p>
         </div>
     </div>
-</div>
 {/block}

@@ -1,3 +1,5 @@
+{nocache}
+{if {$language=='pt'} or {$language=='es'}}
 <div class="header_menu">
     <ul id="menu_dropdown" class="menubar">
         <li class="submenu"><a href="#">Sobre nós</a>
@@ -20,7 +22,7 @@
                                 href="atendimento.php">Atendimento ao Cliente</a></li>
                         <li class="item"
                             style="background: url(imagens/estrutura/botao.png) no-repeat"><a
-                                href="faleConosco.php">Fale Conosco</a></li>
+                                href="faleConosco.php">Fale Connosco</a></li>
                     </ul>
                 </li>
                 <li class="item"
@@ -31,10 +33,12 @@
         <li class="submenu"><a href="servicos.php">Serviços</a></li>
         <li class="submenu"><a href="#">Cartão de Pontos</a>
             <ul class="menu">
+
+
                 <li class="item"
-                    style="background: url(imagens/estrutura/botao.png) no-repeat"><a
-                        href="http://catalogo.moneyoneexpress.com/" target="_blank">Catálogo
-		Online</a></li>
+                    style="background: url(imagens/estrutura/botao.png) no-repeat">
+                    <a href="http://catalogo.moneyoneexpress.com/" target="_blank">Catálogo Online</a></li>
+
                 <li class="item"
                     style="background: url(imagens/estrutura/botao.png) no-repeat"><a
                         href="pedirCartao.php">Pedir Cartão </a></li>
@@ -53,10 +57,10 @@
             </ul>
         </li>
         <li class="submenu"><a href="transferenciaTexto.php">Transferências</a>
-            
+
         </li>
         <li class="submenu"><a href="agente.php">Torna-se Agente</a>
-            
+
         </li>
         <li class="submenu"><a href="destinos.php">Destinos</a></li>
         <li class="submenu"><a href="cadastro.php">Cadastro</a></li>
@@ -64,3 +68,7 @@
 	Remessa</a></li>
     </ul>
 </div>
+{else}
+{include file='menuen.tpl'}
+{/if}
+{/nocache}

@@ -8,7 +8,7 @@
 			</a>
 		</div>
 		<a href='promocao11.php'>
-		<img id='cartazincial' src="imagens/promocao/10eurospt.jpg" alt='imagem' />
+		<img id='cartazincial' src="imagens/promocao/10eurospt.png" alt='imagem' />
 		</a>
 	</div>
 	<div id="timer" style="display: none">

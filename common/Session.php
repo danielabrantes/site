@@ -71,10 +71,18 @@ if (!isset($language)){
 //echo substr($_SERVER['SCRIPT_FILENAME'],-9);
 if(substr($_SERVER['SCRIPT_FILENAME'],-9) !='index.php')
 {
+
+	$smarty->assign('index',0);
+
+
 	//echo $language;
 	if(!isset($language)){
 		header( 'Location: /index.php' ) ;
 	}
+
+}
+else{
+	$smarty->assign('index',1);
 }
 
 //setcookie('language', $language, time() + 1);

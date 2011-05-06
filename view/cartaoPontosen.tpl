@@ -1,5 +1,5 @@
  {extends file='pagina.tpl'} {block name='pagina'}
-<div class='title'>Cartão de Pontos</div>
+<div class='title'>Cartão Fidelidade</div>
 <div class='subtitle'>Com o Cartão Fidelidade MoneyOne, quanto mais você envia, mais você ganha. Confira como funciona :</div>
 <div class='texto'>
 

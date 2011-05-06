@@ -29,9 +29,10 @@ if(isset($_POST['enviar']))
                 $registo='Nao é cliente da MoneyOne';
             }
             $from='no-reply@moneyexpress.pt';
-            $to=array('<pedircartao@moneyexpress.pt>');
-            $subject='MONEY ONE - Pedido Cartao de Pontos';
-            $body="Foi feito um pedido de cartao de pontos por:  
+			$to = array('<pedircartao@moneyexpress.pt>');
+
+        	$subject='MONEY ONE - Pedido Cartao de Pontos';
+            $body="Foi feito um pedido de cartao de pontos por:
             nome: $nome,
             email: $email,
             telefone: $tel,

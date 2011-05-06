@@ -50,10 +50,9 @@
             
                 
             var pausecontent=new Array();
-            pausecontent[1]='<a href="promocao6.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/Net_pass.jpg" alt="imagem"/></a>';
-            pausecontent[3]='<a href="promocao2.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/promocao2.jpg" alt="imagem"/></a>';
-            pausecontent[4]='<a href="promocao3.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/net_abril_gde.jpg" alt="imagem"/></a>';
-            pausecontent[5]='<a href="promocao1.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/cartao_telefone.jpg" alt="imagem"/></a>';
+            pausecontent[0]='<a href="promocao2.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/promocao2.png" alt="imagem"/></a>';
+            pausecontent[1]='<a href="promocao3.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/net_abril_gde.png" alt="imagem"/></a>';
+            pausecontent[2]='<a href="promocao1.php" alt="blank" title="Saber mais" class="imagem"><img sytle="width=155px;" src="imagens/cartao_telefone.png" alt="imagem"/></a>';
             var destaque=new Array();
             destaque[0]='<p class="content_center_title_text">Rapidez, segurança e taxas grátis no envio do seu dinheiro.<br/>';
             destaque[1]='<p class="content_center_title_text">Até 48h a sua remessa é depositada. Se optar pelo modo urgente, seu dinheiro chega no mesmo dia.<br/>';

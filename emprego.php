@@ -69,12 +69,26 @@ if (isset($_POST['emprego'])) {
             Email::send($from, $to, $subject, $body);
 
             $from = 'no-reply@moneyexpress.pt';
-            $to = array('<jobs@moneyexpress.pt>');
+
+            if($language=='pt')
+            {
+            	$to = array('<jobs@moneyexpress.pt>');
+            }
+        	if($language=='es')
+            {
+            	$to = array('<jobs@moneyexpress.pt>');
+            }
+        	if($language=='en')
+            {
+            	$to = array('<rh.uk@moneyoneexpress.com>');
+            }
+
+
             $subject = 'MONEY ONE - Emprego';
             $body = "Foi preenchido um cadastro de emprego por:
             nome: $nome\n
             Dados Pessoais
-            nacionalidade:  $nacionalidade,  
+            nacionalidade:  $nacionalidade,
             N.º Doc. Identificacao: $numIdenDoc,
             Tipo de Documento: $tipoDoc,
             Data de Emissao: $dataemissao,
@@ -118,6 +132,4 @@ if (isset($_POST['emprego'])) {
         $smarty->assign('imagem', 'errado.jpg');
     }
 }
-$smarty->assign('pagina', 'emprego');
-$smarty->assign('cache',0);
 $view->display();

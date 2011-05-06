@@ -7,7 +7,7 @@
 	{block name='texto'}{/block}
 	</div>
 	<div class="center">
-		<img src="imagens/promocao/{block name='imagem'}{/block}.jpg" alt='imagem' />
+		<img src="imagens/promocao/{block name='imagem'}{/block}.png" alt='imagem' />
 	</div>
 </div>
 {/block}

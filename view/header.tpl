@@ -2,9 +2,19 @@
 <div class='header'>
     <a href='taxasdeCambio.php'>
         <div id='cambiocaixa'>
+{nocache}
             <div id='taxa'>Taxas de Câmbio</div>
-            <div id='taxapais'>Brasil</div>
-            <div id='cambio'>{nocache}{include file='TaxaCambioBrasil.tpl'}{/nocache}</div>
+
+            <div id='taxapais'>
+            Bazil {include file='TaxaCambioBrasil.tpl'}
+            {if {$language=='en'}}
+            <div class='clear'></div>
+			Portugal {include file='TaxaCambioUKparaPortugal.tpl'}
+			{/if}
+
+
+{/nocache}
+            </div>
         </div>
     </a>
     <a href="index.php"> <img src="imagens/estrutura/logo.png" title="Home" alt='imagem' /></a>

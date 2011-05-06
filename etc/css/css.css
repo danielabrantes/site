@@ -26,9 +26,8 @@ font-face {
     text-decoration: none;
     background-color: transparent;
     font-family: 'HelveticaWorldRegular', Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-}
+}    
+
 html {
     margin: 0px;
     padding: 0px;
@@ -42,8 +41,6 @@ html {
     background: -o-linear-gradient(#ffff00, #FFFFFF);
      filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
-    -pie-background: linear-gradient(#ffff00, #ffffff);
-	behavior: url(/PIE.htc);
 }
 
 .bandeiras{
@@ -132,6 +129,7 @@ html {
     margin-bottom: 1em;
     font-size: small;
 }
+
 #cambiocaixa{
     font-size: 1.5em;
     color:white;
@@ -151,9 +149,7 @@ html {
 #taxapais{
     margin-left: 0.5em;
 }
-#cambio{
-    color:white;    
-}
+
 .footer {
     text-align: center;
     margin: 0.5em 0em;
@@ -177,7 +173,7 @@ html {
 
 #receber_noticias {
     margin-top: 2em;
-    text-align: center;
+    text-align: justify;
 }
 
 #receber_noticias input[type="image"]{
@@ -435,7 +431,7 @@ a:hover {
 }
 
 .bold {
-    text-transform: capitalize;
+    
     font-weight: bold;
 }
 
@@ -451,11 +447,18 @@ ul.menubar {
     padding-top: 8px;
     padding-left: 10px;
 }
-
+ul.menubaren {
+    padding-top: 8px;
+    padding-left: 10px;
+}
 /*
 Regra 2 - Classe que define o formato e a posi�ao dos submenus (um ao lado do outro)
 */
 ul.menubar .submenu {
+    list-style: none;
+    float: left;
+}
+ul.menubaren .submenu {
     list-style: none;
     float: left;
 }
@@ -464,6 +467,10 @@ ul.menubar .submenu {
 Regra 3 - Classe que define a posi�ao e a exibi�ao dos menus verticais (inicialmente eles nao sao exibidos)
 */
 ul.menubar ul.menu {
+    display: none;
+    position: absolute;
+}
+ul.menubaren ul.menu {
     display: none;
     position: absolute;
 }
@@ -478,7 +485,14 @@ ul.menubar a {
     text-decoration: none;
     padding: 0.4em 0.6em;
 }
-
+ul.menubaren a  {
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 0.4em 0.4em;
+    /*font-size: 0.9em;*/
+}
 /*
 Regra 5 - Classe que define o tamanho e a cor do menu vertical
 */
@@ -572,7 +586,7 @@ ul.menubar a:hover {
 }
 
 .iconmaistexto {
-    margin: 0em 1.34em;
+    margin: 0em 1.31em;
     text-align: center;
     float: left;
     font-size: 1em;
@@ -614,6 +628,10 @@ ul.menubar a:hover {
 
 .conta {
     width: 19.5%;
+    float: left;
+}
+.contaen {
+    width: 20%;
     float: left;
 }
 

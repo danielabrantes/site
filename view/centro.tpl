@@ -30,12 +30,14 @@
     <div class='clear'></div>
 </div>
 <div id='receber_noticias'>
-    <p>Digite aqui seu email para receber informações sobre as promoções MoneyOne</p>
+    Digite aqui seu email para receber informações sobre as promoções MoneyOne
+    <div class='center'>
     <form name='noticias' action='index.php' method='post'>
 
             <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' value='email@email.com'/>
             <input type='image' src='../../imagens/estrutura/seta.png'/>
     </form>
+</div>
     <div class='clear'></div>
 </div>
 

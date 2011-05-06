@@ -28,10 +28,28 @@ if (isset($_POST['contacto'])) {
 
         if ($DbSite->query($sql)) {
             $from = 'no-reply@moneyexpress.pt';
-            $to = array('<faleconnosco@moneyexpress.pt>');
+            /*
+             rk.uk@moneyoneexpress.com
+			info.uk@moneyoneexpress.com
+             * */
+
+            if($language=='pt')
+            {
+            	$to = array('<faleconnosco@moneyexpress.pt>');
+            }
+        	if($language=='es')
+            {
+            	$to = array('<faleconnosco@moneyexpress.pt>');
+            }
+        	if($language=='en')
+            {
+            	$to = array('<info.uk@moneyoneexpress.com>');
+            }
+
+
             //$to = array('<pedro.abrantes@moneyexpress.pt>','<daniel.abrantes@yahoo.com>');
             $subject = 'MONEY ONE - Fale Conosco';
-            $body = "Foi colocada uma questão aos nossos serviços por:  
+            $body = "Foi colocada uma questão aos nossos serviços por:
             nome: $nome,
             email: $email,
             loja: $loja,

@@ -21,12 +21,12 @@ class DbSite {
 
     // Do not allow an explicit call of the constructor: $v = new Singleton();
     final private function __construct() {
-        
+
     }
 
     // Do not allow the clone operation: $x = clone $v;
     final private function __clone() {
-        
+
     }
 
     function connect($dbhost, $dbusername, $dbpassword, $dbname) {
@@ -35,7 +35,7 @@ class DbSite {
         $this->dbpassword = $dbpassword;
         $this->dbname = $dbname;
 
-        $this->connection = mysql_pconnect($this->dbhost, $this->dbusername, $this->dbpassword, MYSQL_CLIENT_COMPRESS);
+        $this->connection = @mysql_pconnect($this->dbhost, $this->dbusername, $this->dbpassword, MYSQL_CLIENT_COMPRESS);
         if ($this->connection != FALSE) {
             if (mysql_select_db($this->dbname, $this->connection) != FALSE) {
                 mysql_query('SET NAMES utf8');

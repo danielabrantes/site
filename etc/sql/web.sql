@@ -1,5 +1,5 @@
 /*
-SQLyog Ultimate v8.53 
+SQLyog Ultimate v8.55 
 MySQL - 5.5.8-log : Database - webportalmex
 *********************************************************************
 */
@@ -22,15 +22,16 @@ DROP TABLE IF EXISTS `cambio`;
 
 CREATE TABLE `cambio` (
   `idcambio` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `valCambio` varchar(45) CHARACTER SET utf8 NOT NULL,
+  `valCambio` varchar(45) NOT NULL,
+  `legenda` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`idcambio`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 /*Data for the table `cambio` */
 
 LOCK TABLES `cambio` WRITE;
 
-insert  into `cambio`(`idcambio`,`valCambio`) values (1,'2.2600');
+insert  into `cambio`(`idcambio`,`valCambio`,`legenda`) values (1,'2,3300','portugal->Brasil'),(2,'2,40','Espanha->Brasil'),(3,'2,6600','UK->Brasil'),(4,'2,7600','UK->PORTUGAL');
 
 UNLOCK TABLES;
 

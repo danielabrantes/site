@@ -2,11 +2,11 @@
 <div class='bandeiras'>
     <ul>
     	<li>Escolha outro país:</li>
-    	<li><a href='/?language=pt'><img src='imagens/bandeiras/pt.png'/></a></li>
-        <li><a href='/?language=es'><img src='imagens/bandeiras/es.png'/></a></li>
-        <li><a href='/?language=en'><img src='imagens/bandeiras/en.png'/></a></li>
+        <li><a href='/?language=pt'><img src='imagens/bandeiras/ptsmall.png'/></a></li>
+        <li><a href='/?language=es'><img src='imagens/bandeiras/essmall.png'/></a></li>
+        <li><a href='/?language=en'><img src='imagens/bandeiras/ensmall.png'/></a></li>
     </ul>
-	</div>
+</div>
 {nocache}
 <div class='cartaz'>
 <p>

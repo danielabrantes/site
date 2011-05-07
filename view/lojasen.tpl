@@ -15,7 +15,7 @@ nome="Vauxhall"
 foto="imagens/lojas/bournemouth.jpg"
 mapa="http://maps.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=20+St+Michaels+Road+++BH2+5DX+Bournemouth&sll=51.52546,-0.129519&sspn=0.031346,0.090895&g=103A+Oxford+St,+1st+Floor,+W1D+2HG&ie=UTF8&hq=&hnear=20+St+Michael%27s+Rd,+Bournemouth,+Dorset+BH2+5DX,+United+Kingdom&ll=50.719178,-1.885164&spn=0.008029,0.022724&z=16"
 morada="26 Wilcox Road Vauxhall<br />5W8 2UX - Vauxhall"
-contacto="Tel: +44 0207 720 0357<br />Cel: +44 0788 262 0533"
+contacto="Tel: +44 0207 720 0357<br />Cel: +44 0788 262 0523"
 horario='2ª a 6ª: 10h às 18h<br />Sábado: 12h às 18h'}
 <div class='clear'></div>
 {include file="loja.tpl"

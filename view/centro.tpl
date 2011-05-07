@@ -3,7 +3,7 @@
 <div id='title_icons'>
 	{nocache}
 	{if {$language}=='pt'}
-	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 40%;'>
+	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 33%;'>
 	<br />
 	<br />
 	A MoneyOne te leva no show da Ivete!<br />
@@ -29,6 +29,9 @@
     </div>
     <div class='clear'></div>
 </div>
+
+{if {$language=='pt'}}
+{else}
 <div id='receber_noticias'>
     Digite aqui seu email para receber informações sobre as promoções MoneyOne
     <div class='center'>
@@ -40,6 +43,9 @@
 </div>
     <div class='clear'></div>
 </div>
+{/if}
+
+
 
 
 

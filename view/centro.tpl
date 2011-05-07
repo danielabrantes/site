@@ -29,7 +29,7 @@
     </div>
     <div class='clear'></div>
 </div>
-
+{nocache}
 {if {$language=='pt'}}
 {else}
 <div id='receber_noticias'>
@@ -44,8 +44,4 @@
     <div class='clear'></div>
 </div>
 {/if}
-
-
-
-
-
+{/nocache}

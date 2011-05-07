@@ -47,32 +47,21 @@ class Init {
 	public static function smarty() {
 		$path=$_SERVER['DOCUMENT_ROOT'] . '/etc/lib/Smarty-3.0.7/libs/';
 		set_include_path(get_include_path() . PATH_SEPARATOR . $path);
-		//ini_set('include_path', ini_get('include_path') . ';' . );
 		require_once('Smarty.class.php');
 		$smarty = new Smarty();
 		$smarty->debugging = false;
 
-
-		if (self::$producao) {
-
+                /*if (self::$producao) {
 			$smarty->caching = true;
 			$smarty->cache_lifetime = -1; //never expires
 			$smarty->force_compile = false;
 			$smarty->compile_check=false;
 
-
-			/*
+		} else {*/
 			$smarty->caching = false;
 			$smarty->force_compile = true;
 			$smarty->compile_check=true;
-			*/
-
-
-		} else {
-			$smarty->caching = false;
-			$smarty->force_compile = true;
-			$smarty->compile_check=true;
-		}
+		/*}*/
 		$smarty->security = true;
 
 		//diferentes para cada projecto
@@ -107,21 +96,22 @@ class Init {
 	}
 
 	public static function setCache() {
+            /*
 		if (self::$producao) {
 			$offset = 60 * 60 * 24 * 30;
 			$expire = "Expires: " . gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
 			header($expire);
 			header('Cache-Control: public');
-			header('Cache-Control: max-age=2592000'); /* 30 dias */
+			header('Cache-Control: max-age=2592000'); // 30 dias
 			header('Pragma: public');
 
-		} else {
+		} else {*/
 			header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 			header('Cache-Control: no-store, no-cache, must-revalidate');
 			header('Cache-Control: post-check=0, pre-check=0', FALSE);
 			header('Pragma: no-cache');
 
-		}
+		/*}*/
 	}
 
 	public static function setDate() {
@@ -130,12 +120,12 @@ class Init {
 
 	public static function setSession() {
 		ini_set('session.auto_start',false);
-		if(self::$producao){
+		/*if(self::$producao){
 			session_cache_limiter('public');
 		}
-		else{
+		else{*/
 			session_cache_limiter('nocache');
-		}
+		/*}*/
 
 	}
 	final public static function setMemoryLimit() {

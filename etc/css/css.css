@@ -246,7 +246,7 @@ a.content_header_link:hover {
 .footer{
     color: #bbb;
 }
-.footer a {
+.footer a,.footer a:visited,.footer a:active {
     text-align: center;
     text-decoration: none;
     color: #bbb;
@@ -647,9 +647,17 @@ ul.menubar a:hover {
     width: 19.5%;
     float: left;
 }
+.contasen{
+	width:61%;
+	/*text-align:center;*/
+	margin: 0 auto;
+	
+}
 .contaen {
-    width: 20%;
+    
     float: left;
+    text-align:center;
+    
 }
 
 .clear {

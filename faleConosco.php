@@ -45,7 +45,7 @@ if (isset($_POST['contacto'])) {
             {
             	$to = array('<info.uk@moneyoneexpress.com>');
             }
-
+			//echo 'mail';die;
 
             //$to = array('<pedro.abrantes@moneyexpress.pt>','<daniel.abrantes@yahoo.com>');
             $subject = 'MONEY ONE - Fale Conosco';

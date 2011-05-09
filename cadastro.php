@@ -107,7 +107,7 @@ function main()
                 $body="Foi realizado um cadastro por:
                 nome: $nome,
                 Contatos: Telefone: $telefone  Telemovel: $telemovel,
-                Email: $email,  
+                Email: $email,
                 Pais: $pais,
                 Concelho: $concelho,
                 Provincia: $provincia,
@@ -128,7 +128,7 @@ function main()
                 Origem do Vencimento: $origemVencimento,
                 Mes/Ano de referências: $referenciaVencimento\n
                 Documentos:
-                Tipo: $tipo,  
+                Tipo: $tipo,
                 Data de Emissao: $dataDeEmissao,
                 Numero: $numero,
                 Caducidade: $dataDeCaducidade,
@@ -161,4 +161,4 @@ if(isset($_POST['cadastro']))
     main();
 }
 //$smarty->assign('paises',User::getPaises());
-$view->display();
+$view->display($language);

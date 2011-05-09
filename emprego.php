@@ -132,4 +132,4 @@ if (isset($_POST['emprego'])) {
         $smarty->assign('imagem', 'errado.jpg');
     }
 }
-$view->display();
+$view->display($language);

@@ -159,10 +159,18 @@ html {
     color:#FFFF00;
 }
 #taxapais{
+	text-align:right;
     margin-left: 0.5em;
     
 }
-
+.emprego{
+	float: left;
+	margin: 1em;
+}
+.empregoContacto{
+	text-align: center;
+	margin: 1em;
+}
 .footer {
     text-align: center;
     margin: 0.5em 0em;

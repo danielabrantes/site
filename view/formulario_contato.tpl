@@ -4,6 +4,7 @@
         <div class='clear'>&nbsp;</div>
         <div class='left'>Nome:</div><div class='right'><input type="text" name="nome" size="65" value="nome" /></div>
         <div class='left'>Email:</div><div class='right'><input name="email" type="text" size="65" value="email@dominio.pt" /></div>
+        {if {$language}=='pt'}
         <div class='left'>Loja:</div><div class='right'>
             <select name="loja" >
                 <option value="Albufeira">Albufeira</option>
@@ -28,6 +29,7 @@
                 <option value="Setúbal">Setúbal</option>
             </select>
         </div>
+        {/if}
         <div class='left'>Assunto:</div><div class='right'><input name="assunto" type="text" size="65" value="assunto" /></div>
         <div class='left'>Mensagem:</div><div class='right'><textarea name="mensagem" cols="50" rows="10">Mensagem</textarea></div>
 
@@ -40,6 +42,6 @@
             </div>
         </div>
         <div class='clear'>&nbsp;</div>
-    </fieldset> 
+    </fieldset>
 </form>
 <div class='clear'></div>

@@ -9,8 +9,8 @@
 <a href="http://www.bpn.pt/eportal/V10/PT/aspx/index.aspx" target="_blank"  title="BPN"><img src="imagens/bancos/bpn.jpg" alt='imagem' /></a>
 <a href="http://www.bes.pt/" target="_blank"  title="BES"><img src="imagens/bancos/bes.jpg" alt='imagem' /></a>
 <a href="http://www.bancopopular.pt/portugal/" target="_blank"  title="Grupo Banco Popular"><img src="imagens/bancos/gbp.jpg" alt='imagem' /></a>
-<a href="http://www.hsbc.com/1/2/" target="_blank"  title="HSBC"><img src="imagens/bancos/HSBC.jpg" alt='imagem' /></a>
-<a href="http://www.barclays.pt/" target="_blank"  title="Barclays"><img src="imagens/bancos/Barclays.jpg" alt='imagem' /></a>
+<a href="http://www.hsbc.com/1/2/" target="_blank"  title="HSBC"><img src="imagens/bancos/hsbc.png" alt='imagem' /></a>
+<a href="http://www.barclays.pt/" target="_blank"  title="Barclays"><img src="imagens/bancos/barclays.png" alt='imagem' /></a>
 <a href="http://www.caixagalicia.pt/" target="_blank"  title="Caixa Galicia"><img src="imagens/bancos/caixa-galicia.jpg" alt='imagem' /></a>
 <a href="http://www.russlavbank.com/" target="_blank"  title="Russlavbank"><img src="imagens/bancos/RUSSIAN.jpg" alt='imagem' /></a>
 <a href="http://www.privatbank.pt/" target="_blank"  title="Privat Bank"><img src="imagens/bancos/privat_bank.jpg" alt='imagem' /></a>

@@ -5,6 +5,7 @@
 <div class='texto'>
 {nocache}{include file='conversor.tpl'}{/nocache}
 </div>
+{if {$language=='pt'}}
 <div class='subtitle'>Preçário</div>
 <div class='texto'>
 	Consulte o<a href="ficheiros/precario.pdf" target="_blank" > preçário</a>
@@ -28,4 +29,5 @@
         </ul>
     </div>
 </div>
+{/if}
 {/block}

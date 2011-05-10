@@ -54,7 +54,7 @@
 		</div>
 		<div class='clear'>&nbsp;</div>
 		<div>
-			Contato:&nbsp;<input type="text" name='telemovel' value='900000000'/>
+			Telefone:&nbsp;<input type="text" name='telemovel' value='900000000'/>
 		</div>
 		<div class='clear'>&nbsp;</div>
 		<div>

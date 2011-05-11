@@ -6,7 +6,7 @@
             <div id='taxa'>Taxas de Câmbio</div>
 
             <div id='taxapais'>
-            Brazil {include file='TaxaCambioBrasil.tpl'}
+            Brasil {include file='TaxaCambioBrasil.tpl'}
             {if {$language=='en'}}
             <div class='clear'></div>
 			Portugal {include file='TaxaCambioUKparaPortugal.tpl'}

@@ -563,10 +563,16 @@ ul.menubar a:hover {
 }
 
 .iconmaistexto {
-    margin: 0em 1.31em;
+    margin: 0em 1.25em;
     text-align: center;
     float: left;
-    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+.iconmaistexto a,.iconmaistexto a:active,.iconmaistexto a:hover,.iconmaistexto a:visited{
+    font-weight: bold;
+    font-style: normal;
 }
 
 .icontexto {
@@ -575,8 +581,8 @@ ul.menubar a:hover {
 
 .icon {
     border: 0em;
-    width: 4em;
-    height: 4em;
+    width: 48px;
+    height: 48px;
     vertical-align: middle;
     margin: 0em
 }

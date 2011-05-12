@@ -1,47 +1,69 @@
 @CHARSET "utf-8";
 
 html,body{
-	margin: 0em;
+    margin: 0em;
     padding: 0em;
-    
     text-decoration: none;
-	background-color:yellow;
+    background-color:whitesmoke;
+
 }
 img{
-	border-width: 0em;
+    border-width: 0em;
 }
 a,a:visited,a:active,a:hover {
     border: 0em;
     text-decoration: none;
 }
 .language {
-	width: 85%;
-	margin: 5% auto;
-	border: 0.5em black solid;
-	text-align: center;
-	font-family: 'Philosopher', arial, serif;
-	font-size: 1em;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
-	background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
-	background: -o-linear-gradient(#ffff00, #FFFFFF);
-	filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
-    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
+    width: 50%;
+    margin: 5% auto;
+    
+    
+    border: 0.5em black solid;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    /*border-radius: 20px;*/
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+    
+    
+     -moz-box-shadow: 0px 0px 20px 0px #000000; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 20px 0px #000000; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 20px 0px #000000; /* Opera 10.5, IE9, Chrome 10+ */
+    
+    
+    
+    
+    text-align: center;
+    font-family: 'Philosopher', arial, serif;
+    font-size: 1em;
+    background-color: #ffff00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffff00), to(#ffffff)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ffff00, #ffffff); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient(top, #ffff00, #ffffff); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #ffff00, #ffffff); /* IE10 */
+  background-image:      -o-linear-gradient(top, #ffff00, #ffffff); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #ffff00, #ffffff);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffff00', EndColorStr='#ffffff'); /* IE6–IE9 */
+
 }
 
 .bandeiras img {
-	width: 10%;
+    width: 48px;
+    height: 48px;
 }
 
 .bandeiras ul li {
-	display: inline;
+    display: inline;
 }
 
 .banner {
-	padding: 3em 0em;
-	width: 100%;
+    
+    padding: 3em 0em;
+    width: 100%;
 }
 
 .banner img {
-	width: 100%;
-	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
 }

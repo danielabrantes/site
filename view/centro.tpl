@@ -1,7 +1,7 @@
 <div><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
 <div class='icons'>
 <div id='title_icons'>
-	{nocache}
+	{*nocache}
 	{if {$language}=='pt'}
 	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 33%;'>
 	<br />
@@ -12,7 +12,9 @@
 	{else}
 	Visite o nosso blog e saiba de todas as nossas promoções e eventos
 	{/if}
-	{/nocache}
+	{/nocache*}
+    
+        Visite o nosso blog e saiba de todas as nossas promoções e eventos
     </div>
 <div class='clear'>&nbsp;</div>
     <div class='iconmaistexto'>
@@ -32,6 +34,8 @@
 {nocache}
 {if {$language=='pt'}}
 {else}
+{/if}
+{/nocache}
 <div id='receber_noticias'>
     Digite aqui seu email para receber informações sobre as promoções MoneyOne
     <div class='center'>
@@ -43,5 +47,4 @@
 </div>
     <div class='clear'></div>
 </div>
-{/if}
-{/nocache}
+

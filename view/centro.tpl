@@ -1,20 +1,22 @@
 <div><script>new pausescroller(destaque, "pscroller2", "someclass", 5000);</script></div>
 <div class='icons'>
 <div id='title_icons'>
-	{*nocache}
+	{nocache}
 	{if {$language}=='pt'}
-	<a href='/quiz.php'><img id='ivete' src='imagens/quiz/ivete.png' style='width: 33%;'>
-	<br />
-	<br />
-	A MoneyOne te leva no show da Ivete!<br />
-	Participe do nosso passatempo.
-	</a>
+        
+	<img id='ivete' src='imagens/quiz/ivete.png' style='width: 33%;'>
+	Os vencedores do passatempo que ganharam ingresso para o show da Ivete foram:
+        
+        <a href='http://moneyone-moneyone.blogspot.com/2011/05/frases-vencedoras.html'>
+        <div class='vencedor'>Ygor Santos - Porto</div>
+        <div class='vencedor'>Ramon Cesar - Lisboa</div>
+        </a>
 	{else}
 	Visite o nosso blog e saiba de todas as nossas promoções e eventos
 	{/if}
-	{/nocache*}
+	{/nocache}
     
-        Visite o nosso blog e saiba de todas as nossas promoções e eventos
+        
     </div>
 <div class='clear'>&nbsp;</div>
     <div class='iconmaistexto'>
@@ -34,8 +36,6 @@
 {nocache}
 {if {$language=='pt'}}
 {else}
-{/if}
-{/nocache}
 <div id='receber_noticias'>
     Digite aqui seu email para receber informações sobre as promoções MoneyOne
     <div class='center'>
@@ -44,7 +44,10 @@
             <input type='text' name='email' id='news' class='header_textbox' placeholder='email@email.com' value='email@email.com'/>
             <input type='image' src='../../imagens/estrutura/seta.png'/>
     </form>
-</div>
+    </div>
     <div class='clear'></div>
 </div>
+{/if}
+{/nocache}
+
 

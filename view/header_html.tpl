@@ -16,7 +16,6 @@
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
 <script charset="utf-8" type="text/javascript" src='etc/js/menu.php'></script>
 {else}
-<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
 <link rel='stylesheet' type='text/css' href='etc/css/bandeiras.css' />
 {/if}
 </head>

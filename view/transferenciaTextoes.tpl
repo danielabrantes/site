@@ -19,20 +19,4 @@
     <div>c) A MoneyOne fica responsável pelos valores até o pagamento no país de destino, não se responsabilizando por atrasos devido a erro de informação passada pelo Remetente.</div>
     <div>d) Reembolso: no caso da MoneyOne não conseguir proceder ao pagamento da transferência no prozo de 30 dias o Cliente pode solicitar por escrito o cancelamento da ordem e o reembolso da quantia entregue.</div>
      </div>
-
-
-
-    <div class='subtitle'>Legislação</div>
-    <div class='texto'>
-    <p>Antes de iniciar qualquer operação financeira pela MoneyOne, leia atentamente os seguintes documentos legais, que regulamentam os nossos serviços:</p>
-        <div class='texto'>
-        <ul>
-            <li><a href="ficheiros/aviso11-2005.pdf" target="_blank" >Aviso n.º11/2005 do Banco de Portugal</a></li>
-            <li><a href="ficheiros/Instrucao262005.pdf" target="_blank" >Instrução n.º26/2005 do Banco de Portugal</a></li>
-            <li><a href="ficheiros/republica.pdf" target="_blank" >Legislação do Diário da República</a></li>
-            <li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" >Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
-            <li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" >Código de Ética e de Conduta</a></li>
-        </ul>
-        </div>
-    </div>
 {/block}

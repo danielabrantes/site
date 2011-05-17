@@ -58,18 +58,4 @@
     <p>2 -  Mediante fax 913107328, enviando seu documento devidamente assinado, e realizando uma transferência bancária a quaisquer de nossas contas desde sua conta pessoal. Necessitamos que nos seja enviado o comprovante desta transferência.</p>
     <p>3 -  Mediante email, enviando seu documento escaneado <a href='mailto:documentos@moneyexpress.com.es'>documentos@moneyexpress.com.es</a> , e realizando uma transferência bancária a quaisquer de nossas contas desde sua conta pessoal. Necessitamos que nos seja enviado o comprovante desta transferência.
 </div>
-<div class='subtitle'>Legislação</div>
-<div class='texto'>
-    <p>Antes de iniciar qualquer operação financeira pela MoneyOne, leia atentamente os seguintes documentos legais, que regulamentam os nossos serviços:</p>
-    <div class='texto'>
-        <ul>
-            <li><a href="ficheiros/aviso11-2005.pdf" target="_blank" >Aviso n.º11/2005 do Banco de Portugal</a></li>
-            <li><a href="ficheiros/Instrucao262005.pdf" >Instrução n.º26/2005 do Banco de Portugal</a></li>
-            <li><a href="ficheiros/republica.pdf" target="_blank" >Legislação do Diário da República</a></li>
-            <li><a href="ficheiros/POLITICAS_NORMAS.pdf" target="_blank" >Políticas as normas de prevenção ao "Branqueamento de Capitais"</a></li>
-            <li><a href="ficheiros/CODIGO_CONDUTA.pdf" target="_blank" >Código de Ética e de Conduta</a></li>
-        </ul>
-    </div>
-</div>
-<div class='clear'>&nbsp;</div>
 {/block}

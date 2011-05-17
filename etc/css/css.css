@@ -759,3 +759,8 @@ a:hover{
     width: 1000px;
     background-color: white;
 }
+.vencedor{
+    font-size: 0.8em;
+    color: #4870B7;
+    margin: 0.5em 0em;
+}

@@ -10,75 +10,53 @@
     <div class='textoConta'>
         <div class='contas'>
             <div class='clear'>&nbsp;</div>
-            <div class='conta'>
+            <div class='contaes'>
 
-                <a href="http://www.millenniumbcp.pt/" target="_blank" class="imagem" title="http://www.millenniumbcp.pt/"><img style="width: 100%;" src="imagens/bancos/millenniumbcp.gif" alt='imagem' /> </a>
+                <a href="http://www.bancaja.es/" target="_blank" class="imagem" title="Bancaja">
+                <img  src="imagens/bancos/es/bancaja.gif" alt='imagem' />
+                </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
-                <div class='rightConta'>45406248051</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>003300004540624805105</div>
+                <div class='rightConta'> 2077-0831-30-6600000367</div>
+                
             </div>
-            <div class='conta'>
-                <a href="http://www.cgd.pt/Pages/default.aspx/" target="_blank" title="CGD"><img src="imagens/bancos/cgd1.jpg" alt='imagem' /> </a>
+            <div class='contaes'>
+                <a href="http://www.cajamadrid.es/" target="_blank" title="Caja Madrid">
+                <img  src="imagens/bancos/es/cajamadrid.gif" alt='imagem' />
+                </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
-                <div class='rightConta'>0216071101230</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>003502160007110123076</div>
-                <div class='leftConta'>Conta</div>
-                <div class='rightConta'>0216071102030</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>003502160007110203004</div>
+                <div class='rightConta'>2038-1087-92-6001146001</div>               
             </div>
-            <div class='conta'>
-                <a href="http://www.bes.pt/" target="_blank" title="BES"> <img src="imagens/bancos/bes.jpg" alt='imagem' /> </a>
+            <div class='contaes'>
+                <a href="http://www.cam.es/" target="_blank" title="Caja del Mediterráneo">
+                    <img   src="imagens/bancos/es/cam.png" alt='imagem' />
+                </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
-                <div class='rightConta'>387029680004</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>000703870002968000415</div>
-                <div class='leftConta'>Conta</div>
-                <div class='rightConta'>387029720006</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>000703870002972000695</div>
+                <div class='rightConta'>2090-5519-89-0200121592</div>
             </div>
-            <div class='conta'>
-                <a href="http://www.bancobpi.pt/" target="_blank" title="BPI"><img src="imagens/bancos/bpi1.jpg" alt='imagem' /> </a>
+            <div class='contaes'>
+                <a href="http://www.catalunyacaixa.com/" target="_blank" title="Caixa Catalunya">
+                <img  src="imagens/bancos/es/catalunyacaixa.png" alt='imagem' />
+                </a>
                 <div class='clear'></div>
                 <div class='leftConta'>Conta</div>
-                <div class='rightConta'>03368577000001</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>001000003368577000189</div>
-                <div class='leftConta'>Conta</div>
-                <div class='rightConta'>03368577000003</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>001000003368577000383</div>
-            </div>
-            <div class='conta'>
-                <a href="http://www.bpn.pt/eportal/V10/PT/aspx/index.aspx" target="_blank" title="BPN"> <img src="imagens/bancos/bpn.jpg" alt='imagem' /> </a>
-                <div class='clear'></div>
-                <div class='leftConta'>Conta</div>
-                <div class='rightConta'>2781311810004</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>007900002781311810407</div>
-                <div class='leftConta'>Conta</div>
-                <div class='rightConta'>2781311810006</div>
-                <div class='leftConta'>NIB</div>
-                <div class='rightConta'>007900002781311810698</div>
+                <div class='rightConta'>2013-0694-70-0200757587</div>
             </div>
             <div class='clear'>&nbsp;</div>
         </div>
     </div>
     <div class='clear'>&nbsp;</div>
-    2 – Após efectuada a transferência ou o depósito, o cliente liga 800 207 214 ou 211 452 500, se identifica, informa os dados do beneficiário e pronto, a transacção está concluída.
+    2 – Após efectuada a transferência ou o depósito, o cliente liga 917819122  ou 902053081, se identifica, informa os dados do beneficiário e pronto, a transacção está concluída.
     <div class='clear'>&nbsp;</div>
 </div>
 <div class='title'>Cadastre-se</div>
 <div class='texto'>
-    <p>Existem 2 maneiras de se cadastrar:</p>
+    <p>Existem 3 maneiras de se cadastrar:</p>
     <p>1 - Pessoalmente, preenchendo o Formulário de Cadastro em nossa loja.</p>
-    <p>2 - Pelo correio enviando o <a href="cadastro.php">Formulário de Cadastro</a> preenchido, juntamente com a cópia de um documento de identificação e um comprovante de endereço.</p>
+    <p>2 -  Mediante fax 913107328, enviando seu documento devidamente assinado, e realizando uma transferência bancária a quaisquer de nossas contas desde sua conta pessoal. Necessitamos que nos seja enviado o comprovante desta transferência.</p>
+    <p>3 -  Mediante email, enviando seu documento escaneado <a href='mailto:documentos@moneyexpress.com.es'>documentos@moneyexpress.com.es</a> , e realizando uma transferência bancária a quaisquer de nossas contas desde sua conta pessoal. Necessitamos que nos seja enviado o comprovante desta transferência.
 </div>
 <div class='subtitle'>Legislação</div>
 <div class='texto'>

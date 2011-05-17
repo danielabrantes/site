@@ -624,7 +624,20 @@ ul.menubar a:hover {
     text-align:center;
     
 }
-
+.contaes{
+    width:21%;
+    float: left;
+    text-align:center;
+    margin: 0px 16px;
+	
+}
+.contaes img{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    max-height: 50px;
+    
+}
 .clear {
     clear: both;
 }

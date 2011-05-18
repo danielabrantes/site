@@ -1,8 +1,9 @@
 {include file='header_html.tpl'}
 <body>
 <div class='language'>
-	<div class='banner'><img src='/imagens/banner.png'></div>
+	<img src='/imagens/banner.png'>
 	{include file='bandeiraslinks.tpl'}
+        
 </div>
 
 {*include file='footer_html.tpl'*}

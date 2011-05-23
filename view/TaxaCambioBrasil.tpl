@@ -1,1 +1,1 @@
-1{$moeda} = R${$cambio}
+1{$moeda} = R${$cambio1}

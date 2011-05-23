@@ -1,1 +1,1 @@
-1{$moeda} = €&nbsp;&nbsp;{$cambioUKparaPT}
+1{$moeda} = €&nbsp;&nbsp;{$cambio10}

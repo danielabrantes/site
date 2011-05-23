@@ -1,0 +1,1 @@
+1{$moeda} = R${$cambio3}

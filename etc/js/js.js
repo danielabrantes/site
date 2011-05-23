@@ -38,7 +38,25 @@
                     document.getElementById(id).src='imagens/'+id+'.png';
             }
             
-            function bonecos(){
+            function bonecospt(){
+                var notie="<div><a href='http://www.moneyexpress.pt/livezilla/chat.php' target='_blank' ><img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png'><img id='texto' style='border:0px;width: 139px;height: 100px;' src='imagens/texto.png'><img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png'></a></div>";
+                var ie='<div><a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" ><img id="manel" style="border:0px;width: 75px;height: 100px;" src="imagens/manel.png" onmouseover=estica("manel") onmouseout=encolhe("manel")><img style="border:0px;width: 139px;height: 100px;" src="imagens/texto.png" onmouseover=estica("texto") onmouseout=encolhe("texto")><img id="maria" style="border:0px;width: 75px;height: 100px;" src="imagens/maria.png" onmouseover=estica("maria") onmouseout=encolhe("maria")></a></div>';
+                var versao=getInternetExplorerVersion();
+                    // com a versão 9 o css3 é suportado
+                if(versao == -1 || versao == 9)
+                {return notie;} 
+                else{return ie;}
+            }
+            function bonecosen(){
+                var notie="<div><a href='http://www.moneyexpress.pt/livezilla/chat.php' target='_blank' ><img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png'><img id='texto' style='border:0px;width: 139px;height: 100px;' src='imagens/texto.png'><img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png'></a></div>";
+                var ie='<div><a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" ><img id="manel" style="border:0px;width: 75px;height: 100px;" src="imagens/manel.png" onmouseover=estica("manel") onmouseout=encolhe("manel")><img style="border:0px;width: 139px;height: 100px;" src="imagens/texto.png" onmouseover=estica("texto") onmouseout=encolhe("texto")><img id="maria" style="border:0px;width: 75px;height: 100px;" src="imagens/maria.png" onmouseover=estica("maria") onmouseout=encolhe("maria")></a></div>';
+                var versao=getInternetExplorerVersion();
+                    // com a versão 9 o css3 é suportado
+                if(versao == -1 || versao == 9)
+                {return notie;} 
+                else{return ie;}
+            }
+            function bonecoses(){
                 var notie="<div><a href='http://www.moneyexpress.pt/livezilla/chat.php' target='_blank' ><img id='manel' style='border:0px;width: 75px;height: 100px;' src='imagens/manel.png'><img id='texto' style='border:0px;width: 139px;height: 100px;' src='imagens/texto.png'><img id='maria' style='border:0px;width: 75px;height: 100px;' src='imagens/maria.png'></a></div>";
                 var ie='<div><a href="http://www.moneyexpress.pt/livezilla/chat.php" target="_blank" ><img id="manel" style="border:0px;width: 75px;height: 100px;" src="imagens/manel.png" onmouseover=estica("manel") onmouseout=encolhe("manel")><img style="border:0px;width: 139px;height: 100px;" src="imagens/texto.png" onmouseover=estica("texto") onmouseout=encolhe("texto")><img id="maria" style="border:0px;width: 75px;height: 100px;" src="imagens/maria.png" onmouseover=estica("maria") onmouseout=encolhe("maria")></a></div>';
                 var versao=getInternetExplorerVersion();

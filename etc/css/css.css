@@ -15,28 +15,28 @@ html {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
     background: -o-linear-gradient(#ffff00, #FFFFFF);
-     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 
 .bandeiras{
-	
-	position: relative;
-	top: -2.25em;
-	left:0em;
-	text-align: center;
-	
+
+    position: relative;
+    top: -2.25em;
+    left:0em;
+    text-align: center;
+
 }
 #ivete{
-	float:right;
+    float:right;
 }
 .bandeiras li{
-	display: inline;
+    display: inline;
 }
 .bandeiras img{
-	/*width: 10%;*/
-        width: 32px;
-	margin: 0em 0em; 
+    /*width: 10%;*/
+    width: 32px;
+    margin: 0em 0em; 
 }
 
 #preload-slideshow {
@@ -111,14 +111,14 @@ html {
     color:white;
     text-align: center;
     margin-right: 3em;
-    
+
 }
 .header a {
-    float: right;
+    /*float: right;
     margin-top: 2em;
     margin-right: 1em;
     margin-bottom: 0em;
-    margin-left: 4em;
+    margin-left: 4em;*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -126,17 +126,46 @@ html {
     color:#FFFF00;
 }
 #taxapais{
-	text-align:right;
-    margin-left: 0.5em;
+    font-family: Arial;
+    font-size: 0.8em;
+    color:black;
+    text-align:right;
+    margin-right: -48px;
+    
+    margin-top: -152px;
+    font-weight: bolder;
+    line-height: 1.25em;
+        
+
+}
+#taxapaisen{
+    font-family: Arial;
+    font-size: 0.8em;
+    color:black;
+    text-align:right;
+    margin-right: -48px;
+    
+    margin-top: -163px;
+    font-weight: bolder;
+    line-height: 1.25em;
+        
+
+}
+.header a:hover{
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: normal;
+    text-decoration: none;
+        
     
 }
 .emprego{
-	float: left;
-	margin: 1em;
+    float: left;
+    margin: 1em;
 }
 .empregoContacto{
-	text-align: center;
-	margin: 1em;
+    text-align: center;
+    margin: 1em;
 }
 .footer {
     text-align: center;
@@ -145,7 +174,7 @@ html {
 }
 
 .header {
-    background: url("../../imagens/banner/banner.jpg") no-repeat;
+    /*background: url("../../imagens/banner/banner.jpg") no-repeat;*/
     height: 200px;
 }
 .header_menu {
@@ -154,7 +183,7 @@ html {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF00),to(#FFFFFF) );
     background: -moz-linear-gradient(top, #FFFF00 0%, #FFFFFF 100%);
     background: -o-linear-gradient(#ffff00, #FFFFFF);
-     filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#FFFFFF);
     -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF00,EndColorStr=#FFFFFFFF)";
 }
 
@@ -210,7 +239,7 @@ html {
     color: #4870B7;
     text-decoration: underline;
     font-style: italic;
-    
+
 }
 
 a.footer_text {
@@ -330,7 +359,7 @@ a.texto {
     font-weight: bold;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    
+
     font-style: italic;
 }
 
@@ -401,12 +430,12 @@ a.texto {
     color: red;
 }
 .mensagem {
-	text-decoration: blink;
-	background-color:#f0c040;
+    text-decoration: blink;
+    background-color:#f0c040;
     text-align: center;
     font-size: 1.3em;
     font-weight: 600;
-    
+
 }
 
 .remessa {
@@ -421,7 +450,7 @@ a.texto {
 }
 
 .bold {
-    
+
     font-weight: bold;
 }
 
@@ -568,7 +597,7 @@ ul.menubar a:hover {
     float: left;
     font-weight: bold;
     font-style: normal;
-    
+
 }
 .iconmaistexto a,.iconmaistexto a:active,.iconmaistexto a:hover,.iconmaistexto a:visited{
     font-weight: bold;
@@ -614,29 +643,29 @@ ul.menubar a:hover {
     float: left;
 }
 .contasen{
-	width:21%;
-	margin: 0 auto;
-	
+    width:21%;
+    margin: 0 auto;
+
 }
 .contaen {
-    
+
     float: left;
     text-align:center;
-    
+
 }
 .contaes{
     width:21%;
     float: left;
     text-align:center;
     margin: 0px 16px;
-	
+
 }
 .contaes img{
     width: 100%;
     max-width: 100%;
     height: 50px;
     max-height: 50px;
-    
+
 }
 .clear {
     clear: both;

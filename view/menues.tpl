@@ -31,8 +31,10 @@
         <li class="submenu"><a href="servicos.php">Serviços</a></li>
         <li class="submenu"><a href="transferenciaTexto.php">Transferências</a>
 
+        {*
         </li>
         <li class="submenu"><a href="agente.php">Torna-se Agente</a>
+        *}
 
         </li>
         <li class="submenu"><a href="destinos.php">Destinos</a></li>

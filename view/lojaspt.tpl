@@ -45,7 +45,7 @@ foto='imagens/lojas/ag_albufeira.jpg'
 mapa='http://maps.google.pt/maps?f=d&source=s_d&saddr=edificio+Albernoa&daddr=Estr.+de+Santa+Eul%C3%A1lia+8200+Albufeira&hl=pt-PT&geocode=%3BCbWYxxyHlqf7FdT2NQIdEpuC_ykNV6GE-8saDTFuO5OfUgwrNw&mra=ls&sll=37.099961-8.218031&sspn=0.0401840.090895&g=Albufeira+Estrada+Santa+Eul%C3%A1lia&ie=UTF8&ll=37.090895-8.217489&spn=0.0025120.005681&t=h&z=18&iwloc=ddw1'
 morada='Estrada Stª Eulália<br />Edif. Albernoa<br />Loja C<br />(Ao lado da Praça de Toiros)<br />8200-371 Alfufeira'
 contacto='Tel: +351 289 543 415<br />Fax: +351 289 543 416'
-horario='2ª a 6ª: 09h às 19h<br />Sábado: 10h às 16h'}
+horario='2ª a 6ª: 09h às 19h<br />Sábado: 10h às 16h<br />Almoço das 13h às 14h'}
 {include
 file='loja.tpl'
 nome='Aveiro'
@@ -108,7 +108,7 @@ foto='imagens/lojas/ag_lagos.jpg'
 mapa='http://maps.google.pt/maps?f=q&source=embed&hl=pt-PT&geocode=&q=Rua+Dr.+Faria+e+Silva+Lagos&sll=37.280609-7.932129&sspn=0.9418882.471924&ie=UTF8&hq=&hnear=R.+Dr.+Faria+e+Silva+Lagos&ll=37.103863-8.664865&spn=0.0200910.045447&t=h&z=15'
 morada='Rua Dr. Faria e Silva<br />Nº35<br />8600-734 Lagos'
 contacto='Tel: +351 282 763 064<br />'
-horario='2ª a 6ª: 09h às 18h<br />Almoço das 14h às 14h <div class="bold">Horário de verão*</div>2ª a 6ª: 09h às 19h<br />Sábado das 10 às 16h<br />Almoço das 14 às 15h'}
+horario='2ª a 6ª: 09h às 18h<br />Almoço das 13h às 14h'}
 {include
 file='loja.tpl'
 nome='Odivelas'
@@ -125,7 +125,7 @@ foto='imagens/lojas/ag_portimao.jpg'
 mapa='http://maps.google.pt/maps?f=q&source=embed&hl=pt-PT&geocode=&q=Rua+do+Col%C3%A9gio+Portim%C3%A3o&sll=32.650342-16.909955&sspn=0.0073530.019312&ie=UTF8&hq=&hnear=R.+do+Col%C3%A9gio+Portim%C3%A3o&ll=37.138399-8.537858&spn=0.002510.005681&t=h&z=18'
 morada='Rua do Colégio<br />Nº 45 A<br />8500 - 632 Portimão'
 contacto='Tel: +351 282 457 410<br />Tel: +351 282 423 508'
-horario='2ª a 6ª:09h às 18h<br />Almoço das 13h às 14h <div class="bold">Horário de verão*</div> 2ª a 6ª: 09h às 19h<br />Sábado das 10 às 16h<br />Almoço das 14 às 15h'}
+horario='2ª a 6ª:09h às 18h<br />Almoço das 13h às 14h'}
 {include
 file='loja.tpl'
 nome='Porto'
@@ -148,7 +148,7 @@ foto='imagens/lojas/ag_quarteira.jpg'
 mapa='http://maps.google.pt/maps?f=q&source=embed&hl=pt-PT&geocode=&q=Centro+Comercial+ALSOL+Av+S%C3%A1+Carneiro+Quarteira&sll=37.066684-8.094907&sspn=0.0147590.038624&ie=UTF8&hq=Centro+Comercial+ALSOL&hnear=Av+Francisco+S%C3%A1+Carneiro+Quarteira+8125+Loul%C3%A9+Faro&ll=37.066521-8.094724&spn=0.0050250.011362&t=h&z=17'
 morada='Av Sá Carneiro<br />C.Comercial ALSOL<br />Lojas 1 e 2<br />8125-626 Quarteira'
 contacto='Tel: +351 289 321 851<br />Fax: +351 289 321 853'
-horario='2ª a 6ª: 09h às 19h<br />Sábado: 10h às 16h'}
+horario='2ª a 6ª: 09h às 19h<br />'}
 <div class='clear'></div>
 {include file='loja.tpl'
 nome='Queluz'

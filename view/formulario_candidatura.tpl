@@ -74,7 +74,7 @@
         <div class='clear'>&nbsp;</div>
         <div class='left'>Como reagiria se um/a cliente o/a acusasse de não ter feito um pedido como solicitado?</div><div class='right'><textarea name="pedidoSolicitado" cols="50%" rows="5">Tentaria resolver com calma</textarea></div>
         <div class='clear'>&nbsp;</div>
-        <div class='onlyleft'><input name="informacao" type="checkbox" />Desejo receber informações sobre promoções da MoneyOne.Nota de Privacidade: A informação requisitada neste formulário é pedida com o objetivo de obtermos de você os dados mínimos necessários para avaliação da sua candidatura, não servindo para partilhar a sua informação pessoal com terceiros, sem o seu consentimento explícito.</div>
+        <div class='onlyleft'><input name="informacao" type="checkbox" />Não desejo receber informações sobre promoções da MoneyOne.Nota de Privacidade: A informação requisitada neste formulário é pedida com o objetivo de obtermos de você os dados mínimos necessários para avaliação da sua candidatura, não servindo para partilhar a sua informação pessoal com terceiros, sem o seu consentimento explícito.</div>
         <div class='onlyright'><input name="emprego" type="submit" value="GUARDAR" /></div>
     </fieldset>
 </form>

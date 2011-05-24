@@ -1,7 +1,4 @@
-
 <div class="footer">
-    
-
 {if {$language=='pt'}}
 		<a href='faq.php' title='FAQ`s' class='footer_text'>FAQ`s</a>
 		<a href="publicacao.php" title='Relatórios Anuais' class='footer_text'>Relatórios Anuais</a>
@@ -12,7 +9,6 @@
 		<a href='privacidade.php' title='Políticas de Privacidade' class='footer_text'>Políticas de Privacidade</a>
 {/if}
 {/nocache}
-                
 	<p>2004 - {$smarty.now|date_format:"%Y"} © MoneyOne - Todos os direitos reservados</p>
 	{include file='validadores.tpl'}
 </div>

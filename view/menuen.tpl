@@ -29,6 +29,7 @@
             </ul>
         </li>
         <li class="submenu"><a href="servicos.php">Serviços</a></li>
+        {*<li class="submenu"><a href="destinos.php">Destinos</a></li>*}
         <li class="submenu"><a href="cadastro.php">Cadastro</a></li>
         <li class="submenu"><a href="cartaoPontos.php">Cartão Fidelidade</a></li>
         <li class="submenu"><a href="taxasdeCambio.php">Calcule sua Remessa</a></li>

@@ -456,7 +456,7 @@ a.texto {
 
 .footnote {
     font-weight: bold;
-    font-size: 80%;
+    font-size: 0.79em;
 }
 
 /*
@@ -792,4 +792,8 @@ a:hover{
     font-size: 0.8em;
     color: #4870B7;
     margin: 0.5em 0em;
+}
+#unigran{
+    margin: 0 auto;
+    text-align: center;
 }

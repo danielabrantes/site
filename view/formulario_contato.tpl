@@ -35,7 +35,7 @@
 
 
         <div class='clear'>&nbsp;</div>
-        <div class='onlyleft'><input name="receber" type="checkbox" />Desejo receber informações sobre promoções da MoneyOne.</div>
+        <div class='onlyleft'><input name="receber" type="checkbox" />Não desejo receber informações sobre promoções da MoneyOne.</div>
         <div class='texto'>
             <div class='onlyright'>
                 <input type='submit' name='contacto' value="ENVIAR" />

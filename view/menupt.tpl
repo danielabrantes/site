@@ -62,7 +62,6 @@
         </li>
         <li class="submenu"><a href="destinos.php">Destinos</a></li>
         <li class="submenu"><a href="cadastro.php">Cadastro</a></li>
-        <li class="submenu"><a href="taxasdeCambio.php">Calcule sua
-	Remessa</a></li>
+        <li class="submenu"><a href="taxasdeCambio.php">Calcule sua Remessa</a></li>
     </ul>
 </div>

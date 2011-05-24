@@ -7,7 +7,8 @@
     <p>2 - Pelo correio:
     </p>
 </div>
-<div class='texto'><div class='texto'>
+<div class='texto'>
+    <div class='texto'>
         <ul>
             <li>Imprima o formulário e preencha com letra legível. Escolha conforme o caso:
                 <div class='texto'>
@@ -27,10 +28,15 @@
                 </div>
             </li>
         </ul>
-    </div></div>
+    </div>
+    Para o seguinte endereço:
+    <br />103ª Oxford Street
+    <br />1st floor W1D 2HG
+    <br />LONDON - UK
+    <br />Após recebida a documentação entraremos em contato confirmando o seu cadastro podendo assim efectuar remessas.
+</div>
 <div class='texto'>
     <div class='footnote'>
-        <br />
         <p>(*) - O documento de identificação pode ser:</p>
         <div class='texto'>
             <ul>
@@ -48,14 +54,7 @@
             </ul>
         </div>
         Nos consulte para outros documentos válidos
-    </div>
-    <div class='clear'>&nbsp;</div>
-	Para o seguinte endereço:
-    <br />103ª Oxford Street
-    <br />1st floor W1D 2HG
-    <br />LONDON - UK
-    <div class='clear'>&nbsp;</div>
-	Após recebida a documentação entraremos em contato confirmando o seu cadastro podendo assim efectuar remessas.
+    </div>    
 </div>
 
 {/block}

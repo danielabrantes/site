@@ -7,8 +7,8 @@
 <ol>
 <li>Na sua primeira remessa, você recebe 1 £ de boas vindas e 1 £ em cada nova remessa;</li>
 <li>Durante o mês de aniversário, você recebe 4 £ na sua primeira remessa dentro desse mês; </li>
-<li>Remessas feitas entre os dias 18 a 25 de cada mês durante o ano, as suas remessas; </li>
-<li>Promoção TRAGA UM AMIGO E GANHE DINHEIRO: para cada novo amigo que você trouxer e esse fizer o cadastro você ganha 1£ e se ele fizer o cadastro e fizer uma remessa acima de 100,00£ você ganha 4£.</li>
+<li>Remessas feitas entre os dias 18 a 25 de cada mês valem 2£; </li>
+<li>Promoção TRAGA UM AMIGO E GANHE DINHEIRO: para cada novo amigo que você trouxer e esse fizer o cadastro você ganha 1£ e se ele fizer o cadastro e fizer uma remessa acima de 100,00£ você ganha 4£.(*)</li>
 </ol>
 </div>
 
@@ -19,5 +19,9 @@ Cada bónus recebido vale um carimbo no seu Cartão Fidelidade. Quando completar
 Essa remessa deverá ter um valor superior ao valor do bónus.
 Cada Cartão Fidelidade tem validade de dois anos a partir da primeira remessa efectuada
 </div>
-
+<div class='footnote'>
+    <div class='texto'>
+    (*) - Campanhas não-cumulativas
+    </div>
+</div>
 {/block}

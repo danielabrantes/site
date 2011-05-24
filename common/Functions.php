@@ -74,12 +74,14 @@ function getCambioQuery($posicao, $i) {
     } else {
         $smarty->assign('cambio' . ($i + 1), $cambio);
     }
+    return $cambio;
     //echo  $cambio. '<br />';
 }
 
 function getCambio() {
     global $DbSite, $language, $smarty;
 
+    $cambios=array();
     $moeda = '';
     switch ($language) {
         case 'pt':
@@ -96,15 +98,20 @@ function getCambio() {
             break;
     }
     $smarty->assign('moeda', $moeda);
-
+    
 
         for ($i = 0; $i < 3; $i++) {
-            @getCambioQuery($posicao, $i);
+            $result=getCambioQuery($posicao, $i);
+            array_push($cambios, $result);
         }
         if ($language == 'en') {
             //cambioUKparaPT
-            @getCambioQuery(10, 0);
+            $result=getCambioQuery(10, 0);
+            array_push($cambios, $result);
+            
+            
         }
+        return $cambios;
 
     /*if (producao) {
         if (escreveCacheManifest($cambio) === false) {

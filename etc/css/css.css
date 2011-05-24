@@ -465,7 +465,8 @@ Regra 1 - Classe que define as propriedades da barra horizontal
 ul.menubar,ul.menubaren {
     /*padding-top: 8px;
     padding-left: 10px;*/
-    padding-top: 0.5em
+    padding-top: 0.5em;
+    
 }
 /*
 Regra 2 - Classe que define o formato e a posi�ao dos submenus (um ao lado do outro)
@@ -498,6 +499,8 @@ ul.menubaren a  {
     text-decoration: none;
     padding: 0.4em 0.4em;
     /*font-size: 0.9em;*/
+    font-size: 0.96em;
+    line-height: 1.3em;
 }
 /*
 Regra 5 - Classe que define o tamanho e a cor do menu vertical
@@ -794,6 +797,10 @@ a:hover{
     margin: 0.5em 0em;
 }
 #unigran{
+    margin: 0 auto;
+    text-align: center;
+}
+#conversor{
     margin: 0 auto;
     text-align: center;
 }

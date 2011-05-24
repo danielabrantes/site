@@ -1,5 +1,5 @@
 <?php
-define('producao', false);
+define('producao', true);
 
 require_once 'Functions.php';
 require_once 'Init.php';
@@ -16,7 +16,10 @@ require_once 'View.php';
 require_once 'Email.php';
 Init::setSession();
 require_once 'Session.php';
+
+if (!is_null($language)) {
 $smarty->assign('cambio', getCambio());
+}
 
 
 //echo $_SERVER['HTTP_USER_AGENT'];

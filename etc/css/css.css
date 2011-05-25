@@ -1,3 +1,4 @@
+@CHARSET "utf-8";
 *{
     margin: 0px;
     padding: 0px;
@@ -499,7 +500,7 @@ ul.menubaren a  {
     text-decoration: none;
     padding: 0.4em 0.4em;
     /*font-size: 0.9em;*/
-    font-size: 0.96em;
+    font-size: 0.9em;
     line-height: 1.3em;
 }
 /*
@@ -801,6 +802,21 @@ a:hover{
     text-align: center;
 }
 #conversor{
-    margin: 0 auto;
+    float: right;
+    margin: -100px auto;
     text-align: center;
+    width: 250px;
+    /*background-image: url(/imagens/conversor/conversor.png);*/
+    background-color: #ffff00;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF),to(#FFFF00) );
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFF00 100%);
+    background: -o-linear-gradient(#FFFFFF,#ffff00 );
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFF00);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF,EndColorStr=#FFFF00)";
+    padding: -1%;
+    font-size: 0.85em;
+}
+#valor{
+    color: #4870B7;
+    font-weight: 600;
 }

@@ -1,7 +1,7 @@
 {extends file='pagina.tpl'}
 {block name='pagina'}
-<div class='title'>Taxas de Câmbio</div>
-<div class='subtitle'>Câmbios</div>
+<div class='title'>Calcule Sua Remessa</div>
+<div class='subtitle'>&nbsp;</div>
 <div class='texto'>
 {nocache}{include file='conversor.tpl'}{/nocache}
 </div>
@@ -29,5 +29,12 @@
         </ul>
     </div>
 </div>
+{else}
+<div class='clear'>&nbsp;</div>
+<div class='clear'>&nbsp;</div>
+<div class='clear'>&nbsp;</div>
+<div class='clear'>&nbsp;</div>
+<div class='clear'>&nbsp;</div>
 {/if}
+
 {/block}

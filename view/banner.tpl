@@ -1,5 +1,5 @@
 {nocache}
-{if $language=='pt'}
+
 <div class='inicial'>
 	<div id="preload-slideshow">
 		<div class="close">
@@ -8,7 +8,7 @@
 			</a>
 		</div>
 		<a href='promocao11.php'>
-		<img id='cartazincial' src="imagens/promocao/10eurospt.png" alt='imagem' />
+		<img id='cartazincial' src="imagens/promocao/10euros{$language}.png" alt='imagem' />
 		</a>
 	</div>
 	<div id="timer" style="display: none">
@@ -17,5 +17,5 @@
 		</form>
 	</div>
 </div>
-{/if}
+
 {/nocache}

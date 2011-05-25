@@ -707,9 +707,17 @@ input,img {
 }
 
 button,input,textarea,select{
+    
+    /*border: 1px solid #bbb;*/
+    
+    
+    background-color: #dddddd;
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
     background: -moz-linear-gradient(top, #fff, #ddd);  
-    /*border: 1px solid #bbb;*/
+    background: -o-linear-gradient(#FFFFFF,#dddddd );
+    filter:     progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#dddddd);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFF,EndColorStr=#dddddd)";
+    
 }
 
 img {
@@ -817,6 +825,8 @@ a:hover{
     font-size: 0.85em;
 }
 #valor{
+    font-size: 1.1em;
     color: #4870B7;
     font-weight: 600;
+    text-decoration: blink;
 }

@@ -45,3 +45,6 @@
     </fieldset>
 </form>
 <div class='clear'></div>
+{if isset($mensagem)}
+<div class='mensagem'>{$mensagem}</div>
+{/if}

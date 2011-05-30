@@ -57,7 +57,7 @@ if (isset($_POST['contacto'])) {
             mensagem: $mensagem,
             $receber1";
             @Email::send($from, $to, $subject, $body);
-            echo 'Formulário enviado com sucesso.';
+            //echo 'Formulário enviado com sucesso.';
             $smarty->assign('mensagem', 'Formulário enviado com sucesso.');
             $smarty->assign('imagem', 'certo.jpg');
         } else {
